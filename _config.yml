@@ -1,0 +1,52 @@
+title: "Sonu Kapoor"
+description: "Google Developer Expert (Angular) · 7× Microsoft MVP · Author · Open-Source Leader"
+url: "https://sonukapoor.com"
+baseurl: ""
+permalink: /:collection/:name/
+markdown: kramdown
+
+# GitHub Pages-safe theme & plugins
+theme: minima
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Collections
+collections:
+  awards:
+    output: true
+    permalink: /awards/:name/
+  books:
+    output: true
+    permalink: /books/:name/
+  media:
+    output: true
+    permalink: /media/:name/
+  articles:
+    output: true
+    permalink: /articles/:name/
+  podcast:
+    output: true
+    permalink: /podcast/:name/
+  contributions:
+    output: true
+    permalink: /contributions/:name/
+
+feed:
+  collections:
+    - articles
+
+defaults:
+  - scope: { path: "", type: "awards" }
+    values: { layout: detail }
+  - scope: { path: "", type: "books" }
+    values: { layout: detail }
+  - scope: { path: "", type: "media" }
+    values: { layout: detail }
+  - scope: { path: "", type: "articles" }
+    values: { layout: detail }
+  - scope: { path: "", type: "podcast" }
+    values: { layout: detail }
+  - scope: { path: "", type: "contributions" }
+    values: { layout: detail }

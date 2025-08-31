@@ -1,0 +1,8 @@
+{% seo %}
+<link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+<meta name="theme-color" content="#0b1020">
+{% if page.image %}
+  <meta property="og:image" content="{{ page.image | absolute_url }}">
+  <meta name="twitter:card" content="summary_large_image">
+{% endif %}
