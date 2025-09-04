@@ -1,15 +1,17 @@
 <nav aria-label="Breadcrumb" class="breadcrumbs">
   <ol>
     <li><a href="{{ '/' | relative_url }}">Home</a></li>
-    {% assign segments = page.url | split: '/' | reject: '' %}
-    {% capture path %}{% endcapture %}
+    {% assign segments = page.url | split: '/' %}
+    {% assign path = "" %}
     {% for seg in segments %}
-      {% capture path %}{{ path }}/{{ seg }}{% endcapture %}
-      {% if forloop.last %}
-        <li aria-current="page">{{ seg | replace: '-', ' ' | capitalize }}</li>
-      {% else %}
-        <li><a href="{{ path | relative_url }}">{{ seg | replace: '-', ' ' | capitalize }}</a></li>
-      {% endif %}
+      {% unless seg == "" %}
+        {% assign path = path | append: '/' | append: seg %}
+        {% if path | append: '/' == page.url %}
+          <li aria-current="page">{{ seg | replace: '-', ' ' | capitalize }}</li>
+        {% else %}
+          <li><a href="{{ path | relative_url }}">{{ seg | replace: '-', ' ' | capitalize }}</a></li>
+        {% endif %}
+      {% endunless %}
     {% endfor %}
   </ol>
 </nav>
