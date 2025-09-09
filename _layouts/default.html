@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   {% include head.html %}
-  <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.title }}</title>
+  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -30,5 +30,69 @@
     {{ content }}
   </main>
   {% include footer.html %}
+
+  <script>
+  (function () {
+    const body = document.body;
+    const toggle = document.querySelector('.nav-toggle');
+    const nav = document.getElementById('siteNav');
+    const overlay = document.querySelector('.nav-overlay');
+
+    if (!toggle || !nav) return;
+
+    const isOpen = () => body.getAttribute('data-nav-open') === 'true';
+
+    function openNav() {
+      body.setAttribute('data-nav-open', 'true');
+      toggle.setAttribute('aria-expanded', 'true');
+      nav.setAttribute('aria-hidden', 'false');
+      body.style.overflow = 'hidden'; // lock scroll
+    }
+
+    function closeNav() {
+      body.removeAttribute('data-nav-open');
+      toggle.setAttribute('aria-expanded', 'false');
+      nav.setAttribute('aria-hidden', 'true');
+      body.style.overflow = '';
+    }
+
+    toggle.addEventListener('click', () => {
+      isOpen() ? closeNav() : openNav();
+    });
+
+    overlay?.addEventListener('click', closeNav);
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && isOpen()) closeNav();
+    });
+
+    // Close after navigating (nice on single-page sections)
+    nav.addEventListener('click', (e) => {
+      if (e.target.closest('a') && window.matchMedia('(max-width: 900px)').matches) closeNav();
+    });
+
+    // NEW: click outside (covers any area not in the drawer or toggle)
+    function handleOutsidePointer(e) {
+      if (!isOpen()) return;
+      const t = e.target;
+      const clickedInsideNav = nav.contains(t);
+      const clickedToggle = toggle.contains(t);
+      if (!clickedInsideNav && !clickedToggle) closeNav();
+    }
+    document.addEventListener('pointerdown', handleOutsidePointer, { passive: true });
+    // Fallback for older browsers that don’t support Pointer Events well
+    document.addEventListener('touchstart', handleOutsidePointer, { passive: true });
+
+    // NEW: close if resizing above breakpoint (prevents stuck "open" state)
+    const mq = window.matchMedia('(min-width: 901px)');
+    mq.addEventListener?.('change', (e) => { if (e.matches && isOpen()) closeNav(); });
+    // legacy Safari fallback
+    window.addEventListener('resize', () => {
+      if (window.innerWidth >= 901 && isOpen()) closeNav();
+    }, { passive: true });
+  })();
+</script>
+
+
 </body>
 </html>

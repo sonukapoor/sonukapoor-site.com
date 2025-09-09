@@ -1,4 +1,4 @@
-<header class="nav">
+<!-- <header class="nav">
   <div class="container nav-inner">
     <div class="logo"><a href="{{ '/' | relative_url }}">Sonu Kapoor</a></div>
     <nav class="nav-links">
@@ -6,6 +6,39 @@
         <a href="{{ item.url | relative_url }}" {% if page.url == item.url %}aria-current="page"{% endif %}>{{ item.title }}</a>
       {% endfor %}
       <a href="{{ '/contact/' | relative_url }}" class="btn secondary">Contact</a>
+      <button id="themeToggle" aria-label="Toggle dark mode" class="btn secondary">
+      🌙
+    </button>
     </nav>
   </div>
+</header> -->
+
+<header class="nav" role="banner">
+  <div class="container nav-inner">
+    <div class="logo">
+      <a href="{{ '/' | relative_url }}">Sonu Kapoor</a>
+    </div>
+
+    <!-- NEW: hamburger -->
+    <button class="nav-toggle" aria-expanded="false" aria-controls="siteNav" aria-label="Open menu">
+      <svg class="icon icon-burger" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
+        <path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+      <svg class="icon icon-close" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
+        <path d="M6 6l12 12M18 6l-12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+    </button>
+
+    <!-- Add id=siteNav, keep your Liquid loop unchanged -->
+    <nav id="siteNav" class="nav-links" aria-label="Primary">
+      {% for item in site.data.nav %}
+        <a href="{{ item.url | relative_url }}" {% if page.url == item.url %}aria-current="page"{% endif %}>{{ item.title }}</a>
+      {% endfor %}
+      <a href="{{ '/contact/' | relative_url }}" class="btn secondary">Contact</a>
+      <button id="themeToggle" aria-label="Toggle dark mode" class="btn secondary">🌙</button>
+    </nav>
+  </div>
+
+  <!-- NEW: overlay for drawer -->
+  <div class="nav-overlay" data-close-nav></div>
 </header>

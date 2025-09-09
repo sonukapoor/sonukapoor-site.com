@@ -4,3 +4,35 @@
   </div>
 </footer>
 <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+<script>
+(function() {
+  const toggleBtn = document.getElementById('themeToggle');
+  const root = document.documentElement;
+
+  // Apply saved preference
+  const saved = localStorage.getItem('theme');
+  if (saved === 'light' || saved === 'dark') {
+    root.setAttribute('data-theme', saved);
+    toggleBtn.textContent = saved === 'dark' ? '☀️' : '🌙';
+  }
+
+  toggleBtn.addEventListener('click', () => {
+    const current = root.getAttribute('data-theme');
+    let newTheme;
+
+    if (current === 'dark') {
+      newTheme = 'light';
+    } else if (current === 'light') {
+      newTheme = 'dark';
+    } else {
+      // No override yet → flip system preference
+      const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      newTheme = systemDark ? 'light' : 'dark';
+    }
+
+    root.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+    toggleBtn.textContent = newTheme === 'dark' ? '☀️' : '🌙';
+  });
+})();
+</script>

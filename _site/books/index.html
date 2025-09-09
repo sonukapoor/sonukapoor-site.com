@@ -30,7 +30,7 @@
   <meta name="twitter:card" content="summary_large_image">
 
 
-  <title>Books – Sonu Kapoor</title>
+  <title>Books - Sonu Kapoor</title>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -51,7 +51,7 @@
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
-  <header class="nav">
+  <!-- <header class="nav">
   <div class="container nav-inner">
     <div class="logo"><a href="/">Sonu Kapoor</a></div>
     <nav class="nav-links">
@@ -75,8 +75,57 @@
         <a href="/contributions/" >Contributions</a>
       
       <a href="/contact/" class="btn secondary">Contact</a>
+      <button id="themeToggle" aria-label="Toggle dark mode" class="btn secondary">
+      🌙
+    </button>
     </nav>
   </div>
+</header> -->
+
+<header class="nav" role="banner">
+  <div class="container nav-inner">
+    <div class="logo">
+      <a href="/">Sonu Kapoor</a>
+    </div>
+
+    <!-- NEW: hamburger -->
+    <button class="nav-toggle" aria-expanded="false" aria-controls="siteNav" aria-label="Open menu">
+      <svg class="icon icon-burger" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
+        <path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+      <svg class="icon icon-close" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
+        <path d="M6 6l12 12M18 6l-12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+    </button>
+
+    <!-- Add id=siteNav, keep your Liquid loop unchanged -->
+    <nav id="siteNav" class="nav-links" aria-label="Primary">
+      
+        <a href="/" >Home</a>
+      
+        <a href="/about/" >About</a>
+      
+        <a href="/awards/" >Awards</a>
+      
+        <a href="/books/" aria-current="page">Books</a>
+      
+        <a href="/media/" >Media</a>
+      
+        <a href="/articles/" >Articles</a>
+      
+        <a href="/podcasts/" >Podcasts</a>
+      
+        <a href="/talks/" >Talks</a>
+      
+        <a href="/contributions/" >Contributions</a>
+      
+      <a href="/contact/" class="btn secondary">Contact</a>
+      <button id="themeToggle" aria-label="Toggle dark mode" class="btn secondary">🌙</button>
+    </nav>
+  </div>
+
+  <!-- NEW: overlay for drawer -->
+  <div class="nav-overlay" data-close-nav></div>
 </header>
 
   <main id="main" class="container">
@@ -234,6 +283,102 @@ My writing focuses on <strong>practical development</strong>, <strong>Angular an
   </div>
 </footer>
 <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+<script>
+(function() {
+  const toggleBtn = document.getElementById('themeToggle');
+  const root = document.documentElement;
+
+  // Apply saved preference
+  const saved = localStorage.getItem('theme');
+  if (saved === 'light' || saved === 'dark') {
+    root.setAttribute('data-theme', saved);
+    toggleBtn.textContent = saved === 'dark' ? '☀️' : '🌙';
+  }
+
+  toggleBtn.addEventListener('click', () => {
+    const current = root.getAttribute('data-theme');
+    let newTheme;
+
+    if (current === 'dark') {
+      newTheme = 'light';
+    } else if (current === 'light') {
+      newTheme = 'dark';
+    } else {
+      // No override yet → flip system preference
+      const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      newTheme = systemDark ? 'light' : 'dark';
+    }
+
+    root.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+    toggleBtn.textContent = newTheme === 'dark' ? '☀️' : '🌙';
+  });
+})();
+</script>
+
+
+  <script>
+  (function () {
+    const body = document.body;
+    const toggle = document.querySelector('.nav-toggle');
+    const nav = document.getElementById('siteNav');
+    const overlay = document.querySelector('.nav-overlay');
+
+    if (!toggle || !nav) return;
+
+    const isOpen = () => body.getAttribute('data-nav-open') === 'true';
+
+    function openNav() {
+      body.setAttribute('data-nav-open', 'true');
+      toggle.setAttribute('aria-expanded', 'true');
+      nav.setAttribute('aria-hidden', 'false');
+      body.style.overflow = 'hidden'; // lock scroll
+    }
+
+    function closeNav() {
+      body.removeAttribute('data-nav-open');
+      toggle.setAttribute('aria-expanded', 'false');
+      nav.setAttribute('aria-hidden', 'true');
+      body.style.overflow = '';
+    }
+
+    toggle.addEventListener('click', () => {
+      isOpen() ? closeNav() : openNav();
+    });
+
+    overlay?.addEventListener('click', closeNav);
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && isOpen()) closeNav();
+    });
+
+    // Close after navigating (nice on single-page sections)
+    nav.addEventListener('click', (e) => {
+      if (e.target.closest('a') && window.matchMedia('(max-width: 900px)').matches) closeNav();
+    });
+
+    // NEW: click outside (covers any area not in the drawer or toggle)
+    function handleOutsidePointer(e) {
+      if (!isOpen()) return;
+      const t = e.target;
+      const clickedInsideNav = nav.contains(t);
+      const clickedToggle = toggle.contains(t);
+      if (!clickedInsideNav && !clickedToggle) closeNav();
+    }
+    document.addEventListener('pointerdown', handleOutsidePointer, { passive: true });
+    // Fallback for older browsers that don’t support Pointer Events well
+    document.addEventListener('touchstart', handleOutsidePointer, { passive: true });
+
+    // NEW: close if resizing above breakpoint (prevents stuck "open" state)
+    const mq = window.matchMedia('(min-width: 901px)');
+    mq.addEventListener?.('change', (e) => { if (e.matches && isOpen()) closeNav(); });
+    // legacy Safari fallback
+    window.addEventListener('resize', () => {
+      if (window.innerWidth >= 901 && isOpen()) closeNav();
+    }, { passive: true });
+  })();
+</script>
+
 
 </body>
 </html>
