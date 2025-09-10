@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Open Source Contributions
+title: "Open Source Contributions – Sonu Kapoor"
+page_title: "Open Source Contributions by Sonu Kapoor"
 permalink: /contributions/
 image: /images/og/contributions.jpg
 description: "Open source contributions by Sonu Kapoor — Angular framework (Typed Forms), NGX-Layout, and community leadership with Angular Toronto."
@@ -13,38 +14,66 @@ keywords:
   - Angular Toronto Meetup
   - GitHub PRs
 schema:
-  '@context': https://schema.org
-  '@type': WebPage
-  name: "Open Source Contributions – Sonu Kapoor"
-  mainEntity:
-    '@type': ItemList
-    itemListElement:
-      - '@type': ListItem
-        position: 1
-        item:
-          '@type': CreativeWork
-          name: "Angular Framework (google/angular)"
-          url: "https://sonukapoor.com/contributions/"
-      - '@type': ListItem
-        position: 2
-        item:
-          '@type': CreativeWork
-          name: "Angular Typed Forms (RFC & Adoption)"
-          url: "https://sonukapoor.com/contributions/"
-      - '@type': ListItem
-        position: 3
-        item:
-          '@type': SoftwareSourceCode
-          name: "NGX-Layout"
-          url: "https://sonukapoor.com/contributions/"
-      - '@type': ListItem
-        position: 4
-        item:
-          '@type': Organization
-          name: "Angular Toronto Meetup"
-          url: "https://sonukapoor.com/contributions/"
----
+  "@context": "https://schema.org"
+  "@graph":
+    - "@type": "CollectionPage"
+      "@id": "https://sonukapoor.com/contributions/#collectionpage"
+      url: "https://sonukapoor.com/contributions/"
+      name: "Open Source Contributions – Sonu Kapoor"
+      description: "Selected contributions across Angular core, Typed Forms, NGX-Layout, and community leadership."
+      isPartOf: { "@id": "https://sonukapoor.com/#website" }
+      mainEntity: { "@id": "https://sonukapoor.com/contributions/#itemlist" }
+      about: { "@id": "https://sonukapoor.com/#person" }
 
+    - "@type": "ItemList"
+      "@id": "https://sonukapoor.com/contributions/#itemlist"
+      itemListElement:
+        - "@type": "ListItem"
+          position: 1
+          item:
+            "@type": "SoftwareSourceCode"
+            name: "Angular Framework (google/angular)"
+            codeRepository: "https://github.com/angular/angular"
+            programmingLanguage: "TypeScript"
+            contributor: { "@id": "https://sonukapoor.com/#person" }
+            url: "https://github.com/angular/angular/commits?author=sonukapoor"
+            about: { "@id": "https://sonukapoor.com/#person" }
+            potentialAction: { "@type": "ViewAction", target: "https://github.com/angular/angular/commits?author=sonukapoor" }
+
+        - "@type": "ListItem"
+          position: 2
+          item:
+            "@type": "CreativeWork"
+            name: "Angular Typed Forms (RFC & Adoption)"
+            description: "Co-authoring and advocacy for Typed Forms, educating teams and influencing adoption."
+            url: "https://github.com/angular/angular/discussions/44513"
+            isPartOf: { "@type": "SoftwareSourceCode", codeRepository: "https://github.com/angular/angular" }
+            author: { "@id": "https://sonukapoor.com/#person" }
+            about: { "@id": "https://sonukapoor.com/#person" }
+            potentialAction: { "@type": "ReadAction", target: "https://github.com/angular/angular/discussions/44513" }
+
+        - "@type": "ListItem"
+          position: 3
+          item:
+            "@type": "SoftwareSourceCode"
+            name: "NGX-Layout"
+            codeRepository: "https://github.com/ngbracket/ngx-layout"
+            programmingLanguage: "TypeScript"
+            contributor: { "@id": "https://sonukapoor.com/#person" }
+            url: "https://github.com/ngbracket/ngx-layout"
+            about: { "@id": "https://sonukapoor.com/#person" }
+            potentialAction: { "@type": "ViewAction", target: "https://github.com/ngbracket/ngx-layout" }
+
+        - "@type": "ListItem"
+          position: 4
+          item:
+            "@type": "Organization"
+            name: "Angular Toronto Meetup"
+            url: "https://www.meetup.com/angular-toronto/"
+            member: { "@id": "https://sonukapoor.com/#person" }
+            about: { "@id": "https://sonukapoor.com/#person" }
+            sameAs: ["https://www.meetup.com/angular-toronto/"]
+---
 
 <div class="grid grid-2">
   <!-- Angular Framework -->

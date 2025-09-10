@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Media Coverage - Sonu Kapoor Angular GDE, MVP, and Innovator
-page_title: Media Coverage & Interviews
+title: "Media Coverage – Sonu Kapoor (Angular GDE, MVP)"
+page_title: "Media Coverage & Interviews Featuring Sonu Kapoor"
 permalink: /media/
 image: /images/og/media.jpg
 description: "Third-party coverage, interviews, and features highlighting Sonu Kapoor’s work in Angular, AI, and enterprise modernization."
@@ -15,83 +15,90 @@ keywords:
   - Microsoft MVP
 schema:
   "@context": "https://schema.org"
-  "@type": "WebPage"
-  name: "Media – Sonu Kapoor"
-  url: "https://sonukapoor.com/media/"
-  description: "Media features and interviews with Sonu Kapoor."
-  about:
-    "@type": "Person"
-    name: "Sonu Kapoor"
-    url: "https://sonukapoor.com/"
-    sameAs:
-      - "https://www.linkedin.com/in/sonu-kapoor/"
-      - "https://x.com/SonuKapoor1978"
-  mainEntity:
-    "@type": "ItemList"
-    itemListElement:
-      - "@type": "ListItem"
-        position: 1
-        item:
-          "@type": "NewsArticle"
-          headline: "From Angular to AI with Sonu Kapoor: Building Tomorrow’s Development Workflows"
-          publisher: { "@type": "Organization", name: "AI Journal" }
-          url: "https://aijourn.com/from-angular-to-ai-with-sonu-kapoor-building-tomorrows-development-workflows/"
-      - "@type": "ListItem"
-        position: 2
-        item:
-          "@type": "NewsArticle"
-          headline: "Sonu Kapoor Of SOLID Software Solutions LTD On The 5 Things..."
-          publisher: { "@type": "Organization", name: "Authority Magazine" }
-          url: "https://medium.com/authority-magazine/sonu-kapoor-of-solid-software-solutions-ltd-on-the-5-things-you-need-to-know-to-create-a-successful-144ba5680972"
-      - "@type": "ListItem"
-        position: 3
-        item:
-          "@type": "WebPage"
-          name: "Angular Twitter Spotlight on Angular Signals"
-          publisher: { "@type": "Organization", name: "Angular" }
-          url: "https://x.com/SonuKapoor1978/status/1961409123917975801"
-      - "@type": "ListItem"
-        position: 4
-        item:
-          "@type": "NewsArticle"
-          headline: "Angular Innovator Sonu Kapoor on the Future of Frontend Architecture and Developer Impact"
-          publisher: { "@type": "Organization", name: "SiteProNews" }
-          url: "https://www.sitepronews.com/2025/08/18/angular-innovator-sonu-kapoor-on-the-future-of-frontend-architecture-and-developer-impact/"
-      - "@type": "ListItem"
-        position: 5
-        item:
-          "@type": "NewsArticle"
-          headline: "Does AI spell death for front-end engineering?"
-          publisher: { "@type": "Organization", name: "LeadDev" }
-          url: "https://leaddev.com/ai/does-ai-spell-death-front-end-engineering"
-      - "@type": "ListItem"
-        position: 6
-        item:
-          "@type": "WebPage"
-          name: "Angular Twitter Spotlight on Angular Performance"
-          publisher: { "@type": "Organization", name: "Angular" }
-          url: "https://x.com/angular/status/1946238538296520809"
-      - "@type": "ListItem"
-        position: 7
-        item:
-          "@type": "NewsArticle"
-          headline: "Sonu Kapoor advancing retail with RFID and intranets"
-          publisher: { "@type": "Organization", name: "Digital Journal" }
-          url: "https://www.digitaljournal.com/tech-science/sonu-kapoor-advancing-retail-with-rfid-and-intranets/article"
-      - "@type": "ListItem"
-        position: 8
-        item:
-          "@type": "VideoObject"
-          name: "Microsoft MVP Buzz Interview – Sonu Kapoor"
-          publisher: { "@type": "Organization", name: "Microsoft MVP Buzz" }
-          url: "https://www.youtube.com/watch?v=Vcuaxg1A_7M"
-      - "@type": "ListItem"
-        position: 9
-        item:
-          "@type": "NewsArticle"
-          headline: "Angular v14 is now available"  # official release post
-          publisher: { "@type": "Organization", name: "Angular Blog" }
-          url: "https://blog.angular.dev/angular-v14-is-now-available-391a6db736af"
+  "@graph":
+    - "@type": "CollectionPage"
+      "@id": "https://sonukapoor.com/media/#collectionpage"
+      url: "https://sonukapoor.com/media/"
+      name: "Media – Sonu Kapoor"
+      description: "Media features and interviews with Sonu Kapoor."
+      isPartOf: { "@id": "https://sonukapoor.com/#website" }
+      mainEntity: { "@id": "https://sonukapoor.com/media/#itemlist" }
+      about: { "@id": "https://sonukapoor.com/#person" }
+    - "@type": "ItemList"
+      "@id": "https://sonukapoor.com/media/#itemlist"
+      itemListElement:
+        - "@type": "ListItem"
+          position: 1
+          item:
+            "@type": "NewsArticle"
+            headline: "From Angular to AI with Sonu Kapoor: Building Tomorrow’s Development Workflows"
+            publisher: { "@type": "Organization", name: "AI Journal" }
+            url: "https://aijourn.com/from-angular-to-ai-with-sonu-kapoor-building-tomorrows-development-workflows/"
+            about: { "@id": "https://sonukapoor.com/#person" }
+        - "@type": "ListItem"
+          position: 2
+          item:
+            "@type": "NewsArticle"
+            headline: "Sonu Kapoor Of SOLID Software Solutions LTD On The 5 Things You Need To Know To Create a Successful App, SaaS or Software Business"
+            publisher: { "@type": "Organization", name: "Authority Magazine" }
+            url: "https://medium.com/authority-magazine/sonu-kapoor-of-solid-software-solutions-ltd-on-the-5-things-you-need-to-know-to-create-a-successful-144ba5680972"
+            about: { "@id": "https://sonukapoor.com/#person" }
+        - "@type": "ListItem"
+          position: 3
+          item:
+            "@type": "WebPage"
+            name: "Angular Twitter Spotlight on Angular Signals"
+            publisher: { "@type": "Organization", name: "Angular" }
+            url: "https://x.com/SonuKapoor1978/status/1961409123917975801"
+            about: { "@id": "https://sonukapoor.com/#person" }
+        - "@type": "ListItem"
+          position: 4
+          item:
+            "@type": "NewsArticle"
+            headline: "Angular Innovator Sonu Kapoor on the Future of Frontend Architecture and Developer Impact"
+            publisher: { "@type": "Organization", name: "SiteProNews" }
+            url: "https://www.sitepronews.com/2025/08/18/angular-innovator-sonu-kapoor-on-the-future-of-frontend-architecture-and-developer-impact/"
+            about: { "@id": "https://sonukapoor.com/#person" }
+        - "@type": "ListItem"
+          position: 5
+          item:
+            "@type": "NewsArticle"
+            headline: "Does AI spell death for front-end engineering?"
+            publisher: { "@type": "Organization", name: "LeadDev" }
+            url: "https://leaddev.com/ai/does-ai-spell-death-front-end-engineering"
+            about: { "@id": "https://sonukapoor.com/#person" }
+        - "@type": "ListItem"
+          position: 6
+          item:
+            "@type": "WebPage"
+            name: "Angular Twitter Spotlight on Angular Performance"
+            publisher: { "@type": "Organization", name: "Angular" }
+            url: "https://x.com/angular/status/1946238538296520809"
+            about: { "@id": "https://sonukapoor.com/#person" }
+        - "@type": "ListItem"
+          position: 7
+          item:
+            "@type": "NewsArticle"
+            headline: "Sonu Kapoor advancing retail with RFID and intranets"
+            publisher: { "@type": "Organization", name: "Digital Journal" }
+            url: "https://www.digitaljournal.com/tech-science/sonu-kapoor-advancing-retail-with-rfid-and-intranets/article"
+            about: { "@id": "https://sonukapoor.com/#person" }
+        - "@type": "ListItem"
+          position: 8
+          item:
+            "@type": "VideoObject"
+            name: "Microsoft MVP Buzz Interview – Sonu Kapoor"
+            publisher: { "@type": "Organization", name: "Microsoft MVP Buzz" }
+            url: "https://www.youtube.com/watch?v=Vcuaxg1A_7M"
+            about: { "@id": "https://sonukapoor.com/#person" }
+        - "@type": "ListItem"
+          position: 9
+          item:
+            "@type": "NewsArticle"
+            headline: "Angular v14 is now available"
+            publisher: { "@type": "Organization", name: "Angular Blog" }
+            url: "https://blog.angular.dev/angular-v14-is-now-available-391a6db736af"
+            about: { "@id": "https://sonukapoor.com/#person" }
 ---
 
 I’ve been featured and quoted in leading publications and interviews that highlight my work in Angular, AI, and enterprise technology.
@@ -175,7 +182,7 @@ I’ve been featured and quoted in leading publications and interviews that high
     <div class="card-meta">Publisher: Angular Blog (Official)</div>
     <p class="card-desc">Mention in the official release notes of Angular 14 on my contributions to Typed Forms - closing Angular’s top GitHub issue.</p>
     <div class="card-actions">
-      <a href="https://blog.angular.dev/angular-v14-is-now-available-391a6db736af" target="_blank" rel="noopener">Watch →</a>
+      <a href="https://blog.angular.dev/angular-v14-is-now-available-391a6db736af" target="_blank" rel="noopener">Read →</a>
     </div>
   </div>
 </div>

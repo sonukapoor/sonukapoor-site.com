@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Books
+title: "Books by Sonu Kapoor – Apress Author & Technical Editor"
+page_title: Books and Editorial Work - Sonu Kapoor
 permalink: /books/
 image: /images/og/books.jpg
-hide_title: true
-description: "Books by Sonu Kapoor — AI-Powered App Development (Apress, 2024), Beginning JavaScript Syntax (Apress, 2025), and the upcoming Mastering Angular Signals."
+description: "Books authored and edited by Sonu Kapoor — including AI-Powered App Development (Apress, 2024), Beginning JavaScript Syntax (Apress, 2025), and the upcoming Mastering Angular Signals."
 keywords:
   - Sonu Kapoor
   - Books
@@ -15,56 +15,93 @@ keywords:
   - AI-Powered App Development
   - Beginning JavaScript Syntax
 schema:
-  '@context': https://schema.org
-  '@type': WebPage
-  name: "Books – Sonu Kapoor"
-  url: "https://sonukapoor.com/books/"
-  description: "Books authored by Sonu Kapoor."
-  primaryImageOfPage:
-    '@type': ImageObject
-    url: "https://sonukapoor.com/images/og/books.jpg"
-  mainEntity:
-    '@type': ItemList
-    itemListElement:
-      - '@type': ListItem
-        position: 1
-        item:
-          '@type': Book
-          name: "AI-Powered App Development: Leveraging Angular, Python, and Google AI"
-          author:
-            '@type': Person
-            name: "Sonu Kapoor"
-          publisher:
-            '@type': Organization
-            name: "Apress"
-          datePublished: "2024"
-          url: "https://www.apress.com/" # replace with product page if you have it
-      - '@type': ListItem
-        position: 2
-        item:
-          '@type': Book
-          name: "Beginning JavaScript Syntax"
-          author:
-            '@type': Person
-            name: "Sonu Kapoor"
-          publisher:
-            '@type': Organization
-            name: "Apress"
-          datePublished: "2025"
-          url: "https://www.apress.com/" # replace with product page if you have it
-      - '@type': ListItem
-        position: 3
-        item:
-          '@type': Book
-          name: "Mastering Angular Signals"
-          author:
-            '@type': Person
-            name: "Sonu Kapoor"
-          url: "https://sonukapoor.com/books/" # placeholder until listing is live
+  "@context": "https://schema.org"
+  "@graph":
+    - "@type": "CollectionPage"
+      "@id": "https://sonukapoor.com/books/#collectionpage"
+      url: "https://sonukapoor.com/books/"
+      name: "Books by Sonu Kapoor"
+      description: "Books authored and edited by Sonu Kapoor."
+      isPartOf: { "@id": "https://sonukapoor.com/#website" }
+      mainEntity: { "@id": "https://sonukapoor.com/books/#itemlist" }
+      about: { "@id": "https://sonukapoor.com/#person" }
+    - "@type": "ItemList"
+      "@id": "https://sonukapoor.com/books/#itemlist"
+      itemListElement:
+        - "@type": "ListItem"
+          position: 1
+          item:
+            "@type": "Book"
+            name: "AI-Powered App Development: Leveraging Angular, Python, and Google AI"
+            author: { "@id": "https://sonukapoor.com/#person" }
+            publisher: { "@type": "Organization", name: "Apress" }
+            datePublished: "2024"
+            url: "https://www.amazon.com/Powered-App-Development-Leveraging-Practical/dp/B0DMZ5NQNZ/"
+        - "@type": "ListItem"
+          position: 2
+          item:
+            "@type": "Book"
+            name: "Beginning JavaScript Syntax"
+            author: { "@id": "https://sonukapoor.com/#person" }
+            publisher: { "@type": "Organization", name: "Apress" }
+            datePublished: "2025"
+            url: "https://www.amazon.com/Beginning-JavaScript-Syntax-Understanding-Syntactical/dp/B0DZGYN99K/"
+        - "@type": "ListItem"
+          position: 3
+          item:
+            "@type": "Book"
+            name: "Mastering Angular Signals: Levelling Up Your Web Development Skills with Signals, Patterns and Architectures"
+            author: { "@id": "https://sonukapoor.com/#person" }
+            publisher: { "@type": "Organization", name: "Apress" }
+            url: "https://sonukapoor.com/books/"
+        - "@type": "ListItem"
+          position: 4
+          item:
+            "@type": "Book"
+            name: "Mastering Angular Signals: A Practical Guide to Modern Reactivity, Performance, and Migration"
+            author: { "@type": "Person", name: "Muhammad Ahsan Ayaz" }
+            editor: { "@id": "https://sonukapoor.com/#person" }
+            publisher: { "@type": "Organization", name: "Self-published via Amazon" }
+            url: "https://www.amazon.com/dp/B0FF9LSHJN/"
+        - "@type": "ListItem"
+          position: 5
+          item:
+            "@type": "Book"
+            name: "Acing the Frontend Interview"
+            author: { "@type": "Person", name: "Jennifer Fu" }
+            editor: { "@id": "https://sonukapoor.com/#person" }
+            publisher: { "@type": "Organization", name: "Manning" }
+            url: "https://www.manning.com/books/acing-the-frontend-interview"
+        - "@type": "ListItem"
+          position: 6
+          item:
+            "@type": "Book"
+            name: "The Feedback-Driven Developer"
+            author: { "@type": "Person", name: "Ashley Davis" }
+            editor: { "@id": "https://sonukapoor.com/#person" }
+            publisher: { "@type": "Organization", name: "Manning" }
+            url: "https://www.manning.com/books/the-feedback-driven-developer"
+        - "@type": "ListItem"
+          position: 7
+          item:
+            "@type": "Book"
+            name: "Leveling Up as a Tech Lead"
+            author: { "@type": "Person", name: "Meri Williams" }
+            editor: { "@id": "https://sonukapoor.com/#person" }
+            publisher: { "@type": "Organization", name: "O’Reilly" }
+            datePublished: "2024"
+            url: "https://www.oreilly.com/library/view/leveling-up-as/9781098177508/"
+        - "@type": "ListItem"
+          position: 8
+          item:
+            "@type": "Book"
+            name: "Building AI Applications on the Web"
+            author: { "@type": "Person", name: "Theo Despoudis" }
+            editor: { "@id": "https://sonukapoor.com/#person" }
+            publisher: { "@type": "Organization", name: "Manning" }
+            datePublished: "2024"
+            url: "https://www.manning.com/books/building-ai-applications-on-the-web"
 ---
-
-
-# My Books and Editorial Work
 
 Over the years, I’ve been fortunate to share my knowledge not only through articles and talks but also through books.  
 My writing focuses on **practical development**, **Angular and AI**, and **building strong foundations in JavaScript**.  

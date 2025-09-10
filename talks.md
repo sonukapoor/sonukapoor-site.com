@@ -1,88 +1,94 @@
 ---
 layout: page
-title: "Talks & Presentations"
+title: "Talks & Presentations – Sonu Kapoor"
+page_title: Talks & Presentations – Sonu Kapoor
 permalink: /talks/
 image: /assets/images/talks.jpg
+description: "Selected conference talks, interviews, and appearances on Angular performance, Signals, SSR, and modern frontend practices."
 schema:
-  "@context": https://schema.org
-  "@type": WebPage
-  name: "Talks & Presentations – Sonu Kapoor"
-  url: "https://sonukapoor.com/talks/"
-  description: "Selected conference talks, interviews, and appearances on Angular performance, Signals, SSR, and modern frontend practices."
-  mainEntity:
-    "@type": ItemList
-    itemListElement:
-      - "@type": ListItem
-        position: 1
-        item:
-          "@type": VideoObject
-          name: "Boosting Performance Using the Latest Angular Features"
-          description: "Angular Air interview on practical techniques for optimizing Angular apps end-to-end."
-          url: "https://www.youtube.com/watch?v=YOLg8dZzsuQ"
-          publisher:
-            "@type": Organization
-            name: "Angular Air"
+  "@context": "https://schema.org"
+  "@graph":
+    - "@type": "CollectionPage"
+      "@id": "https://sonukapoor.com/talks/#collectionpage"
+      url: "https://sonukapoor.com/talks/"
+      name: "Talks & Presentations – Sonu Kapoor"
+      description: "Selected conference talks, interviews, and appearances on Angular performance, Signals, SSR, and modern frontend practices."
+      isPartOf: { "@id": "https://sonukapoor.com/#website" }
+      mainEntity: { "@id": "https://sonukapoor.com/talks/#itemlist" }
+      about: { "@id": "https://sonukapoor.com/#person" }
 
-      - "@type": ListItem
-        position: 2
-        item:
-          "@type": Event
-          name: "Enhancing Angular Apps: Pro Tips for Peak Performance"
-          eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode"
-          eventStatus: "https://schema.org/EventScheduled"
-          description: "Talk on leveraging Angular’s latest features—especially image performance—to deliver faster experiences."
-          url: "https://sessionize.com/s/sonu-kapoor/enhancing-angular-apps-pro-tips-for-peak-performan/127878/"
-          organizer:
-            "@type": Organization
-            name: "International JavaScript Conference (iJS)"
-          location:
-            "@type": Place
-            name: "New York, NY, USA"
+    - "@type": "ItemList"
+      "@id": "https://sonukapoor.com/talks/#itemlist"
+      itemListElement:
+        - "@type": "ListItem"
+          position: 1
+          item:
+            "@type": "VideoObject"
+            name: "Boosting Performance Using the Latest Angular Features"
+            description: "Angular Air interview on practical techniques for optimizing Angular apps end-to-end."
+            url: "https://www.youtube.com/watch?v=YOLg8dZzsuQ"
+            publisher: { "@type": "Organization", name: "Angular Air" }
+            potentialAction: { "@type": "WatchAction", target: "https://www.youtube.com/watch?v=YOLg8dZzsuQ" }
+            about: { "@id": "https://sonukapoor.com/#person" }
 
-      - "@type": ListItem
-        position: 3
-        item:
-          "@type": Event
-          name: "Optimizing Angular Applications — Techniques for Performance Excellence"
-          eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode"
-          eventStatus: "https://schema.org/EventScheduled"
-          description: "Advanced strategies: lazy loading, change detection, signal-based state, and NgOptimizedImage."
-          url: "https://javascript-conference.com/angular/optimizing-angular-applications-performance-excellence/"
-          organizer:
-            "@type": Organization
-            name: "International JavaScript Conference (iJS)"
+        - "@type": "ListItem"
+          position: 2
+          item:
+            "@type": "Event"
+            name: "Enhancing Angular Apps: Pro Tips for Peak Performance"
+            eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode"
+            eventStatus: "https://schema.org/EventScheduled"
+            description: "Leveraging Angular’s latest features—especially image performance—to deliver faster experiences."
+            url: "https://sessionize.com/s/sonu-kapoor/enhancing-angular-apps-pro-tips-for-peak-performan/127878/"
+            organizer: { "@type": "Organization", name: "International JavaScript Conference (iJS)" }
+            location: { "@type": "Place", name: "New York, NY, USA" }
+            about: { "@id": "https://sonukapoor.com/#person" }
 
-      - "@type": ListItem
-        position: 4
-        item:
-          "@type": VideoObject
-          name: "NgOptimizedImage — Enhancing Performance & UX in Angular"
-          description: "Angular Tiny Conf talk on using NgOptimizedImage for better LCP and image delivery."
-          url: "https://www.youtube.com/watch?v=0Caspwa_8LI"
-          publisher:
-            "@type": Organization
-            name: "Angular Tiny Conf"
+        - "@type": "ListItem"
+          position: 3
+          item:
+            "@type": "Event"
+            name: "Optimizing Angular Applications — Techniques for Performance Excellence"
+            eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode"
+            eventStatus: "https://schema.org/EventScheduled"
+            description: "Advanced strategies: lazy loading, change detection, signal-based state, and NgOptimizedImage."
+            url: "https://javascript-conference.com/angular/optimizing-angular-applications-performance-excellence/"
+            organizer: { "@type": "Organization", name: "International JavaScript Conference (iJS)" }
+            about: { "@id": "https://sonukapoor.com/#person" }
 
-      - "@type": ListItem
-        position: 5
-        item:
-          "@type": VideoObject
-          name: "MVPbuzzChat with Sonu Kapoor"
-          description: "Interview on MVP journey, Angular community work, and enterprise modernization."
-          url: "https://www.youtube.com/watch?v=Vcuaxg1A_7M"
-          publisher:
-            "@type": Organization
-            name: "MVP Buzz"
+        - "@type": "ListItem"
+          position: 4
+          item:
+            "@type": "VideoObject"
+            name: "NgOptimizedImage — Enhancing Performance & UX in Angular"
+            description: "Angular Tiny Conf talk on using NgOptimizedImage for better LCP and image delivery."
+            url: "https://www.youtube.com/watch?v=0Caspwa_8LI"
+            publisher: { "@type": "Organization", name: "Angular Tiny Conf" }
+            potentialAction: { "@type": "WatchAction", target: "https://www.youtube.com/watch?v=0Caspwa_8LI" }
+            about: { "@id": "https://sonukapoor.com/#person" }
 
-      - "@type": ListItem
-        position: 6
-        item:
-          "@type": Event
-          name: "Angular Spring Camp — NgOptimizedImage & Performance"
-          eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode"
-          eventStatus: "https://schema.org/EventScheduled"
-          description: "Session centered on practical image performance wins in Angular."
-          url: "https://sonukapoor.com/talks/#angular-spring-camp"
+        - "@type": "ListItem"
+          position: 5
+          item:
+            "@type": "VideoObject"
+            name: "MVPbuzzChat with Sonu Kapoor"
+            description: "Interview on MVP journey, Angular community work, and enterprise modernization."
+            url: "https://www.youtube.com/watch?v=Vcuaxg1A_7M"
+            publisher: { "@type": "Organization", name: "MVP Buzz" }
+            potentialAction: { "@type": "WatchAction", target: "https://www.youtube.com/watch?v=Vcuaxg1A_7M" }
+            about: { "@id": "https://sonukapoor.com/#person" }
+
+        - "@type": "ListItem"
+          position: 6
+          item:
+            "@type": "Event"
+            name: "Angular Spring Camp — NgOptimizedImage & Performance"
+            eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode"
+            eventStatus: "https://schema.org/EventScheduled"
+            description: "Session centered on practical image performance wins in Angular."
+            url: "https://sonukapoor.com/talks/#angular-spring-camp"
+            organizer: { "@type": "Organization", name: "Angular Spring Camp" }
+            about: { "@id": "https://sonukapoor.com/#person" }
 ---
 
 <p class="muted">

@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Awards
+title: "Awards & Recognitions – Sonu Kapoor"
+page_title: Awards & Recognitions – Sonu Kapoor
 permalink: /awards/
 image: /images/og/awards.jpg
 hide_title: false
@@ -15,26 +16,39 @@ keywords:
   - Community Leadership
   - Angular Collaborators
 schema:
-  '@context': https://schema.org
-  '@type': WebPage
-  name: "Awards – Sonu Kapoor"
-  mainEntity:
-    '@type': ItemList
-    itemListElement:
-      - '@type': ListItem
-        position: 1
-        item:
-          '@type': CreativeWork
-          name: "Google Developer Expert (Angular)"
-          url: "https://sonukapoor.com/awards/"
-      - '@type': ListItem
-        position: 2
-        item:
-          '@type': CreativeWork
-          name: "Microsoft MVP (Developer Technology)"
-          url: "https://sonukapoor.com/awards/"
+  "@context": "https://schema.org"
+  "@graph":
+    - "@type": "CollectionPage"
+      "@id": "https://sonukapoor.com/awards/#collectionpage"
+      url: "https://sonukapoor.com/awards/"
+      name: "Awards & Recognitions – Sonu Kapoor"
+      description: "Awards and recognitions highlighting Sonu Kapoor’s expertise and community leadership."
+      isPartOf: { "@id": "https://sonukapoor.com/#website" }
+      mainEntity: { "@id": "https://sonukapoor.com/awards/#itemlist" }
+      about: { "@id": "https://sonukapoor.com/#person" }
+    - "@type": "ItemList"
+      "@id": "https://sonukapoor.com/awards/#itemlist"
+      itemListElement:
+        - "@type": "ListItem"
+          position: 1
+          item:
+            "@type": "Award"
+            name: "Google Developer Expert (Angular)"
+            description: "Recognizes deep Angular expertise, community leadership, and ongoing contributions to the ecosystem."
+            recipient: { "@id": "https://sonukapoor.com/#person" }
+            awardSponsor: { "@type": "Organization", name: "Google" }
+            url: "https://developers.google.com/profile/u/sonukapoor"
+        - "@type": "ListItem"
+          position: 2
+          item:
+            "@type": "Award"
+            name: "Microsoft MVP (Developer Technology)"
+            description: "Awarded for exceptional community impact through speaking, writing, open source, and mentorship."
+            recipient: { "@id": "https://sonukapoor.com/#person" }
+            awardSponsor: { "@type": "Organization", name: "Microsoft" }
+            awardDate: "2005-2010,2024-2026"
+            url: "https://mvp.microsoft.com/en-US/MVP/profile/afa53cbe-8749-4273-a726-c850c4a95fe8"
 ---
-
 
 <div class="grid grid-2">
   <section class="card">
