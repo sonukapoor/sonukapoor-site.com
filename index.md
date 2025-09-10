@@ -32,8 +32,10 @@ schema:
       name: "Sonu Kapoor"
       url: "https://sonukapoor.com/"
       image: "https://sonukapoor.com/images/og/home.jpg"
-      jobTitle": "Senior Software Engineer; Angular Consultant; Author"
+      jobTitle: "Senior Software Engineer; Angular Consultant; Author"
       description: "Google Developer Expert (Angular), 7× Microsoft MVP, author, enterprise modernization leader."
+      alternateName:
+        - "Sonu Kapoor (Angular GDE, MVP)"
       sameAs:
         - "https://www.linkedin.com/in/sonu-kapoor/"
         - "https://x.com/SonuKapoor1978"
@@ -56,8 +58,10 @@ schema:
       worksFor:
         "@type": "Organization"
         name: "SOLID Software Solutions Ltd."
+      mainEntityOfPage:
+        "@type": "WebPage"
+        "@id": "https://sonukapoor.com/"
 ---
-
 
 <section class="hero pt-0">
   <div class="hero-wrap">
