@@ -3,8 +3,8 @@ layout: page
 title: About
 permalink: /about/
 image: /images/og/about.jpg
-hide_title: false
 description: "About Sonu Kapoor — Google Developer Expert (Angular), Microsoft MVP, author, speaker, and open-source contributor leading enterprise modernization and AI-powered development."
+page_title: "About"
 keywords:
   - Sonu Kapoor
   - About

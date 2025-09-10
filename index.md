@@ -1,46 +1,73 @@
 ---
 layout: page
-title: Global Technology Leader in Angular, AI & Enterprise Modernization
+title: "Sonu Kapoor – Angular GDE, Microsoft MVP, Author & Enterprise Modernization Leader"
+description: "Official website of Sonu Kapoor — Google Developer Expert (Angular), 7× Microsoft MVP, author, and enterprise modernization leader. Co-author of Angular Typed Forms, core contributor to NGX-Layout, quoted and featured in major outlets."
 permalink: /
 image: /images/og/home.jpg
+canonical_url: "https://sonukapoor.com/"
+page_title: "Global Technology Leader in Angular, AI & Enterprise Modernization"
 hide_title: true
-description: "Global technology leader in Angular, AI, and enterprise modernization. Google Developer Expert (Angular), Microsoft MVP, author, and open-source contributor (Typed Forms)."
 keywords:
   - Sonu Kapoor
-  - Angular
-  - Google Developer Expert
+  - Angular GDE
   - Microsoft MVP
   - Angular Signals
   - Typed Forms
-  - NgRx
-  - RxJS
-  - Web Performance
-  - Enterprise Modernization
-  - AI
-  - SSR
-  - Hydration
-  - SignalStore
-  - JavaScript
+  - NGX-Layout
+  - Enterprise modernization
+  - Author
 schema:
-  '@context': https://schema.org
-  '@type': WebPage
-  name: "Global Technology Leader in Angular, AI & Enterprise Modernization"
-  url: "https://sonukapoor.com/"
-  description: "Global technology leader in Angular, AI, and enterprise modernization. Google Developer Expert (Angular), Microsoft MVP, author, and open-source contributor."
-  primaryImageOfPage:
-    '@type': ImageObject
-    url: "https://sonukapoor.com/images/og/home.jpg"
+  "@context": "https://schema.org"
+  "@graph":
+    - "@type": "WebSite"
+      "@id": "https://sonukapoor.com/#website"
+      url: "https://sonukapoor.com/"
+      name: "Sonu Kapoor"
+      inLanguage: "en"
+      publisher:
+        "@type": "Person"
+        "@id": "https://sonukapoor.com/#person"
+    - "@type": "Person"
+      "@id": "https://sonukapoor.com/#person"
+      name: "Sonu Kapoor"
+      url: "https://sonukapoor.com/"
+      image: "https://sonukapoor.com/images/og/home.jpg"
+      jobTitle": "Senior Software Engineer; Angular Consultant; Author"
+      description: "Google Developer Expert (Angular), 7× Microsoft MVP, author, enterprise modernization leader."
+      sameAs:
+        - "https://www.linkedin.com/in/sonu-kapoor/"
+        - "https://x.com/SonuKapoor1978"
+        - "https://github.com/sonukapoor"
+        - "https://dev.to/sonukapoor"
+        - "https://medium.com/@sonukapoor"
+      award:
+        - "Google Developer Expert (Angular)"
+        - "Microsoft MVP (Developer Technologies), 2005–2010, 2024–2026"
+      affiliation:
+        - "@type": "Organization"
+          name: "IEEE Computer Society"
+        - "@type": "Organization"
+          name: "Globee Awards (Judge)"
+      knowsAbout:
+        - "Angular Signals"
+        - "Typed Forms"
+        - "Performance optimization"
+        - "AI-augmented frontend workflows"
+      worksFor:
+        "@type": "Organization"
+        name: "SOLID Software Solutions Ltd."
 ---
+
 
 <section class="hero pt-0">
   <div class="hero-wrap">
     <div>
       <h1 class="title">Sonu Kapoor - Global Technology Leader in Angular, AI & Enterprise Modernization</h1>
       <div class="kickers">
-        <span class="badge" title="Google Developer Expert">GDE (Angular)</span>
-        <span class="badge" title="Microsoft Most Valuable Professional">7× Microsoft MVP</span>
-        <span class="badge" title="Author of two Apress books">Author</span>
-        <span class="badge" title="Core contributor to NGX-Layout">Open-Source Leader</span>
+        <span class="badge" title="Google Developer Expert"><a href='/awards'>GDE (Angular)</a></span>
+        <span class="badge" title="Microsoft Most Valuable Professional"><a href='/awards'>7× Microsoft MVP</a></span>
+        <span class="badge" title="Author of two Apress books"><a href='/books'>Author</a></span>
+        <span class="badge" title="Core contributor to NGX-Layout"><a href='/contributions'>Open-Source Leader</a></span>
       </div>
       <p class="muted">
         I design and deliver high-impact systems, from co-authoring Angular’s most upvoted feature (Typed Forms)
@@ -48,9 +75,10 @@ schema:
         <strong>open-source leadership</strong>, and <strong>AI-powered development</strong> to move the web forward.
       </p>
       <div class="hero-cta">
-        <a class="btn" href="#publications">📖 My Books</a>
+        <a class="btn" href="/books">📖 My Books</a>
         <a class="btn secondary" href="#enterprise">👨‍💻 My Work</a>
-        <a class="btn secondary" href="#media">📰 Media & Articles</a>
+        <a class="btn secondary" href="/media">📰 Media</a>
+        <a class="btn secondary" href="/articles">📰 Articles</a>
       </div>
     </div>
     <div class="hero-card" aria-hidden="true">
@@ -217,11 +245,11 @@ schema:
     <div class="card">
       <h3>Quick Links</h3>
       <ul>
-        <li><a href="#honors">Recognitions & Honors</a></li>
-        <li><a href="#publications">Publications & Media</a></li>
-        <li><a href="#opensource">Open Source Contributions</a></li>
-        <li><a href="#enterprise">Enterprise Impact</a></li>
-        <li><a href="#community">Community & Leadership</a></li>
+        <li><a href="/awards">Recognitions & Honors</a></li>
+        <li><a href="/media">Publications & Media</a></li>
+        <li><a href="/contributions">Open Source Contributions</a></li>
+        <li><a href="/podcasts">Podcasts</a></li>
+        <li><a href="/talks">International Talks</a></li>
       </ul>
     </div>
   </div>
