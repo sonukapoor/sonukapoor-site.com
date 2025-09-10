@@ -668,10 +668,10 @@ footer {
   box-shadow: var(--shadow);
 }
 .timeline-item.left::before {
-  right: -10px;
+  right: -8px;
 }
 .timeline-item.right::before {
-  left: -10px;
+  left: -8px;
 }
 
 /* =========================================================
