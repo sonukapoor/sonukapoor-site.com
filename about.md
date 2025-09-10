@@ -1,13 +1,13 @@
 ---
 layout: page
-title: About
+title: "About Sonu Kapoor – Angular GDE, Microsoft MVP, Author"
 permalink: /about/
 image: /images/og/about.jpg
-description: "About Sonu Kapoor — Google Developer Expert (Angular), Microsoft MVP, author, speaker, and open-source contributor leading enterprise modernization and AI-powered development."
-page_title: "About"
+description: "About Sonu Kapoor — Google Developer Expert (Angular), 7× Microsoft MVP, author, speaker, and open-source contributor leading enterprise modernization and AI-powered development."
+page_title: "About Sonu Kapoor"
 keywords:
   - Sonu Kapoor
-  - About
+  - About Sonu Kapoor
   - Biography
   - Google Developer Expert
   - Microsoft MVP
@@ -19,14 +19,69 @@ keywords:
   - Author
   - Open Source
 schema:
-  '@context': https://schema.org
-  '@type': AboutPage
-  name: "About — Sonu Kapoor"
-  url: "https://sonukapoor.com/about/"
-  description: "About Sonu Kapoor — GDE (Angular), Microsoft MVP, author, and open-source contributor."
-  primaryImageOfPage:
-    '@type': ImageObject
-    url: "https://sonukapoor.com/images/og/about.jpg"
+  "@context": "https://schema.org"
+  "@graph":
+    - "@type": "AboutPage"
+      "@id": "https://sonukapoor.com/about/#aboutpage"
+      url: "https://sonukapoor.com/about/"
+      name: "About Sonu Kapoor"
+      description: "About Sonu Kapoor — Google Developer Expert (Angular), Microsoft MVP, author, speaker, and open-source contributor."
+      isPartOf: { "@id": "https://sonukapoor.com/#website" }
+      primaryImageOfPage:
+        "@type": "ImageObject"
+        url: "https://sonukapoor.com/images/og/about.jpg"
+      mainEntity: { "@id": "https://sonukapoor.com/#person" }
+      breadcrumb:
+        "@type": "BreadcrumbList"
+        itemListElement:
+          - "@type": "ListItem"
+            position: 1
+            name: "Home"
+            item: "https://sonukapoor.com/"
+          - "@type": "ListItem"
+            position: 2
+            name: "About"
+            item: "https://sonukapoor.com/about/"
+    - "@type": "WebSite"
+      "@id": "https://sonukapoor.com/#website"
+      url: "https://sonukapoor.com/"
+      name: "Sonu Kapoor"
+      inLanguage: "en"
+      publisher: { "@id": "https://sonukapoor.com/#person" }
+    - "@type": "Person"
+      "@id": "https://sonukapoor.com/#person"
+      name: "Sonu Kapoor"
+      alternateName:
+        - "Sonu Kapoor (Angular GDE, MVP)"
+      url: "https://sonukapoor.com/"
+      image: "https://sonukapoor.com/images/og/home.jpg"
+      jobTitle: "Senior Software Engineer; Angular Consultant; Author"
+      description: "Google Developer Expert (Angular), 7× Microsoft MVP, author, and enterprise modernization leader; invited Angular Collaborator and co-author of Angular Typed Forms."
+      sameAs:
+        - "https://www.linkedin.com/in/sonu-kapoor/"
+        - "https://x.com/SonuKapoor1978"
+        - "https://github.com/sonukapoor"
+        - "https://dev.to/sonukapoor"
+        - "https://medium.com/@sonukapoor"
+      worksFor:
+        "@type": "Organization"
+        name: "SOLID Software Solutions Ltd."
+      memberOf:
+        - "@type": "Organization"
+          name: "IEEE Computer Society"
+        - "@type": "Organization"
+          name: "Sigma Xi"
+      award:
+        - "Google Developer Expert (Angular)"
+        - "Microsoft MVP (Developer Technologies), 2005–2010, 2024–2026"
+      knowsAbout:
+        - "Angular Signals"
+        - "Typed Forms"
+        - "Performance optimization"
+        - "AI-augmented frontend workflows"
+      mainEntityOfPage:
+        "@type": "WebPage"
+        "@id": "https://sonukapoor.com/about/"
 ---
 
 I often say my career didn’t start with a job title — it started with a spark. That spark lit up when I was twelve years old at a friend’s birthday party in Germany, where I saw a **Commodore 64** for the first time. The green glow of its screen was enough to hook me. I begged my father for a computer, and after much persistence, he eventually surprised me with an **Amiga 500**.
