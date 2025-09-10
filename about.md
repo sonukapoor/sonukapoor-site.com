@@ -3,7 +3,7 @@ layout: page
 title: "About Sonu Kapoor – Angular GDE, Microsoft MVP, Author"
 page_title: About Sonu Kapoor – Angular GDE, Microsoft MVP & Author
 permalink: /about/
-image: /images/og/about.jpg
+image: /images/og/about-og.png
 description: "About Sonu Kapoor — Google Developer Expert (Angular), 7× Microsoft MVP, author, speaker, and open-source contributor leading enterprise modernization and AI-powered development."
 keywords:
   - Sonu Kapoor

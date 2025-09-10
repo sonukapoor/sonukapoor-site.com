@@ -3,7 +3,7 @@ layout: page
 title: "Talks & Presentations – Sonu Kapoor"
 page_title: Talks & Presentations – Sonu Kapoor
 permalink: /talks/
-image: /assets/images/talks.jpg
+image: /assets/images/talks-og.png
 description: "Selected conference talks, interviews, and appearances on Angular performance, Signals, SSR, and modern frontend practices."
 schema:
   "@context": "https://schema.org"

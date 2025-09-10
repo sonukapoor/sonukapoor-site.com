@@ -3,7 +3,7 @@ layout: page
 title: "Awards & Recognitions – Sonu Kapoor"
 page_title: Awards & Recognitions – Sonu Kapoor
 permalink: /awards/
-image: /images/og/awards.jpg
+image: /images/og/awards-og.png
 hide_title: false
 description: "Awards and recognitions for Sonu Kapoor, including Google Developer Expert (Angular) and Microsoft MVP (Developer Technology), highlighting community leadership and impact."
 keywords:

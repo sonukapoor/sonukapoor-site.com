@@ -3,7 +3,7 @@ layout: page
 title: "Sonu Kapoor – Angular GDE, Microsoft MVP, Author & Enterprise Modernization Leader"
 description: "Official website of Sonu Kapoor — Google Developer Expert (Angular), 7× Microsoft MVP, author, and enterprise modernization leader. Co-author of Angular Typed Forms, core contributor to NGX-Layout, quoted and featured in major outlets."
 permalink: /
-image: /images/og/home.jpg
+image: /images/og/home-og.png
 canonical_url: "https://sonukapoor.com/"
 page_title: "Global Technology Leader in Angular, AI & Enterprise Modernization"
 hide_title: true

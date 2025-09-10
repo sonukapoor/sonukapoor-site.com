@@ -3,7 +3,7 @@ layout: page
 title: "Articles by Sonu Kapoor – Angular, Signals, Performance"
 page_title: "Articles by Sonu Kapoor"
 permalink: /articles/
-image: /images/og/articles.jpg
+image: /images/og/articles-og.png
 description: "Curated links to Sonu Kapoor’s writing on Angular, Signals, JavaScript, and web performance — across CODE Magazine, SitePoint, Medium, Dev.to, and Playful Programming."
 keywords:
   - Sonu Kapoor

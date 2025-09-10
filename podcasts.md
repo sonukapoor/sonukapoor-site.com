@@ -3,7 +3,7 @@ layout: page
 title: "Podcasts – Sonu Kapoor (Angular Catch-Up co-host)"
 page_title: Podcasts Featuring Sonu Kapoor – Angular Catch-Up & Guest Appearances
 permalink: /podcasts/
-image: /images/og/podcasts.jpg
+image: /images/og/podcasts-og.png
 description: "Podcasts featuring Sonu Kapoor — co-founder and co-host of Angular Catch-Up — covering Signals, SSR & Hydration, SignalStore, httpResource, and modern Angular releases."
 keywords:
   - Sonu Kapoor

@@ -3,7 +3,7 @@ layout: page
 title: "Books by Sonu Kapoor – Apress Author & Technical Editor"
 page_title: Books and Editorial Work - Sonu Kapoor
 permalink: /books/
-image: /images/og/books.jpg
+image: /images/og/books-og.png
 description: "Books authored and edited by Sonu Kapoor — including AI-Powered App Development (Apress, 2024), Beginning JavaScript Syntax (Apress, 2025), and the upcoming Mastering Angular Signals."
 keywords:
   - Sonu Kapoor

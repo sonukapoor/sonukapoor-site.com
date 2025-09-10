@@ -3,7 +3,7 @@ layout: page
 title: "Open Source Contributions – Sonu Kapoor"
 page_title: "Open Source Contributions by Sonu Kapoor"
 permalink: /contributions/
-image: /images/og/contributions.jpg
+image: /images/og/contributions-og.png
 description: "Open source contributions by Sonu Kapoor — Angular framework (Typed Forms), NGX-Layout, and community leadership with Angular Toronto."
 keywords:
   - Sonu Kapoor

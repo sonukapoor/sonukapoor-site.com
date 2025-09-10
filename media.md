@@ -3,7 +3,7 @@ layout: page
 title: "Media Coverage – Sonu Kapoor (Angular GDE, MVP)"
 page_title: "Media Coverage & Interviews Featuring Sonu Kapoor"
 permalink: /media/
-image: /images/og/media.jpg
+image: /images/og/media-og.png
 description: "Third-party coverage, interviews, and features highlighting Sonu Kapoor’s work in Angular, AI, and enterprise modernization."
 keywords:
   - Sonu Kapoor
