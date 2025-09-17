@@ -175,6 +175,22 @@ schema:
             author: { "@id": "https://sonukapoor.com/#person" }
             publisher: { "@type": "Organization", name: "DEV Community (This is Angular)" }
             url: "https://dev.to/this-is-angular/unit-testing-in-angular-170l"
+        - "@type": "ListItem"
+          position: 19
+          item:
+            "@type": "Article"
+            headline: "The Angular Signals Revolution: Rethinking Reactivity"
+            author: { "@id": "https://sonukapoor.com/#person" }
+            publisher: { "@type": "Organization", name: "App Signal" }
+            url: "https://blog.appsignal.com/2025/09/17/the-angular-signals-revolution-rethinking-reactivity.html"
+        - "@type": "ListItem"
+          position: 19
+          item:
+            "@type": "Article"
+            headline: "Beyond console.log: Smarter Debugging with Modern JavaScript Tooling"
+            author: { "@id": "https://sonukapoor.com/#person" }
+            publisher: { "@type": "Organization", name: "App Signal" }
+            url: "https://blog.appsignal.com/2025/07/09/beyond-console-log-smarter-debugging%20with-modern-javascript-tooling.html"
 ---
 
 <p class="muted">
@@ -182,6 +198,15 @@ schema:
 </p>
 
 <div class="cards">
+
+  <div class="card">
+    <h3>The Angular Signals Revolution: Rethinking Reactivity</h3>
+    <div class="card-meta">Publisher: App Signal</div>
+    <p class="card-desc">In this article, the first of a three-part series on Angular Signals, we won't rehash the official documentation. Instead, we'll take a fresh look at Signals from the perspective of someone building real-world apps, focusing on state management, performance, and debugging.</p>
+    <div class="card-actions">
+      <a href="https://blog.appsignal.com/2025/09/17/the-angular-signals-revolution-rethinking-reactivity.html" target="_blank" rel="noopener">Read →</a>
+    </div>
+  </div>
 
   <div class="card">
     <h3>Unlocking Angular Performance: Optimization Techniques</h3>
@@ -207,6 +232,15 @@ schema:
     <p class="card-desc">The most common NgRx pitfalls — and pragmatic patterns to fix them without slowing down your team.</p>
     <div class="card-actions">
       <a href="https://medium.com/javascript-in-plain-english/youre-using-ngrx-wrong-real-mistakes-that-cost-teams-weeks-7b83cc03e586" target="_blank" rel="noopener">Read →</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Beyond console.log: Smarter Debugging with Modern JavaScript Tooling</h3>
+    <div class="card-meta">Publisher: App Signal</div>
+    <p class="card-desc">In this article, we’ll look at smarter, scalable debugging strategies. We’ll explore structured logging, global error capture, breadcrumb trails, and real-time monitoring using tools like AppSignal, all without introducing a framework or rewriting your codebase.</p>
+    <div class="card-actions">
+      <a href="https://blog.appsignal.com/2025/07/09/beyond-console-log-smarter-debugging%20with-modern-javascript-tooling.html" target="_blank" rel="noopener">Read →</a>
     </div>
   </div>
 
