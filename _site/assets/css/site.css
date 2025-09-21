@@ -911,3 +911,17 @@ img.book-cover {
   white-space: nowrap; /* prevent line breaks */
   border: 0;
 }
+
+.flex {
+  display: flex;
+}
+
+.gap-16 {
+  gap: 16px;
+}
+
+.publisher-logo {
+  height: 50px;
+  padding-top: 10px;
+  padding-bottom:10px;
+}

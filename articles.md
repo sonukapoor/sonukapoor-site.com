@@ -53,7 +53,11 @@ schema:
             "@type": "Article"
             headline: "You’re Using NgRx Wrong: Real Mistakes That Cost Teams Weeks"
             author: { "@id": "https://sonukapoor.com/#person" }
-            publisher: { "@type": "Organization", name: "Medium — JavaScript in Plain English" }
+            publisher:
+              {
+                "@type": "Organization",
+                name: "Medium — JavaScript in Plain English",
+              }
             url: "https://medium.com/javascript-in-plain-english/youre-using-ngrx-wrong-real-mistakes-that-cost-teams-weeks-7b83cc03e586"
         - "@type": "ListItem"
           position: 4
@@ -61,7 +65,11 @@ schema:
             "@type": "Article"
             headline: "Dynamically Configuring the Swagger-Generated API Base Path in Angular"
             author: { "@id": "https://sonukapoor.com/#person" }
-            publisher: { "@type": "Organization", name: "DEV Community (This is Angular)" }
+            publisher:
+              {
+                "@type": "Organization",
+                name: "DEV Community (This is Angular)",
+              }
             url: "https://dev.to/this-is-angular/dynamically-configuring-the-swagger-generated-api-base-path-in-angular-5980"
         - "@type": "ListItem"
           position: 5
@@ -69,7 +77,11 @@ schema:
             "@type": "Article"
             headline: "Understanding Tree Shaking in JavaScript: A Comprehensive Guide"
             author: { "@id": "https://sonukapoor.com/#person" }
-            publisher: { "@type": "Organization", name: "DEV Community (This is Learning)" }
+            publisher:
+              {
+                "@type": "Organization",
+                name: "DEV Community (This is Learning)",
+              }
             url: "https://dev.to/this-is-learning/understanding-tree-shaking-in-javascript-a-comprehensive-guide-5e86"
         - "@type": "ListItem"
           position: 6
@@ -77,7 +89,11 @@ schema:
             "@type": "Article"
             headline: "Understanding Angular Ahead-of-Time (AOT) Compilation"
             author: { "@id": "https://sonukapoor.com/#person" }
-            publisher: { "@type": "Organization", name: "DEV Community (This is Angular)" }
+            publisher:
+              {
+                "@type": "Organization",
+                name: "DEV Community (This is Angular)",
+              }
             url: "https://dev.to/this-is-angular/understanding-angular-ahead-of-time-aot-compilation-2m7p"
         - "@type": "ListItem"
           position: 7
@@ -85,7 +101,11 @@ schema:
             "@type": "Article"
             headline: "Getting Started with Firebase and Angular in idx.dev"
             author: { "@id": "https://sonukapoor.com/#person" }
-            publisher: { "@type": "Organization", name: "DEV Community (This is Angular)" }
+            publisher:
+              {
+                "@type": "Organization",
+                name: "DEV Community (This is Angular)",
+              }
             url: "https://dev.to/this-is-angular/getting-started-with-firebase-and-angular-in-idxdev-49h6"
         - "@type": "ListItem"
           position: 8
@@ -101,7 +121,11 @@ schema:
             "@type": "Article"
             headline: "Dynamic Forms in Angular 19: Creating Flexible and Scalable User Interfaces with Standalone Components"
             author: { "@id": "https://sonukapoor.com/#person" }
-            publisher: { "@type": "Organization", name: "DEV Community (This is Angular)" }
+            publisher:
+              {
+                "@type": "Organization",
+                name: "DEV Community (This is Angular)",
+              }
             url: "https://dev.to/this-is-angular/dynamic-forms-in-angular-creating-flexible-and-scalable-user-interfaces-2hob"
         - "@type": "ListItem"
           position: 10
@@ -109,7 +133,11 @@ schema:
             "@type": "Article"
             headline: "Optimizing Angular Reactive Forms: Enhancing Performance with Lazy Validation and Async Validators"
             author: { "@id": "https://sonukapoor.com/#person" }
-            publisher: { "@type": "Organization", name: "DEV Community (This is Angular)" }
+            publisher:
+              {
+                "@type": "Organization",
+                name: "DEV Community (This is Angular)",
+              }
             url: "https://dev.to/this-is-angular/optimizing-angular-reactive-forms-enhancing-performance-with-lazy-validation-and-async-validators-5c40"
         - "@type": "ListItem"
           position: 11
@@ -117,7 +145,11 @@ schema:
             "@type": "Article"
             headline: "The Myth of 'Fix Later': Why Writing the Best Code Now is Essential"
             author: { "@id": "https://sonukapoor.com/#person" }
-            publisher: { "@type": "Organization", name: "DEV Community (This is Learning)" }
+            publisher:
+              {
+                "@type": "Organization",
+                name: "DEV Community (This is Learning)",
+              }
             url: "https://dev.to/this-is-learning/the-myth-of-fix-later-why-writing-the-best-code-now-is-essential-4p71"
         - "@type": "ListItem"
           position: 12
@@ -125,7 +157,11 @@ schema:
             "@type": "Article"
             headline: "Custom Validators with ControlValueAccessor in Angular: Ensuring Robust Form Validations"
             author: { "@id": "https://sonukapoor.com/#person" }
-            publisher: { "@type": "Organization", name: "DEV Community (This is Angular)" }
+            publisher:
+              {
+                "@type": "Organization",
+                name: "DEV Community (This is Angular)",
+              }
             url: "https://dev.to/this-is-angular/custom-validators-with-controlvalueaccessor-in-angular-ensuring-robust-form-validations-4jgj"
         - "@type": "ListItem"
           position: 13
@@ -133,7 +169,11 @@ schema:
             "@type": "Article"
             headline: "Mastering Angular: Dynamic Disabled States with Reactive Forms and ControlValueAccessor"
             author: { "@id": "https://sonukapoor.com/#person" }
-            publisher: { "@type": "Organization", name: "DEV Community (This is Angular)" }
+            publisher:
+              {
+                "@type": "Organization",
+                name: "DEV Community (This is Angular)",
+              }
             url: "https://dev.to/this-is-angular/mastering-angular-dynamic-disabled-states-with-reactive-forms-and-controlvalueaccessor-3nfj"
         - "@type": "ListItem"
           position: 14
@@ -141,7 +181,11 @@ schema:
             "@type": "Article"
             headline: "Boosting Angular Performance with @defer and Lazy Loading"
             author: { "@id": "https://sonukapoor.com/#person" }
-            publisher: { "@type": "Organization", name: "DEV Community (This is Angular)" }
+            publisher:
+              {
+                "@type": "Organization",
+                name: "DEV Community (This is Angular)",
+              }
             url: "https://dev.to/this-is-angular/boosting-angular-performance-with-defer-and-lazy-loading-40f3"
         - "@type": "ListItem"
           position: 15
@@ -149,7 +193,11 @@ schema:
             "@type": "Article"
             headline: "The Importance of Upgrading Frameworks: A Case for Angular"
             author: { "@id": "https://sonukapoor.com/#person" }
-            publisher: { "@type": "Organization", name: "DEV Community (This is Angular)" }
+            publisher:
+              {
+                "@type": "Organization",
+                name: "DEV Community (This is Angular)",
+              }
             url: "https://dev.to/this-is-angular/the-importance-of-upgrading-frameworks-a-case-for-angular-3nc8"
         - "@type": "ListItem"
           position: 16
@@ -157,7 +205,11 @@ schema:
             "@type": "Article"
             headline: "Boosting Angular App Performance Using NgOptimizedImage"
             author: { "@id": "https://sonukapoor.com/#person" }
-            publisher: { "@type": "Organization", name: "DEV Community (This is Angular)" }
+            publisher:
+              {
+                "@type": "Organization",
+                name: "DEV Community (This is Angular)",
+              }
             url: "https://dev.to/this-is-angular/boosting-angular-app-performance-using-ngoptimizedimage-20l2"
         - "@type": "ListItem"
           position: 17
@@ -165,7 +217,11 @@ schema:
             "@type": "Article"
             headline: "Streamlining Communication: New Signals API in Angular 17.3"
             author: { "@id": "https://sonukapoor.com/#person" }
-            publisher: { "@type": "Organization", name: "DEV Community (This is Angular)" }
+            publisher:
+              {
+                "@type": "Organization",
+                name: "DEV Community (This is Angular)",
+              }
             url: "https://dev.to/this-is-angular/streamlining-communication-new-signals-api-in-angular-173-2935"
         - "@type": "ListItem"
           position: 18
@@ -173,7 +229,11 @@ schema:
             "@type": "Article"
             headline: "Mastering Angular Unit Testing: Best Practices and Tools"
             author: { "@id": "https://sonukapoor.com/#person" }
-            publisher: { "@type": "Organization", name: "DEV Community (This is Angular)" }
+            publisher:
+              {
+                "@type": "Organization",
+                name: "DEV Community (This is Angular)",
+              }
             url: "https://dev.to/this-is-angular/unit-testing-in-angular-170l"
         - "@type": "ListItem"
           position: 19
@@ -209,17 +269,18 @@ schema:
 
   <div class="card">
     <h3>Angular Signals: The End of RxJS Boilerplate?</h3>
-    <div class="card-meta">Publisher: CODE Magazine</div>
-    <p class="card-desc">In this article, I'll take a deep dive into Angular Signals, not merely as a new API, but as a new way of thinking about building applications. I'll explore their core primitives, signal(), computed(), and effect(), and understand how they seamlessly fit into Angular's vision for a zoneless, standalone component-driven future. I'll introduce the concept of LinkedSignal, a powerful feature that dramatically improves component-to-component reactivity without the tedious ceremony developers are used to.</p>
+    <img src="/images/publisher/code.png" class="publisher-logo" alt="Publisher: CODE Magazine">
+    <p class="card-desc">In this article, I'll take a deep dive into Angular Signals, not merely as a new API, but as a new way of thinking about building applications. I'll explore their core primitives, signal(), computed(), and effect(), and understand how they seamlessly fit into Angular's vision for a zoneless, standalone component-driven future. I'll introduce the concept of LinkedSignal, a powerful feature that dramatically improves component-to-component reactivity without the tedious ceremony developers are used to.
+    </p>
     <div class="card-actions">
       <a href="https://www.codemag.com/Article/2509051/Angular-Signals-The-End-of-RxJS-Boilerplate" target="_blank" rel="noopener">Read →</a>
     </div>
-  </div>
 
+  </div>
 
   <div class="card">
     <h3>The Angular Signals Revolution: Rethinking Reactivity</h3>
-    <div class="card-meta">Publisher: App Signal</div>
+    <img src="/images/publisher/app-signal.png" class="publisher-logo" alt="Publisher: App Signal">
     <p class="card-desc">In this article, the first of a three-part series on Angular Signals, we won't rehash the official documentation. Instead, we'll take a fresh look at Signals from the perspective of someone building real-world apps, focusing on state management, performance, and debugging.</p>
     <div class="card-actions">
       <a href="https://blog.appsignal.com/2025/09/17/the-angular-signals-revolution-rethinking-reactivity.html" target="_blank" rel="noopener">Read →</a>
@@ -228,7 +289,7 @@ schema:
 
   <div class="card">
     <h3>Unlocking Angular Performance: Optimization Techniques</h3>
-    <div class="card-meta">Publisher: CODE Magazine</div>
+    <img src="/images/publisher/code.png" class="publisher-logo" alt="Publisher: CODE Magazine">
     <p class="card-desc">Six high-impact strategies for faster Angular apps: image optimization, routing, deferrable views, smarter change detection, async pipe, and trackBy.</p>
     <div class="card-actions">
       <a href="https://www.codemag.com/Article/2507061/Unlocking-Angular-Performance-Optimization-Techniques" target="_blank" rel="noopener">Read →</a>
@@ -237,7 +298,7 @@ schema:
 
   <div class="card">
     <h3>Angular Signals: A New Mental Model for Reactivity, Not Just a New API</h3>
-    <div class="card-meta">Publisher: SitePoint</div>
+    <img src="/images/publisher/sitepoint-white.svg" class="publisher-logo" alt="Publisher: Sitepoint">
     <p class="card-desc">Signals reframe how data flows through your app — a different mental model from RxJS and @Input/@Output patterns.</p>
     <div class="card-actions">
       <a href="https://www.sitepoint.com/angular-signals-a-new-mental-model/" target="_blank" rel="noopener">Read →</a>
@@ -246,7 +307,7 @@ schema:
 
   <div class="card">
     <h3>You’re Using NgRx Wrong: Real Mistakes That Cost Teams Weeks</h3>
-    <div class="card-meta">Publisher: Medium (JavaScript in Plain English)</div>
+    <img src="/images/publisher/js-medium.png" class="publisher-logo" alt="Publisher: Medium (JavaScript in Plain English)">
     <p class="card-desc">The most common NgRx pitfalls — and pragmatic patterns to fix them without slowing down your team.</p>
     <div class="card-actions">
       <a href="https://medium.com/javascript-in-plain-english/youre-using-ngrx-wrong-real-mistakes-that-cost-teams-weeks-7b83cc03e586" target="_blank" rel="noopener">Read →</a>
@@ -255,7 +316,7 @@ schema:
 
   <div class="card">
     <h3>Beyond console.log: Smarter Debugging with Modern JavaScript Tooling</h3>
-    <div class="card-meta">Publisher: App Signal</div>
+    <img src="/images/publisher/app-signal.png" class="publisher-logo" alt="Publisher: App Signal">
     <p class="card-desc">In this article, we’ll look at smarter, scalable debugging strategies. We’ll explore structured logging, global error capture, breadcrumb trails, and real-time monitoring using tools like AppSignal, all without introducing a framework or rewriting your codebase.</p>
     <div class="card-actions">
       <a href="https://blog.appsignal.com/2025/07/09/beyond-console-log-smarter-debugging%20with-modern-javascript-tooling.html" target="_blank" rel="noopener">Read →</a>
@@ -264,7 +325,7 @@ schema:
 
   <div class="card">
     <h3>Dynamically Configuring the Swagger-Generated API Base Path in Angular</h3>
-    <div class="card-meta">Publisher: Dev.to (This is Angular)</div>
+    <img src="/images/publisher/dev-to.webp" class="publisher-logo" alt="Publisher: Dev.to (This is Angular)">
     <p class="card-desc">Inject a dynamic <code>basePath</code> into generated clients — no forking — compatible with NgModules and Standalone.</p>
     <div class="card-actions">
       <a href="https://dev.to/this-is-angular/dynamically-configuring-the-swagger-generated-api-base-path-in-angular-5980" target="_blank" rel="noopener">Read →</a>
@@ -273,7 +334,7 @@ schema:
 
   <div class="card">
     <h3>Understanding Tree Shaking in JavaScript: A Comprehensive Guide</h3>
-    <div class="card-meta">Publisher: Dev.to (This is Learning)</div>
+    <img src="/images/publisher/dev-to.webp" class="publisher-logo" alt="Publisher: Dev.to (This is Angular)">
     <p class="card-desc">What tree-shaking removes, how bundlers decide, and practical steps to keep bundles lean and fast.</p>
     <div class="card-actions">
       <a href="https://dev.to/this-is-learning/understanding-tree-shaking-in-javascript-a-comprehensive-guide-5e86" target="_blank" rel="noopener">Read →</a>
@@ -282,7 +343,7 @@ schema:
 
   <div class="card">
     <h3>Understanding Angular Ahead-of-Time (AOT) Compilation</h3>
-    <div class="card-meta">Publisher: Dev.to (This is Angular)</div>
+    <img src="/images/publisher/dev-to.webp" class="publisher-logo" alt="Publisher: Dev.to (This is Angular)">
     <p class="card-desc">AOT vs JIT, pitfalls, and debugging strategies for large-scale Angular apps.</p>
     <div class="card-actions">
       <a href="https://dev.to/this-is-angular/understanding-angular-ahead-of-time-aot-compilation-2m7p" target="_blank" rel="noopener">Read →</a>
@@ -291,7 +352,7 @@ schema:
 
   <div class="card">
     <h3>Getting Started with Firebase and Angular in idx.dev</h3>
-    <div class="card-meta">Publisher: Dev.to (This is Angular)</div>
+    <img src="/images/publisher/dev-to.webp" class="publisher-logo" alt="Publisher: Dev.to (This is Angular)">
     <p class="card-desc">Build a real-time serverless app using Firebase with Angular — end-to-end walkthrough.</p>
     <div class="card-actions">
       <a href="https://dev.to/this-is-angular/getting-started-with-firebase-and-angular-in-idxdev-49h6" target="_blank" rel="noopener">Read →</a>
@@ -300,7 +361,7 @@ schema:
 
   <div class="card">
     <h3>Mastering Angular Unit Testing: Best Practices and Tools</h3>
-    <div class="card-meta">Publisher: Playful Programming</div>
+    <img src="/images/publisher/pp.png" class="publisher-logo" alt="Publisher: Playful Programming">
     <p class="card-desc">Testing strategy, ATL, and pragmatic workflows for maintainable Angular test suites.</p>
     <div class="card-actions">
       <a href="https://playfulprogramming.com/posts/mastering-angular-unit-testing" target="_blank" rel="noopener">Read →</a>
@@ -309,7 +370,7 @@ schema:
 
   <div class="card">
     <h3>Dynamic Forms in Angular 19: Creating Flexible and Scalable User Interfaces with Standalone Components</h3>
-    <div class="card-meta">Publisher: Dev.to (This is Angular)</div>
+    <img src="/images/publisher/dev-to.webp" class="publisher-logo" alt="Publisher: Dev.to (This is Angular)">
     <p class="card-desc">Practical patterns for dynamic forms with standalone components and clean validation.</p>
     <div class="card-actions">
       <a href="https://dev.to/this-is-angular/dynamic-forms-in-angular-creating-flexible-and-scalable-user-interfaces-2hob" target="_blank" rel="noopener">Read →</a>
@@ -318,7 +379,7 @@ schema:
 
   <div class="card">
     <h3>Optimizing Angular Reactive Forms: Enhancing Performance with Lazy Validation and Async Validators</h3>
-    <div class="card-meta">Publisher: Dev.to (This is Angular)</div>
+    <img src="/images/publisher/dev-to.webp" class="publisher-logo" alt="Publisher: Dev.to (This is Angular)">
     <p class="card-desc">Advanced techniques to keep forms responsive: lazy validation, async validators, and more.</p>
     <div class="card-actions">
       <a href="https://dev.to/this-is-angular/optimizing-angular-reactive-forms-enhancing-performance-with-lazy-validation-and-async-validators-5c40" target="_blank" rel="noopener">Read →</a>
@@ -327,7 +388,7 @@ schema:
 
   <div class="card">
     <h3>The Myth of 'Fix Later': Why Writing the Best Code Now is Essential</h3>
-    <div class="card-meta">Publisher: Dev.to (This is Learning)</div>
+    <img src="/images/publisher/dev-to.webp" class="publisher-logo" alt="Publisher: Dev.to (This is Angular)">
     <p class="card-desc">Why deferring quality hurts velocity — and practical habits that prevent it.</p>
     <div class="card-actions">
       <a href="https://dev.to/this-is-learning/the-myth-of-fix-later-why-writing-the-best-code-now-is-essential-4p71" target="_blank" rel="noopener">Read →</a>
@@ -336,7 +397,7 @@ schema:
 
   <div class="card">
     <h3>Custom Validators with ControlValueAccessor in Angular: Ensuring Robust Form Validations</h3>
-    <div class="card-meta">Publisher: Dev.to (This is Angular)</div>
+    <img src="/images/publisher/dev-to.webp" class="publisher-logo" alt="Publisher: Dev.to (This is Angular)">
     <p class="card-desc">Extend validation with CVA patterns and reusable constraints.</p>
     <div class="card-actions">
       <a href="https://dev.to/this-is-angular/custom-validators-with-controlvalueaccessor-in-angular-ensuring-robust-form-validations-4jgj" target="_blank" rel="noopener">Read →</a>
@@ -345,7 +406,7 @@ schema:
 
   <div class="card">
     <h3>Mastering Angular: Dynamic Disabled States with Reactive Forms and ControlValueAccessor</h3>
-    <div class="card-meta">Publisher: Dev.to (This is Angular)</div>
+    <img src="/images/publisher/dev-to.webp" class="publisher-logo" alt="Publisher: Dev.to (This is Angular)">
     <p class="card-desc">Control field enable/disable logic with reactive forms and CVA.</p>
     <div class="card-actions">
       <a href="https://dev.to/this-is-angular/mastering-angular-dynamic-disabled-states-with-reactive-forms-and-controlvalueaccessor-3nfj" target="_blank" rel="noopener">Read →</a>
@@ -354,7 +415,7 @@ schema:
 
   <div class="card">
     <h3>Boosting Angular Performance with @defer and Lazy Loading</h3>
-    <div class="card-meta">Publisher: Dev.to (This is Angular)</div>
+    <img src="/images/publisher/dev-to.webp" class="publisher-logo" alt="Publisher: Dev.to (This is Angular)">
     <p class="card-desc">Use deferrable views and lazy routes to ship less JS at first paint.</p>
     <div class="card-actions">
       <a href="https://dev.to/this-is-angular/boosting-angular-performance-with-defer-and-lazy-loading-40f3" target="_blank" rel="noopener">Read →</a>
@@ -363,7 +424,7 @@ schema:
 
   <div class="card">
     <h3>The Importance of Upgrading Frameworks: A Case for Angular</h3>
-    <div class="card-meta">Publisher: Dev.to (This is Angular)</div>
+    <img src="/images/publisher/dev-to.webp" class="publisher-logo" alt="Publisher: Dev.to (This is Angular)">
     <p class="card-desc">Why keeping Angular current matters for security, compatibility, and team velocity.</p>
     <div class="card-actions">
       <a href="https://dev.to/this-is-angular/the-importance-of-upgrading-frameworks-a-case-for-angular-3nc8" target="_blank" rel="noopener">Read →</a>
@@ -372,7 +433,7 @@ schema:
 
   <div class="card">
     <h3>Boosting Angular App Performance Using NgOptimizedImage</h3>
-    <div class="card-meta">Publisher: Dev.to (This is Angular)</div>
+    <img src="/images/publisher/dev-to.webp" class="publisher-logo" alt="Publisher: Dev.to (This is Angular)">
     <p class="card-desc">Leverage <code>NgOptimizedImage</code> for better image optimization and LCP.</p>
     <div class="card-actions">
       <a href="https://dev.to/this-is-angular/boosting-angular-app-performance-using-ngoptimizedimage-20l2" target="_blank" rel="noopener">Read →</a>
@@ -381,7 +442,7 @@ schema:
 
   <div class="card">
     <h3>Streamlining Communication: New Signals API in Angular 17.3</h3>
-    <div class="card-meta">Publisher: Dev.to (This is Angular)</div>
+    <img src="/images/publisher/dev-to.webp" class="publisher-logo" alt="Publisher: Dev.to (This is Angular)">
     <p class="card-desc">Component communication with the latest Signals primitives.</p>
     <div class="card-actions">
       <a href="https://dev.to/this-is-angular/streamlining-communication-new-signals-api-in-angular-173-2935" target="_blank" rel="noopener">Read →</a>
@@ -390,7 +451,7 @@ schema:
 
   <div class="card">
     <h3>Mastering Angular Unit Testing: Best Practices and Tools</h3>
-    <div class="card-meta">Publisher: Dev.to (This is Angular)</div>
+    <img src="/images/publisher/dev-to.webp" class="publisher-logo" alt="Publisher: Dev.to (This is Angular)">
     <p class="card-desc">A comprehensive guide to writing maintainable tests with effective tooling and patterns.</p>
     <div class="card-actions">
       <a href="https://dev.to/this-is-angular/unit-testing-in-angular-170l" target="_blank" rel="noopener">Read →</a>
