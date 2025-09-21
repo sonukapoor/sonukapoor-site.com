@@ -191,6 +191,14 @@ schema:
             author: { "@id": "https://sonukapoor.com/#person" }
             publisher: { "@type": "Organization", name: "App Signal" }
             url: "https://blog.appsignal.com/2025/07/09/beyond-console-log-smarter-debugging%20with-modern-javascript-tooling.html"
+        - "@type": "ListItem"
+          position: 20
+          item:
+            "@type": "Article"
+            headline: "Angular Signals: The End of RxJS Boilerplate"
+            author: { "@id": "https://sonukapoor.com/#person" }
+            publisher: { "@type": "Organization", name: "App Signal" }
+            url: "https://www.codemag.com/Article/2509051/Angular-Signals-The-End-of-RxJS-Boilerplate"
 ---
 
 <p class="muted">
@@ -198,6 +206,16 @@ schema:
 </p>
 
 <div class="cards">
+
+  <div class="card">
+    <h3>Angular Signals: The End of RxJS Boilerplate?</h3>
+    <div class="card-meta">Publisher: CODE Magazine</div>
+    <p class="card-desc">In this article, I'll take a deep dive into Angular Signals, not merely as a new API, but as a new way of thinking about building applications. I'll explore their core primitives, signal(), computed(), and effect(), and understand how they seamlessly fit into Angular's vision for a zoneless, standalone component-driven future. I'll introduce the concept of LinkedSignal, a powerful feature that dramatically improves component-to-component reactivity without the tedious ceremony developers are used to.</p>
+    <div class="card-actions">
+      <a href="https://www.codemag.com/Article/2509051/Angular-Signals-The-End-of-RxJS-Boilerplate" target="_blank" rel="noopener">Read →</a>
+    </div>
+  </div>
+
 
   <div class="card">
     <h3>The Angular Signals Revolution: Rethinking Reactivity</h3>
