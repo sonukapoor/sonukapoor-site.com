@@ -99,11 +99,28 @@ schema:
             publisher: { "@type": "Organization", name: "Angular Blog" }
             url: "https://blog.angular.dev/angular-v14-is-now-available-391a6db736af"
             about: { "@id": "https://sonukapoor.com/#person" }
+        - "@type": "ListItem"
+          position: 10
+          item:
+            "@type": "NewsArticle"
+            headline: "BBN Times Interview"
+            publisher: { "@type": "Organization", name: "Angular Blog" }
+            url: "https://www.bbntimes.com/technology/building-frameworks-that-shape-millions-of-applications-sonu-kapoor-s-path-from-enterprise-architect-to-angular-collaborator"
+            about: { "@id": "https://sonukapoor.com/#person" }
 ---
 
 I’ve been featured and quoted in leading publications and interviews that highlight my work in Angular, AI, and enterprise technology.
 
 <div class="cards">
+
+  <div class="card">
+    <h2>BBN Times Interview</h2>
+    <div class="card-meta">Publisher: BBN Times</div>
+    <p class="card-desc">Interview with BBN Times: Building Frameworks That Shape Millions of Applications: Sonu Kapoor's Path from Enterprise Architect to Angular Collaborator</p>
+    <div class="card-actions">
+      <a href="https://www.bbntimes.com/technology/building-frameworks-that-shape-millions-of-applications-sonu-kapoor-s-path-from-enterprise-architect-to-angular-collaborator" target="_blank" rel="noopener">Read →</a>
+    </div>
+  </div>
 
   <div class="card">
     <h2>AI Journal Interview</h2>
