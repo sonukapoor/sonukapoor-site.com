@@ -35,7 +35,6 @@ schema:
     contactPoint:
       '@type': ContactPoint
       contactType: "Business"
-      email: "hello@sonukapoor.com"
       areaServed: "Worldwide"
       availableLanguage: ["en"]
 ---
