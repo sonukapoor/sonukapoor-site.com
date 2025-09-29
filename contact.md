@@ -42,7 +42,6 @@ schema:
 
 For interviews, speaking, consulting, and quick expert quotes:
 
-- 📩 Email: <a href="mailto:hello@sonukapoor.com">hello@sonukapoor.com</a><br>
 - 💼 LinkedIn: <a href="https://www.linkedin.com/in/sonu-kapoor/" target="_blank" rel="noopener">Connect</a>
 - 🐦 Twitter: <a href="https://x.com/sonukapoor1978" target="_blank" rel="noopener">@sonukapoor</a>
 
