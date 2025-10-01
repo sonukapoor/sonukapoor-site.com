@@ -90,8 +90,8 @@ schema:
         <h3>Impact at a glance</h3>
         <div class="impact">
           <div class="stat"><div class="num">20+ yrs</div><div class="muted">Experience</div></div>
-          <div class="stat"><div class="num">2 books</div><div class="muted">Apress</div></div>
-          <div class="stat"><div class="num">30+ posts</div><div class="muted">1M+ reads</div></div>
+          <div class="stat"><div class="num">3 books</div><div class="muted">Apress</div></div>
+          <div class="stat"><div class="num">30+ Articles</div><div class="muted">1M+ reads</div></div>
           <div class="stat"><div class="num">10+ talks</div><div class="muted">Intl. stages</div></div>
         </div>
       </div>
