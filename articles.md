@@ -257,15 +257,33 @@ schema:
             "@type": "Article"
             headline: "Angular Signals: The End of RxJS Boilerplate"
             author: { "@id": "https://sonukapoor.com/#person" }
-            publisher: { "@type": "Organization", name: "App Signal" }
+            publisher: { "@type": "Organization", name: "CODE Magazine" }
             url: "https://www.codemag.com/Article/2509051/Angular-Signals-The-End-of-RxJS-Boilerplate"
+        - "@type": "ListItem"
+          position: 21
+          item:
+            "@type": "Article"
+            headline: "Angular Signal-Based Architecture: Building a Smarter Shopping Cart"
+            author: { "@id": "https://sonukapoor.com/#person" }
+            publisher: { "@type": "Organization", name: "App Signal" }
+            url: "https://blog.appsignal.com/2025/10/01/angular-signal-based-architecture-building-a-smarter-shopping-cart.html"
 ---
 
 <p class="muted">
-  Curated links to my writing on Angular, Signals, JavaScript, and web performance — published across CODE Magazine, SitePoint, Medium, Dev.to, and Playful Programming. Each item includes a short description and the original source link.
+  Curated links to my writing on Angular, Signals, JavaScript, and web performance - published across App Signal, CODE Magazine, Dev.to, Medium, SitePoint, and Playful Programming. 
 </p>
 
 <div class="cards">
+
+  <div class="card">
+    <h3>Angular Signal-Based Architecture: Building a Smarter Shopping Cart</h3>
+    <img src="/images/publisher/app-signal.png" class="publisher-logo" alt="Publisher: App Signal">
+    <p class="card-desc">In this second part, we’re going to build on that foundation. We’ll extend the CartService with a few critical capabilities such as removing items, clearing the cart, and tracking the number of products. We’ll also explore how this service integrates with Angular components and templates, using signals directly without the need for RxJS or the async pipe. Along the way, we’ll highlight how this approach enhances testability, performance, and debuggability.
+    </p>
+    <div class="card-actions">
+      <a href="https://blog.appsignal.com/2025/10/01/angular-signal-based-architecture-building-a-smarter-shopping-cart.html" target="_blank" rel="noopener">Read →</a>
+    </div>
+  </div>
 
   <div class="card">
     <h3>Angular Signals: The End of RxJS Boilerplate?</h3>
@@ -275,7 +293,6 @@ schema:
     <div class="card-actions">
       <a href="https://www.codemag.com/Article/2509051/Angular-Signals-The-End-of-RxJS-Boilerplate" target="_blank" rel="noopener">Read →</a>
     </div>
-
   </div>
 
   <div class="card">
