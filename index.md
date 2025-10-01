@@ -134,13 +134,13 @@ schema:
     <div>
       <h2>Publications & Thought Leadership</h2>
       <p>
-        Author of two Apress books and 30+ articles with over <strong>1 million reads</strong>,
+        Author of multiple Apress books and 30+ articles with over <strong>1 million reads</strong>,
         featured by the official Angular team and quoted in leading outlets.
       </p>
       <ul>
         <li><strong>AI-Powered App Development</strong> (2024)</li>
         <li><strong>Beginning JavaScript Syntax</strong> (Apress, 2025)</li>
-        <li><strong>Mastering Angular Signals: Levelling Up Your Web Development Skills with Signals, Patterns and Architectures</strong> (Apress, 2025)</li>
+        <li><strong>Practical Angular Signals: Levelling Up Your Web Development Skills with Signals, Patterns and Architectures</strong> (Apress, 2025)</li>
       </ul>
       <p class="muted" id="media">
         Articles & features: Code Magazine, SitePoint, AppSignal, LeadDev, SiteProNews, Digital Journal, Authority Magazine, Dev.to, Medium
