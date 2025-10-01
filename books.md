@@ -58,10 +58,10 @@ schema:
           position: 4
           item:
             "@type": "Book"
-            name: "Mastering Angular Signals: A Practical Guide to Modern Reactivity, Performance, and Migration"
+            name: "Practical Angular Signals: Levelling Up Your Web Development Skills with Signals, Patterns and Architectures"
             author: { "@type": "Person", name: "Muhammad Ahsan Ayaz" }
             editor: { "@id": "https://sonukapoor.com/#person" }
-            publisher: { "@type": "Organization", name: "Self-published via Amazon" }
+            publisher: { "@type": "Organization", name: "Apress" }
             url: "https://www.amazon.com/dp/B0FF9LSHJN/"
         - "@type": "ListItem"
           position: 5
@@ -144,17 +144,11 @@ In addition to authoring my own titles, I’ve also been invited to serve as a *
 
 <section class="card book-card">
   <div class="book-media">
-    <!-- CSS-only placeholder cover -->
-    <div class="book-cover placeholder"
-         role="img"
-         aria-label="Cover placeholder for Mastering Angular Signals: Levelling Up Your Web Development Skills with Signals, Patterns and Architectures">
-      <div class="ph-title">Mastering Angular Signals</div>
-      <div class="ph-sub">Signals · Patterns · Architectures</div>
-    </div>
+    <img src="/images/books/angular-signals-book.jpg" alt="Cover of Practical Angular Signals: Levelling Up Your Web Development Skills with Signals, Patterns and Architectures" class="book-cover">
   </div>
   <div class="book-body">
-    <h2>Mastering Angular Signals: Levelling Up Your Web Development Skills with Signals, Patterns and Architectures</h2>
-    <p class="muted">(In progress, Apress)</p>
+    <h2>Practical Angular Signals: Levelling Up Your Web Development Skills with Signals, Patterns and Architectures</h2>
+    <p class="muted">(In production, Apress)</p>
     <p>
       A deep dive into Angular’s new reactivity model, Signals — from first principles to migration strategies and
       production patterns for scalable state, SSR, and performance.
@@ -163,6 +157,7 @@ In addition to authoring my own titles, I’ve also been invited to serve as a *
       <li><strong>Foreword:</strong> Mark Thompson (Angular Team, Google)</li>
       <li><strong>Technical Reviewer:</strong> Rainer Hahnekamp</li>
     </ul>
+    <p><a class="btn" href="https://www.amazon.ca/Practical-Angular-Signals-Development-Architectures/dp/B0FLQ34XBN" target="_blank" rel="noopener">View on Amazon</a></p>
   </div>
 </section>
 
