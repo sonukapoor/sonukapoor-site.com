@@ -107,11 +107,28 @@ schema:
             publisher: { "@type": "Organization", name: "Angular Blog" }
             url: "https://www.bbntimes.com/technology/building-frameworks-that-shape-millions-of-applications-sonu-kapoor-s-path-from-enterprise-architect-to-angular-collaborator"
             about: { "@id": "https://sonukapoor.com/#person" }
+        - "@type": "ListItem"
+          position: 11
+          item:
+            "@type": "NewsArticle"
+            headline: "Techronicler Expert Opinion"
+            publisher: { "@type": "Organization", name: "Techronicler" }
+            url: "https://techronicler.com/proving-green-in-ux-tech-pros-on-real-time-sustainability-solutions/"
+            about: { "@id": "https://sonukapoor.com/#person" }
 ---
 
 I’ve been featured and quoted in leading publications and interviews that highlight my work in Angular, AI, and enterprise technology.
 
 <div class="cards">
+
+  <div class="card">
+    <h2>Techronicler Expert Opinion</h2>
+    <div class="card-meta">Publisher: Techronicler</div>
+    <p class="card-desc">Expert Opinion with Techronicler: Proving Green in UX: Tech Pros on Real-Time Sustainability Solutions</p>
+    <div class="card-actions">
+      <a href="https://techronicler.com/proving-green-in-ux-tech-pros-on-real-time-sustainability-solutions/" target="_blank" rel="noopener">Read →</a>
+    </div>
+  </div>
 
   <div class="card">
     <h2>BBN Times Interview</h2>
