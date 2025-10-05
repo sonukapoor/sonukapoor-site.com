@@ -93,7 +93,7 @@ schema:
           startDate: "2025-07-08T10:00-05:00"
           endDate: "2024-07-08T11:30-05:00"
           item:
-            "@type": "Event"
+            "@type": "VideoObject"
             name: "Angular Spring Camp — NgOptimizedImage & Performance"
             description: "Session centered on practical image performance wins in Angular."
             url: "https://www.youtube.com/watch?v=M_Rihr8zRnQ"
