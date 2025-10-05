@@ -59,6 +59,7 @@ schema:
         - "@type": "Sigma IX"
           name: "Sigma IX full member"
       knowsAbout:
+        - "Angular"
         - "Angular Signals"
         - "Typed Forms"
         - "Performance optimization"
