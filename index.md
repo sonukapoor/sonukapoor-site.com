@@ -49,9 +49,15 @@ schema:
         - "Microsoft MVP (Developer Technologies), 2005–2010, 2024–2026"
       affiliation:
         - "@type": "Organization"
+          name: "Microsoft Most Valueable Professional"
+        - "@type": "Organization"
+          name: "Google Developer Expert"
+        - "@type": "Organization"
           name: "IEEE Computer Society"
         - "@type": "Organization"
           name: "Globee Awards (Judge)"
+        - "@type": "Sigma IX"
+          name: "Sigma IX full member"
       knowsAbout:
         - "Angular Signals"
         - "Typed Forms"
