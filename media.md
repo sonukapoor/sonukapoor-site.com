@@ -20,7 +20,7 @@ schema:
       "@id": "https://sonukapoor.com/media/#collectionpage"
       url: "https://sonukapoor.com/media/"
       name: "Media – Sonu Kapoor"
-      description: "Media features and interviews with Sonu Kapoor."
+      description: "Media Coverage & Interviews (Independent Publications)with Sonu Kapoor."
       isPartOf: { "@id": "https://sonukapoor.com/#website" }
       mainEntity: { "@id": "https://sonukapoor.com/media/#itemlist" }
       about: { "@id": "https://sonukapoor.com/#person" }
