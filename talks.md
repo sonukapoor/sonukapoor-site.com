@@ -24,6 +24,12 @@ schema:
           position: 1
           startDate: "2024-10-24T10:00-05:00"
           endDate: "2024-10-24T11:30-05:00"
+          uploadDate: "2024-10-24T11:30-05:00"
+          "thumbnailUrl": [
+            "https://img.youtube.com/vi/YOLg8dZzsuQ/default.jpg",
+            "https://img.youtube.com/vi/YOLg8dZzsuQ/0.jpg",
+            "https://img.youtube.com/vi/YOLg8dZzsuQ/1.jpg",
+          ],
           item:
             "@type": "VideoObject"
             name: "Boosting Performance Using the Latest Angular Features"
@@ -103,6 +109,12 @@ schema:
           position: 6
           startDate: "2025-07-08T10:00-05:00"
           endDate: "2024-07-08T11:30-05:00"
+          uploadDate: "2024-07-08T11:30-05:00"
+          "thumbnailUrl": [
+            "https://img.youtube.com/vi/M_Rihr8zRnQ/default.jpg",
+            "https://img.youtube.com/vi/M_Rihr8zRnQ/0.jpg",
+            "https://img.youtube.com/vi/M_Rihr8zRnQ/1.jpg",
+          ],
           item:
             "@type": "VideoObject"
             name: "Angular Spring Camp — NgOptimizedImage & Performance"
