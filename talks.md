@@ -66,6 +66,11 @@ schema:
           position: 4
           startDate: "2024-07-12T10:00-05:00"
           endDate: "2024-07-12T11:30-05:00"
+          uploadDate: "2024-07-12T10:00-05:00"
+          "thumbnailUrl": [
+            "https://img.youtube.com/vi/0Caspwa_8LI/0.jpg",
+            "https://img.youtube.com/vi/0Caspwa_8LI/1.jpg",
+          ],
           item:
             "@type": "VideoObject"
             name: "NgOptimizedImage — Enhancing Performance & UX in Angular"
@@ -79,6 +84,12 @@ schema:
           position: 5
           startDate: "2025-04-07T10:00-05:00"
           endDate: "2024-04-07T11:30-05:00"
+          uploadDate: "2025-04-07T10:00-05:00"
+          "thumbnailUrl": [
+            "https://img.youtube.com/vi/Vcuaxg1A_7M/0.jpg",
+            "https://img.youtube.com/vi/Vcuaxg1A_7M/2.jpg",
+            "https://img.youtube.com/vi/Vcuaxg1A_7M/3.jpg",
+          ],
           item:
             "@type": "VideoObject"
             name: "MVPbuzzChat with Sonu Kapoor"
