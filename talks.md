@@ -24,21 +24,19 @@ schema:
           position: 1
           startDate: "2024-10-24T10:00-05:00"
           endDate: "2024-10-24T11:30-05:00"
-          uploadDate: "2024-10-24T11:30-05:00"
-          "thumbnailUrl": [
-            "https://img.youtube.com/vi/YOLg8dZzsuQ/default.jpg",
-            "https://img.youtube.com/vi/YOLg8dZzsuQ/0.jpg",
-            "https://img.youtube.com/vi/YOLg8dZzsuQ/1.jpg",
-          ],
           item:
             "@type": "VideoObject"
+            uploadDate: "2024-10-24T11:30-05:00"
+            thumbnailUrl: 
+              - "https://img.youtube.com/vi/YOLg8dZzsuQ/default.jpg"
+              - "https://img.youtube.com/vi/YOLg8dZzsuQ/0.jpg"
+              - "https://img.youtube.com/vi/YOLg8dZzsuQ/1.jpg"
             name: "Boosting Performance Using the Latest Angular Features"
             description: "Angular Air interview on practical techniques for optimizing Angular apps end-to-end."
             url: "https://www.youtube.com/watch?v=YOLg8dZzsuQ"
             publisher: { "@type": "Organization", name: "Angular Air" }
             potentialAction: { "@type": "WatchAction", target: "https://www.youtube.com/watch?v=YOLg8dZzsuQ" }
             about: { "@id": "https://sonukapoor.com/#person" }
-
         - "@type": "ListItem"
           position: 2
           startDate: "2024-09-29T10:00-05:00"
@@ -72,13 +70,12 @@ schema:
           position: 4
           startDate: "2024-07-12T10:00-05:00"
           endDate: "2024-07-12T11:30-05:00"
-          uploadDate: "2024-07-12T10:00-05:00"
-          "thumbnailUrl": [
-            "https://img.youtube.com/vi/0Caspwa_8LI/0.jpg",
-            "https://img.youtube.com/vi/0Caspwa_8LI/1.jpg",
-          ],
           item:
             "@type": "VideoObject"
+            uploadDate: "2024-07-12T10:00-05:00"
+            thumbnailUrl:
+              - "https://img.youtube.com/vi/0Caspwa_8LI/0.jpg"
+              - "https://img.youtube.com/vi/0Caspwa_8LI/1.jpg"
             name: "NgOptimizedImage — Enhancing Performance & UX in Angular"
             description: "Angular Tiny Conf talk on using NgOptimizedImage for better LCP and image delivery."
             url: "https://www.youtube.com/watch?v=0Caspwa_8LI"
@@ -90,14 +87,13 @@ schema:
           position: 5
           startDate: "2025-04-07T10:00-05:00"
           endDate: "2024-04-07T11:30-05:00"
-          uploadDate: "2025-04-07T10:00-05:00"
-          "thumbnailUrl": [
-            "https://img.youtube.com/vi/Vcuaxg1A_7M/0.jpg",
-            "https://img.youtube.com/vi/Vcuaxg1A_7M/2.jpg",
-            "https://img.youtube.com/vi/Vcuaxg1A_7M/3.jpg",
-          ],
           item:
             "@type": "VideoObject"
+            uploadDate: "2025-04-07T10:00-05:00"
+            thumbnailUrl: 
+              - "https://img.youtube.com/vi/Vcuaxg1A_7M/0.jpg"
+              - "https://img.youtube.com/vi/Vcuaxg1A_7M/2.jpg"
+              - "https://img.youtube.com/vi/Vcuaxg1A_7M/3.jpg"
             name: "MVPbuzzChat with Sonu Kapoor"
             description: "Interview on MVP journey, Angular community work, and enterprise modernization."
             url: "https://www.youtube.com/watch?v=Vcuaxg1A_7M"
@@ -109,14 +105,13 @@ schema:
           position: 6
           startDate: "2025-07-08T10:00-05:00"
           endDate: "2024-07-08T11:30-05:00"
-          uploadDate: "2024-07-08T11:30-05:00"
-          "thumbnailUrl": [
-            "https://img.youtube.com/vi/M_Rihr8zRnQ/default.jpg",
-            "https://img.youtube.com/vi/M_Rihr8zRnQ/0.jpg",
-            "https://img.youtube.com/vi/M_Rihr8zRnQ/1.jpg",
-          ],
           item:
             "@type": "VideoObject"
+            uploadDate: "2024-07-08T11:30-05:00"
+            thumbnailUrl: [
+              - "https://img.youtube.com/vi/M_Rihr8zRnQ/default.jpg"
+              - "https://img.youtube.com/vi/M_Rihr8zRnQ/0.jpg"
+              - "https://img.youtube.com/vi/M_Rihr8zRnQ/1.jpg"
             name: "Angular Spring Camp — NgOptimizedImage & Performance"
             description: "Session centered on practical image performance wins in Angular."
             url: "https://www.youtube.com/watch?v=M_Rihr8zRnQ"
