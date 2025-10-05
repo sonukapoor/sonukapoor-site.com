@@ -22,6 +22,8 @@ schema:
       itemListElement:
         - "@type": "ListItem"
           position: 1
+          startDate: "2024-10-24T10:00-05:00"
+          endDate: "2024-10-24T11:30-05:00"
           item:
             "@type": "VideoObject"
             name: "Boosting Performance Using the Latest Angular Features"
@@ -33,6 +35,8 @@ schema:
 
         - "@type": "ListItem"
           position: 2
+          startDate: "2024-09-29T10:00-05:00"
+          endDate: "2024-10-03T11:30-05:00"
           item:
             "@type": "Event"
             name: "Enhancing Angular Apps: Pro Tips for Peak Performance"
@@ -46,6 +50,8 @@ schema:
 
         - "@type": "ListItem"
           position: 3
+          startDate: "2024-09-29T10:00-05:00"
+          endDate: "2024-10-03T11:30-05:00"
           item:
             "@type": "Event"
             name: "Optimizing Angular Applications — Techniques for Performance Excellence"
@@ -58,6 +64,8 @@ schema:
 
         - "@type": "ListItem"
           position: 4
+          startDate: "2024-07-12T10:00-05:00"
+          endDate: "2024-07-12T11:30-05:00"
           item:
             "@type": "VideoObject"
             name: "NgOptimizedImage — Enhancing Performance & UX in Angular"
@@ -69,6 +77,8 @@ schema:
 
         - "@type": "ListItem"
           position: 5
+          startDate: "2025-04-07T10:00-05:00"
+          endDate: "2024-04-07T11:30-05:00"
           item:
             "@type": "VideoObject"
             name: "MVPbuzzChat with Sonu Kapoor"
@@ -80,14 +90,15 @@ schema:
 
         - "@type": "ListItem"
           position: 6
+          startDate: "2025-07-08T10:00-05:00"
+          endDate: "2024-07-08T11:30-05:00"
           item:
             "@type": "Event"
             name: "Angular Spring Camp — NgOptimizedImage & Performance"
-            eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode"
-            eventStatus: "https://schema.org/EventScheduled"
             description: "Session centered on practical image performance wins in Angular."
-            url: "https://sonukapoor.com/talks/#angular-spring-camp"
-            organizer: { "@type": "Organization", name: "Angular Spring Camp" }
+            url: "https://www.youtube.com/watch?v=M_Rihr8zRnQ"
+            publisher: { "@type": "Organization", name: "Angular Spring Camp" }
+            potentialAction: { "@type": "WatchAction", target: "https://www.youtube.com/watch?v=M_Rihr8zRnQ" }
             about: { "@id": "https://sonukapoor.com/#person" }
 ---
 
@@ -170,6 +181,8 @@ schema:
     <p class="card-desc">
       Session centered on practical image performance wins in Angular (as listed in your README’s talks section).
     </p>
-    <!-- Add a link when public page/recording is available -->
+    <div class="card-actions">
+      <a href="https://www.youtube.com/watch?v=M_Rihr8zRnQ" target="_blank" rel="noopener">Event Page →</a>
+    </div>
   </div>
 </div>
