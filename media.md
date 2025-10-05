@@ -122,11 +122,11 @@ I’ve been featured and quoted in leading publications and interviews that high
 <div class="cards">
 
   <div class="card">
-    <h2>Techronicler Expert Opinion</h2>
-    <div class="card-meta">Publisher: Techronicler</div>
-    <p class="card-desc">Expert Opinion with Techronicler: Proving Green in UX: Tech Pros on Real-Time Sustainability Solutions</p>
+    <h2>LeadDev Feature</h2>
+    <div class="card-meta">Publisher: LeadDev</div>
+    <p class="card-desc">Quoted in Kari McMahon’s article on the future of frontend engineering and the role of AI in developer workflows.</p>
     <div class="card-actions">
-      <a href="https://techronicler.com/proving-green-in-ux-tech-pros-on-real-time-sustainability-solutions/" target="_blank" rel="noopener">Read →</a>
+      <a href="https://leaddev.com/ai/does-ai-spell-death-front-end-engineering" target="_blank" rel="noopener">Read →</a>
     </div>
   </div>
 
@@ -176,11 +176,11 @@ I’ve been featured and quoted in leading publications and interviews that high
   </div>
 
   <div class="card">
-    <h2>LeadDev Feature</h2>
-    <div class="card-meta">Publisher: LeadDev</div>
-    <p class="card-desc">Quoted in Kari McMahon’s article on the future of frontend engineering and the role of AI in developer workflows.</p>
+    <h2>Techronicler Expert Opinion</h2>
+    <div class="card-meta">Publisher: Techronicler</div>
+    <p class="card-desc">Expert Opinion with Techronicler: Proving Green in UX: Tech Pros on Real-Time Sustainability Solutions</p>
     <div class="card-actions">
-      <a href="https://leaddev.com/ai/does-ai-spell-death-front-end-engineering" target="_blank" rel="noopener">Read →</a>
+      <a href="https://techronicler.com/proving-green-in-ux-tech-pros-on-real-time-sustainability-solutions/" target="_blank" rel="noopener">Read →</a>
     </div>
   </div>
 
