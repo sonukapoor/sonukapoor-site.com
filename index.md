@@ -31,7 +31,9 @@ schema:
       "@id": "https://sonukapoor.com/#person"
       name: "Sonu Kapoor"
       url: "https://sonukapoor.com/"
-      image: "https://sonukapoor.com/images/og/home.jpg"
+      image:
+        - "https://sonukapoor.com/images/og/home.jpg"
+        - "https://sonukapoor.com/media/sonu-kapoor-angular-fitc.png"
       jobTitle: "Senior Software Engineer; Angular Consultant; Author"
       description: "Google Developer Expert (Angular), 7× Microsoft MVP, author, enterprise modernization leader."
       alternateName:
@@ -63,11 +65,13 @@ schema:
         "@id": "https://sonukapoor.com/"
     - "@type": "ImageObject"
       "@id": "https://sonukapoor.com/media/sonu-speaking-fitc/#image"
-      contentUrl: "https://sonukapoor.com/media/sonu-kapoor-angular-fitc"
-      thumbnailUrl: "https://sonukapoor.com/media/sonu-kapoor-angular-fitc"
+      contentUrl: "https://sonukapoor.com/media/sonu-kapoor-angular-fitc.png"
+      thumbnailUrl: "https://sonukapoor.com/media/sonu-kapoor-angular-fitc.png"
       caption: "Sonu Kapoor speaking at FITC Web Unleashed 2024"
-      author: { "@id": "https://sonukapoor.com/#person" }
+      author: 
+        "@id": "https://sonukapoor.com/#person"
       creditText: "Photo courtesy of FITC"
+      representativeOfPage: true
       uploadDate: "2025-09-01T11:30:00-05:00"
       license: "https://creativecommons.org/licenses/by/4.0/"
       sameAs:
