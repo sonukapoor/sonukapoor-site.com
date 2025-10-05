@@ -61,6 +61,19 @@ schema:
       mainEntityOfPage:
         "@type": "WebPage"
         "@id": "https://sonukapoor.com/"
+    - "@type": "ImageObject"
+      "@id": "https://sonukapoor.com/media/sonu-speaking-fitc/#image"
+      contentUrl: "https://sonukapoor.com/media/sonu-kapoor-angular-fitc"
+      thumbnailUrl: "https://sonukapoor.com/media/sonu-kapoor-angular-fitc"
+      caption: "Sonu Kapoor speaking at FITC Web Unleashed 2024"
+      author: { "@id": "https://sonukapoor.com/#person" }
+      creditText: "Photo courtesy of FITC"
+      uploadDate: "2025-09-01T11:30:00-05:00"
+      license: "https://creativecommons.org/licenses/by/4.0/"
+      sameAs:
+        - "https://fitc.ca/presentation/angular-performance-tips-techniques-for-performance-excellence/"
+        - "https://fitc.ca/speaker/sonu-kapoor/?event=36381"
+        - "https://fitc.ca/presentation/beyond-fast-the-trade-offs-that-shape-web-performance/"
 ---
 
 <section class="hero pt-0">
