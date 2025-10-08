@@ -16,7 +16,6 @@ schema:
       isPartOf: { "@id": "https://sonukapoor.com/#website" }
       mainEntity: { "@id": "https://sonukapoor.com/talks/#itemlist" }
       about: { "@id": "https://sonukapoor.com/#person" }
-
     - "@type": "ItemList"
       "@id": "https://sonukapoor.com/talks/#itemlist"
       itemListElement:
@@ -51,7 +50,6 @@ schema:
             organizer: { "@type": "Organization", name: "International JavaScript Conference (iJS)" }
             location: { "@type": "Place", name: "New York, NY, USA" }
             about: { "@id": "https://sonukapoor.com/#person" }
-
         - "@type": "ListItem"
           position: 3
           startDate: "2024-09-29T10:00-05:00"
@@ -65,7 +63,6 @@ schema:
             url: "https://javascript-conference.com/angular/optimizing-angular-applications-performance-excellence/"
             organizer: { "@type": "Organization", name: "International JavaScript Conference (iJS)" }
             about: { "@id": "https://sonukapoor.com/#person" }
-
         - "@type": "ListItem"
           position: 4
           startDate: "2024-07-12T10:00-05:00"
@@ -82,7 +79,6 @@ schema:
             publisher: { "@type": "Organization", name: "Angular Tiny Conf" }
             potentialAction: { "@type": "WatchAction", target: "https://www.youtube.com/watch?v=0Caspwa_8LI" }
             about: { "@id": "https://sonukapoor.com/#person" }
-
         - "@type": "ListItem"
           position: 5
           startDate: "2025-04-07T10:00-05:00"
@@ -100,7 +96,6 @@ schema:
             publisher: { "@type": "Organization", name: "MVP Buzz" }
             potentialAction: { "@type": "WatchAction", target: "https://www.youtube.com/watch?v=Vcuaxg1A_7M" }
             about: { "@id": "https://sonukapoor.com/#person" }
-
         - "@type": "ListItem"
           position: 6
           startDate: "2025-07-08T10:00-05:00"
@@ -108,7 +103,7 @@ schema:
           item:
             "@type": "VideoObject"
             uploadDate: "2024-07-08T11:30-05:00"
-            thumbnailUrl: [
+            thumbnailUrl: 
               - "https://img.youtube.com/vi/M_Rihr8zRnQ/default.jpg"
               - "https://img.youtube.com/vi/M_Rihr8zRnQ/0.jpg"
               - "https://img.youtube.com/vi/M_Rihr8zRnQ/1.jpg"
