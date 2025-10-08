@@ -48,7 +48,7 @@ schema:
             description: "Leveraging Angular’s latest features—especially image performance—to deliver faster experiences."
             url: "https://sessionize.com/s/sonu-kapoor/enhancing-angular-apps-pro-tips-for-peak-performan/127878/"
             organizer: { "@type": "Organization", name: "International JavaScript Conference (iJS)" }
-            location: { "@type": "Place", name: "New York, NY, USA" }
+            location: { "@type": "Place", name: "San Diego, CA, USA" }
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
           position: 3
@@ -62,6 +62,7 @@ schema:
             description: "Advanced strategies: lazy loading, change detection, signal-based state, and NgOptimizedImage."
             url: "https://javascript-conference.com/angular/optimizing-angular-applications-performance-excellence/"
             organizer: { "@type": "Organization", name: "International JavaScript Conference (iJS)" }
+            location: { "@type": "Place", name: "New York, NY, USA" }
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
           position: 4
