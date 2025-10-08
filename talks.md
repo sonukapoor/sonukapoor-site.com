@@ -38,10 +38,10 @@ schema:
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
           position: 2
-          startDate: "2024-09-29T10:00-05:00"
-          endDate: "2024-10-03T11:30-05:00"
           item:
             "@type": "Event"
+            startDate: "2024-09-29T10:00-05:00"
+            endDate: "2024-10-03T11:30-05:00"
             name: "Enhancing Angular Apps: Pro Tips for Peak Performance"
             eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode"
             eventStatus: "https://schema.org/EventScheduled"
@@ -52,10 +52,10 @@ schema:
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
           position: 3
-          startDate: "2024-09-29T10:00-05:00"
-          endDate: "2024-10-03T11:30-05:00"
           item:
             "@type": "Event"
+            startDate: "2024-09-29T10:00-05:00"
+            endDate: "2024-10-03T11:30-05:00"
             name: "Optimizing Angular Applications — Techniques for Performance Excellence"
             eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode"
             eventStatus: "https://schema.org/EventScheduled"
