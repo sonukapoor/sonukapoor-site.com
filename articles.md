@@ -267,6 +267,14 @@ schema:
             author: { "@id": "https://sonukapoor.com/#person" }
             publisher: { "@type": "Organization", name: "App Signal" }
             url: "https://blog.appsignal.com/2025/10/01/angular-signal-based-architecture-building-a-smarter-shopping-cart.html"
+        - "@type": "ListItem"
+          position: 22
+          item:
+            "@type": "Article"
+            headline: "From ASP.NET to Angular: My MVP Story - Sonu Kapoor"
+            author: { "@id": "https://sonukapoor.com/#person" }
+            publisher: { "@type": "Organization", name: "Microsoft" }
+            url: "https://blog.appsignal.com/2025/10/01/angular-signal-based-architecture-building-a-smarter-shopping-cart.html"
 ---
 
 <p class="muted">
@@ -274,6 +282,16 @@ schema:
 </p>
 
 <div class="cards">
+
+  <div class="card">
+    <h3>From ASP.NET to Angular: My MVP Story - Sonu Kapoor</h3>
+    <img src="/images/publisher/microsoft.png" class="publisher-logo" alt="Publisher: Microsoft">
+    <p class="card-desc">Technology has always been about two things: the joy of coding and the joy of sharing what I’ve learned with others. In this article, I share my story of becoming an MVP.
+    </p>
+    <div class="card-actions">
+      <a href="https://blog.appsignal.com/2025/10/01/angular-signal-based-architecture-building-a-smarter-shopping-cart.html" target="_blank" rel="noopener">Read →</a>
+    </div>
+  </div>
 
   <div class="card">
     <h3>Angular Signal-Based Architecture: Building a Smarter Shopping Cart</h3>
