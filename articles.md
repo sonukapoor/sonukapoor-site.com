@@ -275,6 +275,14 @@ schema:
             author: { "@id": "https://sonukapoor.com/#person" }
             publisher: { "@type": "Organization", name: "Microsoft" }
             url: "https://techcommunity.microsoft.com/blog/mvp-blog/from-asp-net-to-angular-my-mvp-story---sonu-kapoor/4458699"
+        - "@type": "ListItem"
+          position: 23
+          item:
+            "@type": "Article"
+            headline: "Here's What the Pros Don't Tell You About Angular Unit Testing"
+            author: { "@id": "https://sonukapoor.com/#person" }
+            publisher: { "@type": "Organization", name: "Hackernoon" }
+            url: "https://hackernoon.com/heres-what-the-pros-dont-tell-you-about-angular-unit-testing"
 ---
 
 <p class="muted">
@@ -490,6 +498,15 @@ schema:
     <p class="card-desc">A comprehensive guide to writing maintainable tests with effective tooling and patterns.</p>
     <div class="card-actions">
       <a href="https://dev.to/this-is-angular/unit-testing-in-angular-170l" target="_blank" rel="noopener">Read →</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Mastering Angular Unit Testing: Best Practices and Tools</h3>
+    <img src="/images/publisher/hackernoon.png" class="publisher-logo" alt="Publisher: Hackernoon">
+    <p class="card-desc">Here's What the Pros Don't Tell You About Angular Unit Testing</p>
+    <div class="card-actions">
+      <a href="https://hackernoon.com/heres-what-the-pros-dont-tell-you-about-angular-unit-testing" target="_blank" rel="noopener">Read →</a>
     </div>
   </div>
 
