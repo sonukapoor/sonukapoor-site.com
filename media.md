@@ -87,8 +87,14 @@ schema:
           position: 8
           item:
             "@type": "VideoObject"
-            name: "Microsoft MVP Buzz Interview – Sonu Kapoor"
+            uploadDate: "2025-04-07T10:00-05:00"
+            thumbnailUrl: 
+              - "https://img.youtube.com/vi/Vcuaxg1A_7M/0.jpg"
+              - "https://img.youtube.com/vi/Vcuaxg1A_7M/2.jpg"
+              - "https://img.youtube.com/vi/Vcuaxg1A_7M/3.jpg"
+            name: "Microsoft MVP Buzz Interview - Sonu Kapoor"
             publisher: { "@type": "Organization", name: "Microsoft MVP Buzz" }
+            potentialAction: { "@type": "WatchAction", target: "https://www.youtube.com/watch?v=Vcuaxg1A_7M" }
             url: "https://www.youtube.com/watch?v=Vcuaxg1A_7M"
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
