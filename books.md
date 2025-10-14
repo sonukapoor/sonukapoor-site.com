@@ -88,7 +88,7 @@ schema:
             name: "Leveling Up as a Tech Lead"
             author: { "@type": "Person", name: "Meri Williams" }
             editor: { "@id": "https://sonukapoor.com/#person" }
-            publisher: { "@type": "Organization", name: "O’Reilly" }
+            publisher: { "@type": "Organization", name: "O'Reilly" }
             datePublished: "2024"
             url: "https://www.oreilly.com/library/view/leveling-up-as/9781098177508/"
         - "@type": "ListItem"

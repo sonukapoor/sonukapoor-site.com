@@ -121,11 +121,27 @@ schema:
             publisher: { "@type": "Organization", name: "Techronicler" }
             url: "https://techronicler.com/proving-green-in-ux-tech-pros-on-real-time-sustainability-solutions/"
             about: { "@id": "https://sonukapoor.com/#person" }
+        - "@type": "ListItem"
+          position: 12
+          item:
+            "@type": "NewsArticle"
+            headline: "Forbes Quote"
+            publisher: { "@type": "Organization", name: "Forbes" }
+            url: "https://www.forbes.com/advisor/business/best-cpanel-hosting/"
+            about: { "@id": "https://sonukapoor.com/#person" }
 ---
 
 I’ve been featured and quoted in leading publications and interviews that highlight my work in Angular, AI, and enterprise technology.
 
 <div class="cards">
+  <div class="card">
+    <h2>Forbes Quote</h2>
+    <div class="card-meta">Publisher: Forbes</div>
+    <p class="card-desc">Quoted in Liz Masoner’s article on the 10 Best cPanel Hosting Providers Of 2025.</p>
+    <div class="card-actions">
+      <a href="https://www.forbes.com/advisor/business/best-cpanel-hosting/" target="_blank" rel="noopener">Read →</a>
+    </div>
+  </div>
 
   <div class="card">
     <h2>LeadDev Feature</h2>
