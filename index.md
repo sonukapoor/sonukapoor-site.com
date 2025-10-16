@@ -123,6 +123,39 @@ schema:
   </div>
 </section>
 
+<section class="featured-on">
+  <div class="container">
+    <h2>Featured On</h2>
+    <div class="logo-grid">
+      <a href="https://leaddev.com" target="_blank" rel="noopener">
+        <img src="/images/media/leaddev.svg" alt="LeadDev" />
+      </a>
+      <a href="https://blog.angular.dev" target="_blank" rel="noopener">
+        <img src="/images/media/angular.svg" alt="Angular Blog" />
+      </a>
+      <a href="https://www.bbntimes.com" target="_blank" rel="noopener">
+        <img src="/images/media/bbn.png" alt="BBN Times" />
+      </a>
+      <a href="https://aijourn.com" target="_blank" rel="noopener">
+        <img src="/images/media/ai-journal.png" alt="AI Journal" />
+      </a>
+      <a href="https://medium.com/authority-magazine" target="_blank" rel="noopener">
+        <img src="/images/media/authority-magazine.png" alt="Authority Magazine" />
+      </a>
+      <a href="https://www.sitepronews.com" target="_blank" rel="noopener">
+        <img src="/images/media/sitepronews.png" alt="SiteProNews" />
+      </a>
+      <a href="https://techronicler.com" target="_blank" rel="noopener">
+        <img src="/images/media/Techronicler.png.webp" alt="Techronicler" />
+      </a>
+      <a href="https://www.digitaljournal.com" target="_blank" rel="noopener">
+        <img src="/images/media/Digital-Journal.webp" alt="Digital Journal" />
+      </a>
+    </div>
+  </div>
+</section>
+
+
 <!-- HONORS -->
 <section id="honors" class="section">
     <h2>Recognitions & Honors</h2>

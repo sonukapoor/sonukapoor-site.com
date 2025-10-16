@@ -925,3 +925,36 @@ img.book-cover {
   padding-top: 10px;
   padding-bottom:10px;
 }
+
+.featured-on {
+  text-align: center;
+}
+.featured-on h2 {
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;      /* subtle tracking */
+}
+.featured-on .logo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+}
+.featured-on .logo-grid a img {
+  max-height: 60px;      /* adjust as needed */
+  height: 60px;
+  width: auto;
+  transition: filter 0.3s, opacity 0.3s;
+  filter: grayscale(100%);
+  opacity: 0.7;
+}
+.featured-on .logo-grid a:hover img {
+  filter: none;
+  opacity: 1;
+}
+@media (max-width: 768px) {
+  .featured-on .logo-grid a img {
+    max-height: 45px;
+  }
+}
