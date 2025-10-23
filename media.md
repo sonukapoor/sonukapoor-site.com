@@ -129,13 +129,38 @@ schema:
             publisher: { "@type": "Organization", name: "Forbes" }
             url: "https://www.forbes.com/advisor/business/best-cpanel-hosting/"
             about: { "@id": "https://sonukapoor.com/#person" }
+        - "@type": "ListItem"
+          position: 12
+          item:
+            "@type": "NewsArticle"
+            headline: "Techronicler Expert Opinion"
+            publisher: { "@type": "Organization", name: "Techronicler" }
+            url: "https://techronicler.com/from-headlines-to-impact-exciting-ai-innovations-in-action/"
+            about: { "@id": "https://sonukapoor.com/#person" }
+        - "@type": "ListItem"
+          position: 13
+          item:
+            "@type": "NewsArticle"
+            headline: "Techronicler Expert Opinion"
+            publisher: { "@type": "Organization", name: "VKTR" }
+            url: "https://www.vktr.com/ai-upskilling/ctos-guide-to-strategic-ai-prompting-20-prompts-to-master-today/"
+            about: { "@id": "https://sonukapoor.com/#person" }
 ---
 
 I’ve been featured and quoted in leading publications and interviews that highlight my work in Angular, AI, and enterprise technology.
 
 <div class="cards">
   <div class="card">
-    <h2>Forbes Quote</h2>
+    <h2>CTO’s Guide to Strategic AI Prompting: 20+ Prompts to Master Today</h2>
+    <div class="card-meta">Publisher: VKTR</div>
+    <p class="card-desc">Quoted in Scott Clark’s article on practical prompts for CTOs.</p>
+    <div class="card-actions">
+      <a href="https://www.vktr.com/ai-upskilling/ctos-guide-to-strategic-ai-prompting-20-prompts-to-master-today/" target="_blank" rel="noopener">Read →</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>10 Best cPanel Hosting Providers Of 2025</h2>
     <div class="card-meta">Publisher: Forbes</div>
     <p class="card-desc">Quoted in Liz Masoner’s article on the 10 Best cPanel Hosting Providers Of 2025.</p>
     <div class="card-actions">
@@ -144,7 +169,7 @@ I’ve been featured and quoted in leading publications and interviews that high
   </div>
 
   <div class="card">
-    <h2>LeadDev Feature</h2>
+    <h2>Does AI spell the death of front-end engineering?</h2>
     <div class="card-meta">Publisher: LeadDev</div>
     <p class="card-desc">Quoted in Kari McMahon’s article on the future of frontend engineering and the role of AI in developer workflows.</p>
     <div class="card-actions">
@@ -153,7 +178,7 @@ I’ve been featured and quoted in leading publications and interviews that high
   </div>
 
   <div class="card">
-    <h2>BBN Times Interview</h2>
+    <h2>Building Frameworks That Shape Millions of Applications: Sonu Kapoor's Path from Enterprise Architect to Angular Collaborator</h2>
     <div class="card-meta">Publisher: BBN Times</div>
     <p class="card-desc">Interview with BBN Times: Building Frameworks That Shape Millions of Applications: Sonu Kapoor's Path from Enterprise Architect to Angular Collaborator</p>
     <div class="card-actions">
@@ -162,7 +187,7 @@ I’ve been featured and quoted in leading publications and interviews that high
   </div>
 
   <div class="card">
-    <h2>AI Journal Interview</h2>
+    <h2>From Angular to AI with Sonu Kapoor: Building Tomorrow’s Development Workflows</h2>
     <div class="card-meta">Publisher: AI Journal</div>
     <p class="card-desc">Interview with the AI Journal: From Angular to AI with Sonu Kapoor: Building Tomorrow’s Development Workflows</p>
     <div class="card-actions">
@@ -171,9 +196,8 @@ I’ve been featured and quoted in leading publications and interviews that high
   </div>
 
   <div class="card">
-    <h2>Authority Magazine Interview</h2>
+    <h2>Sonu Kapoor Of SOLID Software Solutions LTD On The 5 Things You Need To Know To Create a Successful App, SaaS or Software Business</h2>
     <div class="card-meta">Publisher: Authority Magazine</div>
-    <p class="card-desc">Interview with the Authority Magazine: Sonu Kapoor Of SOLID Software Solutions LTD On The 5 Things You Need To Know To Create a Successful App, SaaS or Software Business</p>
     <div class="card-actions">
       <a href="https://medium.com/authority-magazine/sonu-kapoor-of-solid-software-solutions-ltd-on-the-5-things-you-need-to-know-to-create-a-successful-144ba5680972" target="_blank" rel="noopener">Read →</a>
     </div>
@@ -189,7 +213,7 @@ I’ve been featured and quoted in leading publications and interviews that high
   </div>
 
   <div class="card">
-    <h2>SiteProNews Interview</h2>
+    <h2>Angular Innovator Sonu Kapoor on the Future of Frontend Architecture and Developer Impact</h2>
     <div class="card-meta">Publisher: SiteProNews</div>
     <p class="card-desc">An in-depth interview on Angular innovation, open-source leadership, and my journey as a developer advocate.</p>
     <div class="card-actions">
@@ -198,11 +222,18 @@ I’ve been featured and quoted in leading publications and interviews that high
   </div>
 
   <div class="card">
-    <h2>Techronicler Expert Opinion</h2>
+    <h2>Proving Green in UX: Tech Pros on Real-Time Sustainability Solutions</h2>
     <div class="card-meta">Publisher: Techronicler</div>
-    <p class="card-desc">Expert Opinion with Techronicler: Proving Green in UX: Tech Pros on Real-Time Sustainability Solutions</p>
     <div class="card-actions">
       <a href="https://techronicler.com/proving-green-in-ux-tech-pros-on-real-time-sustainability-solutions/" target="_blank" rel="noopener">Read →</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>From Headlines to Impact: Exciting AI Innovations in Action</h2>
+    <div class="card-meta">Publisher: Techronicler</div>
+    <div class="card-actions">
+      <a href="https://techronicler.com/from-headlines-to-impact-exciting-ai-innovations-in-action/" target="_blank" rel="noopener">Read →</a>
     </div>
   </div>
 
@@ -216,9 +247,8 @@ I’ve been featured and quoted in leading publications and interviews that high
   </div>
 
   <div class="card">
-    <h2>Digital Journal Feature</h2>
+    <h2>Sonu Kapoor: Advancing retail with RFID and intranets</h2>
     <div class="card-meta">Publisher: Digital Journal</div>
-    <p class="card-desc">Profiled in Digital Journal on my vision for AI-powered development and enterprise modernization.</p>
     <div class="card-actions">
       <a href="https://www.digitaljournal.com/tech-science/sonu-kapoor-advancing-retail-with-rfid-and-intranets/article" target="_blank" rel="noopener">Read →</a>
     </div>
