@@ -130,6 +130,9 @@ schema:
       <a href="https://leaddev.com" target="_blank" rel="noopener">
         <img src="/images/media/leaddev.svg" alt="LeadDev" />
       </a>
+      <a href="https://forbes.com" target="_blank" rel="noopener">
+        <img src="/images/media/forbes.svg" alt="Forbes" />
+      </a>
       <a href="https://blog.angular.dev" target="_blank" rel="noopener">
         <img src="/images/media/angular.svg" alt="Angular Blog" />
       </a>
