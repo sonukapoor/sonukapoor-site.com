@@ -114,6 +114,28 @@ schema:
             publisher: { "@type": "Organization", name: "Angular Spring Camp" }
             potentialAction: { "@type": "WatchAction", target: "https://www.youtube.com/watch?v=M_Rihr8zRnQ" }
             about: { "@id": "https://sonukapoor.com/#person" }
+        - "@type": "ListItem"
+          position: 7
+          startDate: "2025-10-21T10:00-05:00"
+          endDate: "2024-10-22T11:30-05:00"
+          item:
+            name: "Angular Performance Tips - Techniques For Performance Excellence | Web Unleashed - FITC Toronto 2025"
+            description: "Angular techniques on improving Angular Performance."
+            url: "https://fitc.ca/presentation/angular-performance-tips-techniques-for-performance-excellence/"
+            publisher: { "@type": "Organization", name: "Web Unleashed - FITC Toronto 2025" }
+            potentialAction: { "@type": "WatchAction", target: "https://fitc.ca/presentation/angular-performance-tips-techniques-for-performance-excellence/" }
+            about: { "@id": "https://sonukapoor.com/#person" }
+        - "@type": "ListItem"
+          position: 8
+          startDate: "2025-10-21T10:00-05:00"
+          endDate: "2024-10-22T11:30-05:00"
+          item:
+            name: "Beyond Fast: The Trade-offs That Shape Web Performance | Web Unleashed - FITC Toronto 2025"
+            description: "Panel discussion on web performance."
+            url: "https://fitc.ca/presentation/beyond-fast-the-trade-offs-that-shape-web-performance/"
+            publisher: { "@type": "Organization", name: "Web Unleashed - FITC Toronto 2025" }
+            potentialAction: { "@type": "WatchAction", target: "https://fitc.ca/presentation/beyond-fast-the-trade-offs-that-shape-web-performance/" }
+            about: { "@id": "https://sonukapoor.com/#person" }
 ---
 
 <p class="muted">
@@ -121,6 +143,28 @@ schema:
 </p>
 
 <div class="cards">
+
+  <div class="card">
+    <h3>Beyond Fast: The Trade-offs That Shape Web Performance | Web Unleashed - FITC Toronto 2025</h3>
+    <div class="card-meta">Event: Web Unleashed • Format: Panel Talk</div>
+    <p class="card-desc">
+      In this panel talk, I team up and uncover some quick wins and forward-thinking decisions to balance our day-to-day work while delivering performant experiences. 
+    </p>
+    <div class="card-actions">
+      <a href="https://fitc.ca/presentation/beyond-fast-the-trade-offs-that-shape-web-performance/" target="_blank" rel="noopener">Read More →</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Angular Performance Tips - Techniques For Performance Excellence | Web Unleashed - FITC Toronto 2025</h3>
+    <div class="card-meta">Event: Web Unleashed • Format: Talk</div>
+    <p class="card-desc">
+      In this presentation, I speak about all the different techniques that can be used to maximize the performance of your Angular Application. This includes speaking about lazy loading routing and deferring blocks to reduce the bundle size significantly. Sonu will also talk a bit about image optimization and a demo of using Lighthouse showing how to get to as close as 100%.
+    </p>
+    <div class="card-actions">
+      <a href="https://fitc.ca/presentation/angular-performance-tips-techniques-for-performance-excellence/" target="_blank" rel="noopener">Read More →</a>
+    </div>
+  </div>
 
   <div class="card">
     <h3>Build an AI Image Generator with Angular using Google Nano Banana | NASA Space Apps Toronto 2025</h3>
