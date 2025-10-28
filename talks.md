@@ -136,6 +136,40 @@ schema:
             publisher: { "@type": "Organization", name: "Web Unleashed - FITC Toronto 2025" }
             potentialAction: { "@type": "WatchAction", target: "https://fitc.ca/presentation/beyond-fast-the-trade-offs-that-shape-web-performance/" }
             about: { "@id": "https://sonukapoor.com/#person" }
+        - "@type": "ListItem"
+          position: 9
+          startDate: "2025-08-02T10:00-05:00"
+          endDate: "2024-08-02T11:30-05:00"
+          item:
+            "@type": "VideoObject"
+            uploadDate: "2024-08-02T11:30-05:00"
+            thumbnailUrl: 
+              - "https://img.youtube.com/vi/S7bZ5_HCdNY/default.jpg"
+              - "https://img.youtube.com/vi/S7bZ5_HCdNY/0.jpg"
+              - "https://img.youtube.com/vi/S7bZ5_HCdNY/1.jpg"
+            name: "Ng Asia Angular — Angular Performance"
+            description: "Session centered on practical image performance wins in Angular."
+            url: "https://www.youtube.com/watch?v=S7bZ5_HCdNY"
+            publisher: { "@type": "Organization", name: "Ng Asia Angular" }
+            potentialAction: { "@type": "WatchAction", target: "https://www.youtube.com/watch?v=S7bZ5_HCdNY" }
+            about: { "@id": "https://sonukapoor.com/#person" }
+        - "@type": "ListItem"
+          position: 10
+          startDate: "2025-08-19T10:00-05:00"
+          endDate: "2024-08-19T11:30-05:00"
+          item:
+            "@type": "VideoObject"
+            uploadDate: "2024-08-19T11:30-05:00"
+            thumbnailUrl: 
+              - "https://img.youtube.com/vi/LvoeyGWKsTQ/default.jpg"
+              - "https://img.youtube.com/vi/LvoeyGWKsTQ/0.jpg"
+              - "https://img.youtube.com/vi/LvoeyGWKsTQ/1.jpg"
+            name: "The Angular Journey: Sonu Kapoor on Scaling, AI, and Mentorship | The Tech Sharmit Podcast"
+            description: "In this episode, Sonu takes us through his inspiring journey - from his early beginnings to being featured on New York Times Square, contributing to the Angular framework as a Trusted Collaborator, and leading frontend performance at global enterprises."
+            url: "https://www.youtube.com/watch?v=LvoeyGWKsTQ"
+            publisher: { "@type": "Organization", name: "The Tech Sharmit Podcast" }
+            potentialAction: { "@type": "WatchAction", target: "https://www.youtube.com/watch?v=LvoeyGWKsTQ" }
+            about: { "@id": "https://sonukapoor.com/#person" }
 ---
 
 <p class="muted">
@@ -157,7 +191,7 @@ schema:
 
   <div class="card">
     <h3>Angular Performance Tips - Techniques For Performance Excellence | Web Unleashed - FITC Toronto 2025</h3>
-    <div class="card-meta">Event: Web Unleashed • Format: Talk</div>
+    <div class="card-meta">Event: Web Unleashed • Format: PanelTalk</div>
     <p class="card-desc">
       In this presentation, I speak about all the different techniques that can be used to maximize the performance of your Angular Application. This includes speaking about lazy loading routing and deferring blocks to reduce the bundle size significantly. Sonu will also talk a bit about image optimization and a demo of using Lighthouse showing how to get to as close as 100%.
     </p>
@@ -174,6 +208,17 @@ schema:
     </p>
     <div class="card-actions">
       <a href="https://www.youtube.com/watch?v=aa4VKh0uy-o" target="_blank" rel="noopener">Watch →</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>The Angular Journey: Sonu Kapoor on Scaling, AI, and Mentorship | The Tech Sharmit Podcast</h3>
+    <div class="card-meta">Event: The Tech Sharmit Podcast • Format: Interview</div>
+    <p class="card-desc">
+      In this episode, I share my journey - from the early beginning to being featured on New York Times Square, contributing to the Angular framework as a Trusted Collaborator, and leading frontend performance at global enterprises.
+    </p>
+    <div class="card-actions">
+      <a href="https://www.youtube.com/watch?v=LvoeyGWKsTQ" target="_blank" rel="noopener">Watch →</a>
     </div>
   </div>
 
@@ -208,6 +253,17 @@ schema:
     </p>
     <div class="card-actions">
       <a href="https://www.youtube.com/watch?v=0Caspwa_8LI" target="_blank" rel="noopener">Watch →</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Hidden gems of Angular</h3>
+    <div class="card-meta">Event: Ng Asia • Format: Talk</div>
+    <p class="card-desc">
+      In this talk, I talk with Ng Asia, about performance features of Angular.
+    </p>
+    <div class="card-actions">
+      <a href="https://www.youtube.com/live/S7bZ5_HCdNY" target="_blank" rel="noopener">Watch →</a>
     </div>
   </div>
 
