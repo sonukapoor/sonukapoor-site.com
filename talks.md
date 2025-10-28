@@ -191,7 +191,7 @@ schema:
 
   <div class="card">
     <h3>Angular Performance Tips - Techniques For Performance Excellence | Web Unleashed - FITC Toronto 2025</h3>
-    <div class="card-meta">Event: Web Unleashed • Format: PanelTalk</div>
+    <div class="card-meta">Event: Web Unleashed • Format: Talk</div>
     <p class="card-desc">
       In this presentation, I speak about all the different techniques that can be used to maximize the performance of your Angular Application. This includes speaking about lazy loading routing and deferring blocks to reduce the bundle size significantly. Sonu will also talk a bit about image optimization and a demo of using Lighthouse showing how to get to as close as 100%.
     </p>
