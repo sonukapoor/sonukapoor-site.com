@@ -145,11 +145,28 @@ schema:
             publisher: { "@type": "Organization", name: "VKTR" }
             url: "https://www.vktr.com/ai-upskilling/ctos-guide-to-strategic-ai-prompting-20-prompts-to-master-today/"
             about: { "@id": "https://sonukapoor.com/#person" }
+        - "@type": "ListItem"
+          position: 14
+          item:
+            "@type": "NewsArticle"
+            headline: "The rise of coding with parallel agents"
+            publisher: { "@type": "Organization", name: "LeadDev" }
+            url: "https://leaddev.com/technical-direction/the-rise-of-coding-with-parallel-agents"
+            about: { "@id": "https://sonukapoor.com/#person" }
 ---
 
 I’ve been featured and quoted in leading publications and interviews that highlight my work in Angular, AI, and enterprise technology.
 
 <div class="cards">
+  <div class="card">
+    <h2>The rise of coding with parallel agents</h2>
+    <div class="card-meta">Publisher: LeadDev</div>
+    <p class="card-desc">Quoted in Kelli Korducki's article on the rise of coding with parallel agents.</p>
+    <div class="card-actions">
+      <a href="https://leaddev.com/technical-direction/the-rise-of-coding-with-parallel-agents" target="_blank" rel="noopener">Read →</a>
+    </div>
+  </div>
+
   <div class="card">
     <h2>CTO’s Guide to Strategic AI Prompting: 20+ Prompts to Master Today</h2>
     <div class="card-meta">Publisher: VKTR</div>
