@@ -18,6 +18,7 @@ keywords:
   - Angular v18
   - Angular v19
   - Angular v20
+  - Angular v21
   - Web Performance
 schema:
   "@context": "https://schema.org"
@@ -125,13 +126,29 @@ schema:
             url: "https://www.youtube.com/@ThisIsTechTalks"
             isPartOf: { "@id": "https://www.youtube.com/@ThisIsTechTalks#series" }
             about: { "@id": "https://sonukapoor.com/#person" }
+        - "@type": "ListItem"
+          position: 8
+          item:
+            "@type": "PodcastEpisode"
+            name: "The Angular Journey: Sonu Kapoor on Scaling, AI, and Mentorship | The Tech Sharmit Podcast"
+            url: "https://www.youtube.com/watch?v=LvoeyGWKsTQ"
+            isPartOf: { "@id": "https://www.youtube.com/watch?v=LvoeyGWKsTQ" }
+            about: { "@id": "https://sonukapoor.com/#person" }
 ---
 
 I co-host shows and appear on podcasts to talk Angular, Signals, SSR, and modern frontend architecture. Here’s a curated list of episodes and series.
 
 <div class="media-grid">
 
-  <!-- Angular Catchup (series) -->
+  <div class="card">
+    <h3>The Angular Journey: Sonu Kapoor on Scaling, AI, and Mentorship | The Tech Sharmit Podcast</h3>
+    <div class="card-meta">Podcast</div>
+    <p class="card-desc">In this episode, Sonu takes us through his inspiring journey - from his early beginnings to being featured on New York Times Square, contributing to the Angular framework as a Trusted Collaborator, and leading frontend performance at global enterprises.</p>
+    <div class="card-actions">
+      <a href="https://www.youtube.com/watch?v=LvoeyGWKsTQ" target="_blank" rel="noopener">Listen to the show →</a>
+    </div>
+  </div>
+
   <div class="card">
     <h3>Angular Catchup — Co-hosted Series</h3>
     <div class="card-meta">Podcast Series</div>

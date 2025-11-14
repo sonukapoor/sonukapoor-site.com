@@ -283,6 +283,14 @@ schema:
             author: { "@id": "https://sonukapoor.com/#person" }
             publisher: { "@type": "Organization", name: "Hackernoon" }
             url: "https://hackernoon.com/heres-what-the-pros-dont-tell-you-about-angular-unit-testing"
+        - "@type": "ListItem"
+          position: 24
+          item:
+            "@type": "Article"
+            headline: "Angular Signals in the Real World: Smarter Inputs and Reactive Routing"
+            author: { "@id": "https://sonukapoor.com/#person" }
+            publisher: { "@type": "Organization", name: "CODE Magazine" }
+            url: "https://www.codemag.com/Article/2511041/Angular-Signals-in-the-Real-World-Smarter-Inputs-and-Reactive-Routing"
 ---
 
 <p class="muted">
@@ -290,6 +298,16 @@ schema:
 </p>
 
 <div class="cards">
+
+  <div class="card">
+    <h3>Angular Signals in the Real World: Smarter Inputs and Reactive Routing</h3>
+    <img src="/images/publisher/code.png" class="publisher-logo" alt="Publisher: CODE Magazine">
+    <p class="card-desc">See real-world scenarios where Signals fundamentally change how you design Angular applications.
+    </p>
+    <div class="card-actions">
+      <a href="https://www.codemag.com/Article/2511041/Angular-Signals-in-the-Real-World-Smarter-Inputs-and-Reactive-Routing" target="_blank" rel="noopener">Read →</a>
+    </div>
+  </div>
 
   <div class="card">
     <h3>From ASP.NET to Angular: My MVP Story - Sonu Kapoor</h3>

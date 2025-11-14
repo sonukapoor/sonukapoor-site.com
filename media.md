@@ -153,11 +153,28 @@ schema:
             publisher: { "@type": "Organization", name: "LeadDev" }
             url: "https://leaddev.com/technical-direction/the-rise-of-coding-with-parallel-agents"
             about: { "@id": "https://sonukapoor.com/#person" }
+        - "@type": "ListItem"
+          position: 15
+          item:
+            "@type": "NewsArticle"
+            headline: "Why the Frontend Should Run AI Models Locally With ONNX"
+            publisher: { "@type": "Organization", name: "The New Stack" }
+            url: "https://thenewstack.io/why-the-frontend-should-run-ai-models-locally-with-onnx/"
+            about: { "@id": "https://sonukapoor.com/#person" }
 ---
 
 I’ve been featured and quoted in leading publications and interviews that highlight my work in Angular, AI, and enterprise technology.
 
 <div class="cards">
+  <div class="card">
+    <h2>Why the Frontend Should Run AI Models Locally With ONNX</h2>
+    <div class="card-meta">Publisher: The New Stack</div>
+    <p class="card-desc">An interview with The New Stack's Loraine Lawson on running AI Models Locally with ONNX.</p>
+    <div class="card-actions">
+      <a href="https://thenewstack.io/why-the-frontend-should-run-ai-models-locally-with-onnx/" target="_blank" rel="noopener">Read →</a>
+    </div>
+  </div>
+
   <div class="card">
     <h2>The rise of coding with parallel agents</h2>
     <div class="card-meta">Publisher: LeadDev</div>
