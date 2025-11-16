@@ -161,9 +161,58 @@ schema:
             publisher: { "@type": "Organization", name: "The New Stack" }
             url: "https://thenewstack.io/why-the-frontend-should-run-ai-models-locally-with-onnx/"
             about: { "@id": "https://sonukapoor.com/#person" }
+        - "@type": "ListItem"
+          position: 16
+          item:
+            "@type": "VisualArtwork"
+            name: "Times Square Billboard Spotlight – New York City"
+            url: "https://sonukapoor.com/media/#times-square-billboard"
+            about: { "@id": "https://sonukapoor.com/#person" }
+
 ---
 
-I’ve been featured and quoted in leading publications and interviews that highlight my work in Angular, AI, and enterprise technology.
+I’ve been featured, quoted, and publicly recognized across leading publications, interviews, and high-visibility showcases that highlight my work in Angular, AI, and enterprise technology.
+
+<section id="times-square-billboard" class="media-spotlight">
+  <h2>Times Square Billboard Spotlight – New York City</h2>
+  <p>
+    In 2025, I was featured on a digital billboard in New York’s Times Square as part of a professional
+    spotlight campaign with TopMate. The feature highlighted my work in Angular, AI-augmented development,
+    and enterprise modernization, and served as a high-visibility recognition of my contributions to the
+    global developer community.
+  </p>
+  <p>
+    The Times Square placement complements my interviews, quotes, and features in leading publications,
+    and is documented below through on-site photos and an official certificate from TopMate.
+  </p>
+
+  <div class="media-spotlight-grid">
+    <figure class="media-spotlight-item">
+      <img
+        src="/images/media/times-square-1.png"
+        alt="Wide view of Sonu Kapoor’s professional spotlight displayed on a Times Square billboard"
+        loading="lazy"
+      />
+      <figcaption>
+        Wide view of the Times Square billboard featuring my professional spotlight.
+      </figcaption>
+    </figure>
+
+    <figure class="media-spotlight-item">
+      <img
+        src="/images/media/times-square-2.png"
+        alt="Close-up of Sonu Kapoor’s Times Square billboard feature"
+        loading="lazy"
+      />
+      <figcaption>
+        Close-up of the digital billboard highlighting my work in Angular and AI.
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<h2 class="media-section-title">Media Coverage & Interviews</h2>
+
 
 <div class="cards">
   <div class="card">

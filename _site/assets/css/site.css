@@ -958,3 +958,48 @@ img.book-cover {
     max-height: 45px;
   }
 }
+
+.media-spotlight {
+  margin: 2.5rem 0 3rem;
+  padding: 1.5rem 0;
+  border-top: 1px solid #eee;
+}
+
+.media-spotlight h2 {
+  margin-bottom: 0.75rem;
+}
+
+.media-spotlight p {
+  margin-bottom: 0.8rem;
+}
+
+.media-spotlight-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 1.25rem;
+}
+
+.media-spotlight-item {
+  margin: 0;
+}
+
+.media-spotlight-item img {
+  width: 100%;
+  height: 380px; /* adjust between 300–450px based on your preference */
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.media-spotlight-item figcaption {
+  margin-top: 0.4rem;
+  font-size: 0.85rem;
+  color: #555;
+}
+
+/* Mobile tweak */
+@media (max-width: 768px) {
+  .media-spotlight {
+    padding-top: 1rem;
+  }
+}
