@@ -114,7 +114,7 @@ In addition to authoring my own titles, I’ve also been invited to serve as a *
   </div>
   <div class="book-body">
     <h2>Practical Angular Signals: Levelling Up Your Web Development Skills with Signals, Patterns and Architectures</h2>
-    <p class="muted">(Apress)</p>
+    <p class="muted">Learn all about Angular Signals</p>
     <p>
       A deep dive into Angular’s new reactivity model, Signals — from first principles to migration strategies and
       production patterns for scalable state, SSR, and performance.
@@ -148,7 +148,7 @@ In addition to authoring my own titles, I’ve also been invited to serve as a *
   </div>
   <div class="book-body">
     <h2>Beginning JavaScript Syntax</h2>
-    <p class="muted">(Apress, 2025)</p>
+    <p class="muted">Learn Javascript step by step</p>
     <p>
       A focused introduction to modern JavaScript syntax for students and professionals. Clear examples, concise explanations,
       and strong foundations that transfer directly to Angular and Node.
@@ -168,7 +168,7 @@ In addition to authoring my own titles, I’ve also been invited to serve as a *
   </div>
   <div class="book-body">
     <h2>Mastering Angular Signals: A Practical Guide to Modern Reactivity, Performance, and Migration</h2>
-    <p class="muted">By Muhammad Ahsan Ayaz</p>
+    <p class="muted">Muhammad Ahsan Ayaz (Amazon)</p>
     <p><a class="btn" href="https://www.amazon.com/dp/B0FF9LSHJN/" target="_blank" rel="noopener">View on Amazon</a></p>
   </div>
 </section>
@@ -179,7 +179,7 @@ In addition to authoring my own titles, I’ve also been invited to serve as a *
   </div>
   <div class="book-body">
     <h2>Acing the Frontend Interview</h2>
-    <p class="muted">By Jennifer Fu</p>
+    <p class="muted">Jennifer Fu (Manning)</p>
     <p><a class="btn" href="https://www.manning.com/books/acing-the-frontend-interview" target="_blank" rel="noopener">View on Manning</a></p>
   </div>
 </section>
@@ -190,7 +190,7 @@ In addition to authoring my own titles, I’ve also been invited to serve as a *
   </div>
   <div class="book-body">
     <h2>The Feedback-Driven Developer</h2>
-    <p class="muted">By Ashley Davis</p>
+    <p class="muted">Ashley Davis (Manning)</p>
     <p>Reviewed for accuracy and depth around feedback loops, growth, and team dynamics in software engineering.</p>
     <p><a class="btn" href="https://www.manning.com/books/the-feedback-driven-developer" target="_blank" rel="noopener">View on Manning</a></p>
   </div>
@@ -202,7 +202,7 @@ In addition to authoring my own titles, I’ve also been invited to serve as a *
   </div>
   <div class="book-body">
     <h2>Leveling Up as a Tech Lead</h2>
-    <p class="muted">Meri Williams (O’Reilly, 2024)</p>
+    <p class="muted">Meri Williams (O’Reilly)</p>
     <p>Technical perspective and review for engineers transitioning to leadership and org-level influence.</p>
     <p><a class="btn" href="https://www.oreilly.com/library/view/leveling-up-as/9781098177508/" target="_blank" rel="noopener">View on O’Reilly</a></p>
   </div>
@@ -214,7 +214,7 @@ In addition to authoring my own titles, I’ve also been invited to serve as a *
   </div>
   <div class="book-body">
     <h2>Building AI Applications on the Web</h2>
-    <p class="muted">Theo Despoudis (Manning, 2024)</p>
+    <p class="muted">Theo Despoudis (Manning)</p>
     <p>Technical editor focused on reliability and applicability of AI integration patterns for the modern web.</p>
     <p><a class="btn" href="https://www.manning.com/books/building-ai-applications-on-the-web" target="_blank" rel="noopener">View on Manning</a></p>
   </div>
