@@ -110,6 +110,25 @@ In addition to authoring my own titles, I’ve also been invited to serve as a *
 
 <section class="card book-card">
   <div class="book-media">
+    <img src="/images/books/angular-signals-book.jpg" alt="Cover of Practical Angular Signals: Levelling Up Your Web Development Skills with Signals, Patterns and Architectures" class="book-cover">
+  </div>
+  <div class="book-body">
+    <h2>Practical Angular Signals: Levelling Up Your Web Development Skills with Signals, Patterns and Architectures</h2>
+    <p class="muted">(Apress)</p>
+    <p>
+      A deep dive into Angular’s new reactivity model, Signals — from first principles to migration strategies and
+      production patterns for scalable state, SSR, and performance.
+    </p>
+    <ul>
+      <li><strong>Foreword:</strong> Mark Thompson (Angular Team, Google)</li>
+      <li><strong>Technical Reviewer:</strong> Rainer Hahnekamp</li>
+    </ul>
+    <p><a class="btn" href="https://www.amazon.ca/Practical-Angular-Signals-Development-Architectures/dp/B0FLQ34XBN" target="_blank" rel="noopener">View on Amazon</a></p>
+  </div>
+</section>
+
+<section class="card book-card">
+  <div class="book-media">
     <img src="/images/books/ai-powered.jpg" alt="Cover of AI-Powered App Development" class="book-cover">
   </div>
   <div class="book-body">
@@ -135,29 +154,6 @@ In addition to authoring my own titles, I’ve also been invited to serve as a *
       and strong foundations that transfer directly to Angular and Node.
     </p>
     <p><a class="btn" href="https://www.amazon.com/Beginning-JavaScript-Syntax-Understanding-Syntactical/dp/B0DZGYN99K" target="_blank" rel="noopener">View on Amazon</a></p>
-  </div>
-</section>
-
----
-
-## Upcoming
-
-<section class="card book-card">
-  <div class="book-media">
-    <img src="/images/books/angular-signals-book.jpg" alt="Cover of Practical Angular Signals: Levelling Up Your Web Development Skills with Signals, Patterns and Architectures" class="book-cover">
-  </div>
-  <div class="book-body">
-    <h2>Practical Angular Signals: Levelling Up Your Web Development Skills with Signals, Patterns and Architectures</h2>
-    <p class="muted">(In production, Apress)</p>
-    <p>
-      A deep dive into Angular’s new reactivity model, Signals — from first principles to migration strategies and
-      production patterns for scalable state, SSR, and performance.
-    </p>
-    <ul>
-      <li><strong>Foreword:</strong> Mark Thompson (Angular Team, Google)</li>
-      <li><strong>Technical Reviewer:</strong> Rainer Hahnekamp</li>
-    </ul>
-    <p><a class="btn" href="https://www.amazon.ca/Practical-Angular-Signals-Development-Architectures/dp/B0FLQ34XBN" target="_blank" rel="noopener">View on Amazon</a></p>
   </div>
 </section>
 
