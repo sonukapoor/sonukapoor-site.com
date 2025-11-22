@@ -168,6 +168,13 @@ schema:
             name: "Times Square Billboard Spotlight – New York City"
             url: "https://sonukapoor.com/media/#times-square-billboard"
             about: { "@id": "https://sonukapoor.com/#person" }
+        - "@type": "ListItem"
+          position: 17
+          item:
+            "@type": "NewsArticle"
+            name: "From Data Accuracy To Cognitive Clarity In Compliance"
+            url: "https://www.forbes.com/councils/forbestechcouncil/2025/11/17/from-data-accuracy-to-cognitive-clarity-in-compliance/"
+            about: { "@id": "https://sonukapoor.com/#person" }
 
 ---
 
@@ -213,8 +220,16 @@ I’ve been featured, quoted, and publicly recognized across leading publication
 
 <h2 class="media-section-title">Media Coverage & Interviews</h2>
 
-
 <div class="cards">
+  <div class="card">
+    <h2>From Data Accuracy To Cognitive Clarity In Compliance</h2>
+    <div class="card-meta">Publisher: Forbes</div>
+    <p class="card-desc">Forbes cited my research on Human-Centered Visualization Interfaces for Sustainable Supply Chains in its analysis of how compliance is shifting from data accuracy to cognitive clarity.</p>
+    <div class="card-actions">
+      <a href="https://www.forbes.com/councils/forbestechcouncil/2025/11/17/from-data-accuracy-to-cognitive-clarity-in-compliance/" target="_blank" rel="noopener">Read →</a>
+    </div>
+  </div>
+
   <div class="card">
     <h2>Why the Frontend Should Run AI Models Locally With ONNX</h2>
     <div class="card-meta">Publisher: The New Stack</div>
