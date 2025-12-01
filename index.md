@@ -124,7 +124,6 @@ schema:
 </section>
 
 <section class="featured-on">
-  <div class="container">
     <h2>Featured On</h2>
     <div class="logo-grid">
       <a href="https://leaddev.com" target="_blank" rel="noopener" title="LeadDev">
@@ -135,6 +134,9 @@ schema:
       </a>
       <a href="https://forbes.com" target="_blank" rel="noopener" title="Forbes">
         <img src="/images/media/forbes.svg" alt="Forbes" />
+      </a>
+      <a href="https://infoworld.com" target="_blank" rel="noopener" title="InfoWorld">
+        <img src="/images/media/infoworld.svg" alt="InfoWorld" />
       </a>
       <a href="https://vktr.com" target="_blank" rel="noopener" title="VKTR">
         <img src="/images/media/vktr.svg" alt="VKTR" />
@@ -161,7 +163,6 @@ schema:
         <img src="/images/media/Digital-Journal.webp" alt="Digital Journal" />
       </a>
     </div>
-  </div>
 </section>
 
 

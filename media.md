@@ -175,6 +175,13 @@ schema:
             name: "From Data Accuracy To Cognitive Clarity In Compliance"
             url: "https://www.forbes.com/councils/forbestechcouncil/2025/11/17/from-data-accuracy-to-cognitive-clarity-in-compliance/"
             about: { "@id": "https://sonukapoor.com/#person" }
+        - "@type": "ListItem"
+          position: 18
+          item:
+            "@type": "NewsArticle"
+            name: "How to succeed as an independent software developer"
+            url: "https://www.infoworld.com/article/4091404/how-to-succeed-as-an-independent-software-developer-2.html"
+            about: { "@id": "https://sonukapoor.com/#person" }
 
 ---
 
@@ -221,6 +228,15 @@ I’ve been featured, quoted, and publicly recognized across leading publication
 <h2 class="media-section-title">Media Coverage & Interviews</h2>
 
 <div class="cards">
+  <div class="card">
+    <h2>How to succeed as an independent software developer</h2>
+    <div class="card-meta">Publisher: InfoWorld</div>
+    <p class="card-desc">Recognized by InfoWorld as a leading independent software engineering expert and quoted throughout their feature article.</p>
+    <div class="card-actions">
+      <a href="https://www.infoworld.com/article/4091404/how-to-succeed-as-an-independent-software-developer-2.html" target="_blank" rel="noopener">Read →</a>
+    </div>
+  </div>
+
   <div class="card">
     <h2>From Data Accuracy To Cognitive Clarity In Compliance</h2>
     <div class="card-meta">Publisher: Forbes</div>
