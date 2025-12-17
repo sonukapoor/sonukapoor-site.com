@@ -141,7 +141,7 @@ schema:
           position: 13
           item:
             "@type": "NewsArticle"
-            headline: "Techronicler Expert Opinion"
+            headline: "CTO’s Guide to Strategic AI Prompting: 20+ Prompts to Master Today"
             publisher: { "@type": "Organization", name: "VKTR" }
             url: "https://www.vktr.com/ai-upskilling/ctos-guide-to-strategic-ai-prompting-20-prompts-to-master-today/"
             about: { "@id": "https://sonukapoor.com/#person" }
@@ -181,6 +181,14 @@ schema:
             "@type": "NewsArticle"
             name: "How to succeed as an independent software developer"
             url: "https://www.infoworld.com/article/4091404/how-to-succeed-as-an-independent-software-developer-2.html"
+            about: { "@id": "https://sonukapoor.com/#person" }
+        - "@type": "ListItem"
+          position: 19
+          item:
+            "@type": "NewsArticle"
+            headline: "A Single Outage Exposed How Fragile AI Infrastructure Really Is"
+            publisher: { "@type": "Organization", name: "VKTR" }
+            url: "https://www.vktr.com/ai-technology/a-single-outage-exposed-how-fragile-ai-infrastructure-really-is/"
             about: { "@id": "https://sonukapoor.com/#person" }
 
 ---
@@ -228,6 +236,16 @@ I’ve been featured, quoted, and publicly recognized across leading publication
 <h2 class="media-section-title">Media Coverage & Interviews</h2>
 
 <div class="cards">
+
+  <div class="card">
+    <h2>A Single Outage Exposed How Fragile AI Infrastructure Really Is</h2>
+    <div class="card-meta">Publisher: VKTR</div>
+    <p class="card-desc">John Brandon quoted me on the Amazon AWS outage and how fragile it is.</p>
+    <div class="card-actions">
+      <a href="https://www.vktr.com/ai-technology/a-single-outage-exposed-how-fragile-ai-infrastructure-really-is/" target="_blank" rel="noopener">Read →</a>
+    </div>
+  </div>
+
   <div class="card">
     <h2>How to succeed as an independent software developer</h2>
     <div class="card-meta">Publisher: InfoWorld</div>
