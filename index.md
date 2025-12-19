@@ -138,6 +138,9 @@ schema:
       <a href="https://infoworld.com" target="_blank" rel="noopener" title="InfoWorld">
         <img src="/images/media/infoworld.svg" alt="InfoWorld" />
       </a>
+      <a href="https://cmswire.com" target="_blank" rel="noopener" title="CMS Wire">
+        <img src="/images/media/cmswire.svg" alt="CMS Wire" />
+      </a>
       <a href="https://vktr.com" target="_blank" rel="noopener" title="VKTR">
         <img src="/images/media/vktr.svg" alt="VKTR" />
       </a>

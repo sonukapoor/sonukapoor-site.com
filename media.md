@@ -190,6 +190,14 @@ schema:
             publisher: { "@type": "Organization", name: "VKTR" }
             url: "https://www.vktr.com/ai-technology/a-single-outage-exposed-how-fragile-ai-infrastructure-really-is/"
             about: { "@id": "https://sonukapoor.com/#person" }
+        - "@type": "ListItem"
+          position: 20
+          item:
+            "@type": "NewsArticle"
+            headline: "Brevo’s $583 Million Funding Round Signals a CRM Market Reset"
+            publisher: { "@type": "Organization", name: "CMS Wire" }
+            url: "https://www.cmswire.com/customer-experience/brevos-583-million-funding-round-signals-a-crm-market-reset/"
+            about: { "@id": "https://sonukapoor.com/#person" }
 
 ---
 
@@ -236,6 +244,15 @@ I’ve been featured, quoted, and publicly recognized across leading publication
 <h2 class="media-section-title">Media Coverage & Interviews</h2>
 
 <div class="cards">
+
+  <div class="card">
+    <h2>Brevo’s $583 Million Funding Round Signals a CRM Market Reset</h2>
+    <div class="card-meta">Publisher: CMS Wire</div>
+    <p class="card-desc">Quoted in CMSWire on Brevo’s $583 M funding round and what it signals about a CRM market reset and the shift toward AI-driven, high-velocity customer engagement platforms.</p>
+    <div class="card-actions">
+      <a href="https://www.cmswire.com/customer-experience/brevos-583-million-funding-round-signals-a-crm-market-reset/" target="_blank" rel="noopener">Read →</a>
+    </div>
+  </div>
 
   <div class="card">
     <h2>A Single Outage Exposed How Fragile AI Infrastructure Really Is</h2>
