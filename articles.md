@@ -291,6 +291,14 @@ schema:
             author: { "@id": "https://sonukapoor.com/#person" }
             publisher: { "@type": "Organization", name: "CODE Magazine" }
             url: "https://www.codemag.com/Article/2511041/Angular-Signals-in-the-Real-World-Smarter-Inputs-and-Reactive-Routing"
+        - "@type": "ListItem"
+          position: 25
+          item:
+            "@type": "Article"
+            headline: "From Commands to Conversations: How AI-Assisted Tooling Is Transforming Angular Development"
+            author: { "@id": "https://sonukapoor.com/#person" }
+            publisher: { "@type": "Organization", name: "CODE Magazine" }
+            url: "https://www.codemag.com/Article/2601071/From-Commands-to-Conversations-How-AI-Assisted-Tooling-Is-Transforming-Angular-Development"
 ---
 
 <p class="muted">
@@ -298,6 +306,23 @@ schema:
 </p>
 
 <div class="cards">
+
+<div class="card">
+  <h3>From Commands to Conversations: How AI-Assisted Tooling Is Transforming Angular Development</h3>
+  <img src="/images/publisher/code.png" class="publisher-logo" alt="Publisher: CODE Magazine">
+  <p class="card-desc">
+    Explore how AI-assisted tooling is reshaping Angular development—from rigid commands to conversational, intent-driven workflows that enhance productivity and developer experience.
+  </p>
+  <div class="card-actions">
+    <a
+      href="https://www.codemag.com/Article/2601071/From-Commands-to-Conversations-How-AI-Assisted-Tooling-Is-Transforming-Angular-Development"
+      target="_blank"
+      rel="noopener"
+    >
+      Read →
+    </a>
+  </div>
+</div>
 
   <div class="card">
     <h3>Angular Signals in the Real World: Smarter Inputs and Reactive Routing</h3>
