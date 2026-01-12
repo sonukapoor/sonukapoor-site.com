@@ -198,6 +198,13 @@ schema:
             publisher: { "@type": "Organization", name: "CMS Wire" }
             url: "https://www.cmswire.com/customer-experience/brevos-583-million-funding-round-signals-a-crm-market-reset/"
             about: { "@id": "https://sonukapoor.com/#person" }
+        - "@type": "ListItem"
+          position: 21
+          item:
+            "@type": "NewsArticle"
+            name: "How to succeed as an independent software developer"
+            url: "https://www.infoworld.com/article/4105927/how-to-succeed-with-ai-powered-low-code-and-no-code-development-tools.html"
+            about: { "@id": "https://sonukapoor.com/#person" }
 
 ---
 
@@ -244,6 +251,19 @@ I’ve been featured, quoted, and publicly recognized across leading publication
 <h2 class="media-section-title">Media Coverage & Interviews</h2>
 
 <div class="cards">
+
+  <div class="card">
+    <h2>How to Succeed with AI-Powered Low-Code and No-Code Development Tools</h2>
+    <div class="card-meta">Publisher: InfoWorld</div>
+    <p class="card-desc">
+      Mentioned and quoted by InfoWorld for expert insights on AI-powered low-code and no-code development, highlighting real-world perspectives on modern software engineering workflows.
+    </p>
+    <div class="card-actions">
+      <a href="https://www.infoworld.com/article/4105927/how-to-succeed-with-ai-powered-low-code-and-no-code-development-tools.html" target="_blank" rel="noopener">
+        Read →
+      </a>
+    </div>
+  </div>
 
   <div class="card">
     <h2>Brevo’s $583 Million Funding Round Signals a CRM Market Reset</h2>
