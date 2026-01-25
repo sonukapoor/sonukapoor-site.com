@@ -37,6 +37,7 @@ schema:
             description: "Recognizes deep Angular expertise, community leadership, and ongoing contributions to the ecosystem."
             recipient: { "@id": "https://sonukapoor.com/#person" }
             awardSponsor: { "@type": "Organization", name: "Google" }
+            awardDate: "2024-2026"
             url: "https://developers.google.com/profile/u/sonukapoor"
         - "@type": "ListItem"
           position: 2
@@ -63,6 +64,9 @@ schema:
       <span class="badge">Angular Collaborators</span>
       <span class="badge">Community Leadership</span>
     </div>
+
+    <h3>Years</h3>
+    <p>2024–2026 (current)</p>
 
     <h3>Highlights</h3>
     <ul>

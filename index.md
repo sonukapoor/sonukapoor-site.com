@@ -92,7 +92,7 @@ schema:
     <div>
       <h1 class="title">Sonu Kapoor - Global Technology Leader in Angular, AI & Enterprise Modernization</h1>
       <div class="kickers">
-        <span class="badge" title="Google Developer Expert"><a href='/awards'>GDE (Angular)</a></span>
+        <span class="badge" title="Google Developer Expert"><a href='/awards'>2× GDE (Angular)</a></span>
         <span class="badge" title="Microsoft Most Valuable Professional"><a href='/awards'>7× Microsoft MVP</a></span>
         <span class="badge" title="Author of two Apress books"><a href='/books'>Author</a></span>
         <span class="badge" title="Core contributor to NGX-Layout"><a href='/contributions'>Open-Source Leader</a></span>
@@ -179,7 +179,7 @@ schema:
             <path d="M6 3h12l1 6-7 12L5 9l1-6z" stroke="currentColor" stroke-width="1.6"/>
           </svg>
           <div>
-            <h3>Google Developer Expert (Angular)</h3>
+            <h3>2× Google Developer Expert (Angular)</h3>
             <p class="muted">One of only 11 collaborators worldwide invited by Google to shape Angular’s future.</p>
           </div>
         </div>
