@@ -135,8 +135,11 @@ schema:
       <a href="https://forbes.com" target="_blank" rel="noopener" title="Forbes">
         <img src="/images/media/forbes.svg" alt="Forbes" />
       </a>
+      <a href="https://techtarget.com" target="_blank" rel="noopener" title="TechTarget">
+        <img src="/images/media/techtarget-logo.svg" alt="TechTarget" />
+      </a>
       <a href="https://infoworld.com" target="_blank" rel="noopener" title="InfoWorld">
-        <img src="/images/media/infoworld.svg" alt="InfoWorld" />
+        <img src="/images/media/infoworld-white.svg" alt="InfoWorld" />
       </a>
       <a href="https://cmswire.com" target="_blank" rel="noopener" title="CMS Wire">
         <img src="/images/media/cmswire.svg" alt="CMS Wire" />
