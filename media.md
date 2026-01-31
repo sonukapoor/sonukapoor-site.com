@@ -205,6 +205,13 @@ schema:
             name: "How to succeed as an independent software developer"
             url: "https://www.infoworld.com/article/4105927/how-to-succeed-with-ai-powered-low-code-and-no-code-development-tools.html"
             about: { "@id": "https://sonukapoor.com/#person" }
+        - "@type": "ListItem"
+          position: 22
+          item:
+            "@type": "NewsArticle"
+            name: "Safe by design: AI personalization in fintech"
+            url: "https://www.techtarget.com/searchcio/feature/Safe-by-design-AI-personalization-in-fintech"
+            about: { "@id": "https://sonukapoor.com/#person" }
 
 ---
 
@@ -251,6 +258,19 @@ I’ve been featured, quoted, and publicly recognized across leading publication
 <h2 class="media-section-title">Media Coverage & Interviews</h2>
 
 <div class="cards">
+
+  <div class="card">
+    <h2>Safe by design: AI personalization in fintech</h2>
+    <div class="card-meta">Publisher: TechTarget</div>
+    <p class="card-desc">
+      Quoted by TechTarget for expert insights on safe-by-design AI personalization in fintech, emphasizing responsible, privacy-first AI practices in modern financial systems.
+    </p>
+    <div class="card-actions">
+      <a href="https://www.techtarget.com/searchcio/feature/Safe-by-design-AI-personalization-in-fintech" target="_blank" rel="noopener">
+        Read →
+      </a>
+    </div>
+  </div>
 
   <div class="card">
     <h2>How to Succeed with AI-Powered Low-Code and No-Code Development Tools</h2>
