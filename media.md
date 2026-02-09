@@ -88,13 +88,17 @@ schema:
           item:
             "@type": "VideoObject"
             uploadDate: "2025-04-07T10:00-05:00"
-            thumbnailUrl: 
+            thumbnailUrl:
               - "https://img.youtube.com/vi/Vcuaxg1A_7M/0.jpg"
               - "https://img.youtube.com/vi/Vcuaxg1A_7M/2.jpg"
               - "https://img.youtube.com/vi/Vcuaxg1A_7M/3.jpg"
             name: "Microsoft MVP Buzz Interview - Sonu Kapoor"
             publisher: { "@type": "Organization", name: "Microsoft MVP Buzz" }
-            potentialAction: { "@type": "WatchAction", target: "https://www.youtube.com/watch?v=Vcuaxg1A_7M" }
+            potentialAction:
+              {
+                "@type": "WatchAction",
+                target: "https://www.youtube.com/watch?v=Vcuaxg1A_7M",
+              }
             url: "https://www.youtube.com/watch?v=Vcuaxg1A_7M"
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
@@ -212,7 +216,13 @@ schema:
             name: "Safe by design: AI personalization in fintech"
             url: "https://www.techtarget.com/searchcio/feature/Safe-by-design-AI-personalization-in-fintech"
             about: { "@id": "https://sonukapoor.com/#person" }
-
+        - "@type": "ListItem"
+          position: 23
+          item:
+            "@type": "NewsArticle"
+            name: "AI skepticism is a quiet career killer"
+            url: "https://leaddev.com/career-development/ai-skepticism-is-a-quiet-career-killer"
+            about: { "@id": "https://sonukapoor.com/#person" }
 ---
 
 I’ve been featured, quoted, and publicly recognized across leading publications, interviews, and high-visibility showcases that highlight my work in Angular, AI, and enterprise technology.
@@ -252,12 +262,26 @@ I’ve been featured, quoted, and publicly recognized across leading publication
         Close-up of the digital billboard highlighting my work in Angular and AI.
       </figcaption>
     </figure>
+
   </div>
 </section>
 
 <h2 class="media-section-title">Media Coverage & Interviews</h2>
 
 <div class="cards">
+
+<div class="card">
+    <h2>AI skepticism is a quiet career killer</h2>
+    <div class="card-meta">Publisher: LeadDev</div>
+    <p class="card-desc">
+      Quoted by LeadDev for expert insights on AI adoption, career positioning, and the growing importance of constructive engagement with emerging technologies.
+    </p>
+    <div class="card-actions">
+      <a href="https://leaddev.com/career-development/ai-skepticism-is-a-quiet-career-killer" target="_blank" rel="noopener">
+        Read →
+      </a>
+    </div>
+  </div>
 
   <div class="card">
     <h2>Safe by design: AI personalization in fintech</h2>
