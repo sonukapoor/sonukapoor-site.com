@@ -299,6 +299,14 @@ schema:
             author: { "@id": "https://sonukapoor.com/#person" }
             publisher: { "@type": "Organization", name: "CODE Magazine" }
             url: "https://www.codemag.com/Article/2601071/From-Commands-to-Conversations-How-AI-Assisted-Tooling-Is-Transforming-Angular-Development"
+        - "@type": "ListItem"
+          position: 26
+          item:
+            "@type": "Article"
+            headline: "Signal-Driven Error Monitoring: Detecting and Debugging Reactive Failures in Angular"
+            author: { "@id": "https://sonukapoor.com/#person" }
+            publisher: { "@type": "Organization", name: "App Signal" }
+            url: "https://blog.appsignal.com/2026/02/19/signal-driven-error-monitoring-detecting-and-debugging-reactive-failures-in-angular.html"
 ---
 
 <p class="muted">
@@ -307,22 +315,39 @@ schema:
 
 <div class="cards">
 
-<div class="card">
-  <h3>From Commands to Conversations: How AI-Assisted Tooling Is Transforming Angular Development</h3>
-  <img src="/images/publisher/code.png" class="publisher-logo" alt="Publisher: CODE Magazine">
-  <p class="card-desc">
-    Explore how AI-assisted tooling is reshaping Angular development—from rigid commands to conversational, intent-driven workflows that enhance productivity and developer experience.
-  </p>
-  <div class="card-actions">
-    <a
-      href="https://www.codemag.com/Article/2601071/From-Commands-to-Conversations-How-AI-Assisted-Tooling-Is-Transforming-Angular-Development"
-      target="_blank"
-      rel="noopener"
-    >
-      Read →
-    </a>
+  <div class="card">
+    <h3>Signal-Driven Error Monitoring: Detecting and Debugging Reactive Failures in Angular</h3>
+    <img src="/images/publisher/app-signal.png" class="publisher-logo" alt="Publisher: App Signal">
+    <p class="card-desc">
+      This article explores how to make Angular's reactivity observable again. We'll unpack how to detect invisible failures, trace signal lifecycles, and introduce lightweight instrumentation patterns to surface problems before they hit production.
+    </p>
+    <div class="card-actions">
+      <a
+        href="https://blog.appsignal.com/2026/02/19/signal-driven-error-monitoring-detecting-and-debugging-reactive-failures-in-angular.html"
+        target="_blank"
+        rel="noopener"
+      >
+        Read →
+      </a>
+    </div>
   </div>
-</div>
+
+  <div class="card">
+    <h3>From Commands to Conversations: How AI-Assisted Tooling Is Transforming Angular Development</h3>
+    <img src="/images/publisher/code.png" class="publisher-logo" alt="Publisher: CODE Magazine">
+    <p class="card-desc">
+      Explore how AI-assisted tooling is reshaping Angular development—from rigid commands to conversational, intent-driven workflows that enhance productivity and developer experience.
+    </p>
+    <div class="card-actions">
+      <a
+        href="https://www.codemag.com/Article/2601071/From-Commands-to-Conversations-How-AI-Assisted-Tooling-Is-Transforming-Angular-Development"
+        target="_blank"
+        rel="noopener"
+      >
+        Read →
+      </a>
+    </div>
+  </div>
 
   <div class="card">
     <h3>Angular Signals in the Real World: Smarter Inputs and Reactive Routing</h3>
