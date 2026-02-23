@@ -307,6 +307,14 @@ schema:
             author: { "@id": "https://sonukapoor.com/#person" }
             publisher: { "@type": "Organization", name: "App Signal" }
             url: "https://blog.appsignal.com/2026/02/19/signal-driven-error-monitoring-detecting-and-debugging-reactive-failures-in-angular.html"
+        - "@type": "ListItem"
+          position: 27
+          item:
+            "@type": "Article"
+            headline: "How AI redefines software engineering expertise"
+            author: { "@id": "https://sonukapoor.com/#person" }
+            publisher: { "@type": "Organization", name: "InfoWorld" }
+            url: "https://www.infoworld.com/article/4135467/how-ai-redefines-software-engineering-expertise.html"
 ---
 
 <p class="muted">
@@ -314,6 +322,23 @@ schema:
 </p>
 
 <div class="cards">
+
+<div class="card">
+    <h3>How AI redefines software engineering expertise</h3>
+    <img src="/images/media/infoworld-white.svg" class="publisher-logo" alt="Publisher: InfoWorld">
+    <p class="card-desc">
+      In this InfoWorld feature, I examine how AI shifts the definition of software engineering expertise from writing code to making architectural decisions, exercising judgment, and thinking critically about system design.
+    </p>
+    <div class="card-actions">
+      <a
+        href="https://www.infoworld.com/article/4135467/how-ai-redefines-software-engineering-expertise.html"
+        target="_blank"
+        rel="noopener"
+      >
+        Read →
+      </a>
+    </div>
+  </div>
 
   <div class="card">
     <h3>Signal-Driven Error Monitoring: Detecting and Debugging Reactive Failures in Angular</h3>
