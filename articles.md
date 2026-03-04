@@ -315,6 +315,14 @@ schema:
             author: { "@id": "https://sonukapoor.com/#person" }
             publisher: { "@type": "Organization", name: "InfoWorld" }
             url: "https://www.infoworld.com/article/4135467/how-ai-redefines-software-engineering-expertise.html"
+        - "@type": "ListItem"
+          position: 28
+          item:
+            "@type": "Article"
+            headline: "The right way to architect modern web applications"
+            author: { "@id": "https://sonukapoor.com/#person" }
+            publisher: { "@type": "Organization", name: "InfoWorld" }
+            url: "https://www.infoworld.com/article/4138765/the-right-way-to-architect-modern-web-applications.html"
 ---
 
 <p class="muted">
@@ -323,7 +331,24 @@ schema:
 
 <div class="cards">
 
-<div class="card">
+  <div class="card">
+    <h3>The right way to architect modern web applications</h3>
+    <img src="/images/media/infoworld-white.svg" class="publisher-logo" alt="Publisher: InfoWorld">
+    <p class="card-desc">
+      This InfoWorld article explores modern web application architecture and explains why choosing between client-side rendering (CSR) and server-side rendering (SSR) is no longer a simple binary decision. It argues that modern web applications behave like distributed systems and require flexible architectural strategies rather than a single “right” model.
+    </p>
+    <div class="card-actions">
+      <a
+        href="https://www.infoworld.com/article/4138765/the-right-way-to-architect-modern-web-applications.html"
+        target="_blank"
+        rel="noopener"
+      >
+        Read →
+      </a>
+    </div>
+  </div>
+
+  <div class="card">
     <h3>How AI redefines software engineering expertise</h3>
     <img src="/images/media/infoworld-white.svg" class="publisher-logo" alt="Publisher: InfoWorld">
     <p class="card-desc">
