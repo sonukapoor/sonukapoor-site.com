@@ -323,6 +323,14 @@ schema:
             author: { "@id": "https://sonukapoor.com/#person" }
             publisher: { "@type": "Organization", name: "InfoWorld" }
             url: "https://www.infoworld.com/article/4138765/the-right-way-to-architect-modern-web-applications.html"
+        - "@type": "ListItem"
+          position: 29
+          item:
+            "@type": "Article"
+            headline: "From Template-Driven to Signal-Driven: The Complete Evolution of Angular Forms"
+            author: { "@id": "https://sonukapoor.com/#person" }
+            publisher: { "@type": "Organization", name: "CODE Magazine" }
+            url: "https://www.codemag.com/Article/264041/From-Template-Driven-to-Signal-Driven-The-Complete-Evolution-of-Angular-Forms"
 ---
 
 <p class="muted">
@@ -332,8 +340,25 @@ schema:
 <div class="cards">
 
   <div class="card">
+    <h3>From Template-Driven to Signal-Driven: The Complete Evolution of Angular Forms</h3>
+    <img src="/images/media/infoworld-white.svg" class="publisher-logo" alt="Publisher: C">
+    <p class="card-desc">
+      This article explores the evolution of Angular forms—from early template-driven approaches to modern signal-driven architectures. It examines how Angular’s new Signals model is reshaping form state management and what this shift means for building more predictable and scalable applications.
+    </p>
+    <div class="card-actions">
+      <a
+        href="https://www.codemag.com/Article/264041/From-Template-Driven-to-Signal-Driven-The-Complete-Evolution-of-Angular-Forms"
+        target="_blank"
+        rel="noopener"
+      >
+        Read →
+      </a>
+    </div>
+  </div>
+
+  <div class="card">
     <h3>The right way to architect modern web applications</h3>
-    <img src="/images/media/infoworld-white.svg" class="publisher-logo" alt="Publisher: InfoWorld">
+    <img src="/images/publisher/code.png" class="publisher-logo" alt="Publisher: CODE Magazine">
     <p class="card-desc">
       This InfoWorld article explores modern web application architecture and explains why choosing between client-side rendering (CSR) and server-side rendering (SSR) is no longer a simple binary decision. It argues that modern web applications behave like distributed systems and require flexible architectural strategies rather than a single “right” model.
     </p>
