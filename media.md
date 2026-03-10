@@ -26,6 +26,7 @@ schema:
       about: { "@id": "https://sonukapoor.com/#person" }
     - "@type": "ItemList"
       "@id": "https://sonukapoor.com/media/#itemlist"
+      numberOfItems: 23
       itemListElement:
         - "@type": "ListItem"
           position: 1

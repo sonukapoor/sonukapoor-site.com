@@ -18,6 +18,7 @@ schema:
       about: { "@id": "https://sonukapoor.com/#person" }
     - "@type": "ItemList"
       "@id": "https://sonukapoor.com/talks/#itemlist"
+      numberOfItems: 13
       itemListElement:
         - "@type": "ListItem"
           position: 1
@@ -156,7 +157,7 @@ schema:
         - "@type": "ListItem"
           position: 10
           startDate: "2025-08-19T10:00-05:00"
-          endDate: "2024-08-19T11:30-05:00"
+          endDate: "2025-08-19T11:30-05:00"
           item:
             "@type": "VideoObject"
             uploadDate: "2024-08-19T11:30-05:00"
@@ -170,6 +171,56 @@ schema:
             publisher: { "@type": "Organization", name: "The Tech Sharmit Podcast" }
             potentialAction: { "@type": "WatchAction", target: "https://www.youtube.com/watch?v=LvoeyGWKsTQ" }
             about: { "@id": "https://sonukapoor.com/#person" }
+        - "@type": "ListItem"
+          position: 11
+          startDate: "2026-01-01T10:00-05:00"
+          endDate: "2026-01-01T11:30-05:00"
+          item:
+            "@type": "VideoObject"
+            uploadDate: "2026-01-01T11:30-05:00"
+            thumbnailUrl:
+              - "https://img.youtube.com/vi/ay3rwZPYkf4/0.jpg"
+              - "https://img.youtube.com/vi/ay3rwZPYkf4/1.jpg"
+            name: "Signal Forms in Angular: Escaping Event-Driven Forms and Returning to State"
+            description: "Talk at NG Asia discussing how Angular Signal Forms move form architecture away from event-driven patterns toward state-driven design."
+            url: "https://www.youtube.com/watch?v=ay3rwZPYkf4"
+            publisher: { "@type": "Organization", name: "NG Asia" }
+            potentialAction: { "@type": "WatchAction", target: "https://www.youtube.com/watch?v=ay3rwZPYkf4" }
+            about: { "@id": "https://sonukapoor.com/#person" }
+
+        - "@type": "ListItem"
+          position: 12
+          startDate: "2025-10-01T10:00-05:00"
+          endDate: "2025-10-01T11:30-05:00"
+          item:
+            "@type": "VideoObject"
+            uploadDate: "2025-10-01T11:30-05:00"
+            thumbnailUrl:
+              - "https://img.youtube.com/vi/aa4VKh0uy-o/0.jpg"
+              - "https://img.youtube.com/vi/aa4VKh0uy-o/1.jpg"
+            name: "Build an AI Image Generator with Angular using Google Nano Banana"
+            description: "Talk at NASA Space Apps Toronto demonstrating how Angular and AI tools like Google Nano Banana can be used to build an image generator without a backend."
+            url: "https://www.youtube.com/watch?v=aa4VKh0uy-o"
+            publisher: { "@type": "Organization", name: "NASA Space Apps Toronto" }
+            potentialAction: { "@type": "WatchAction", target: "https://www.youtube.com/watch?v=aa4VKh0uy-o" }
+            about: { "@id": "https://sonukapoor.com/#person" }
+
+        - "@type": "ListItem"
+          position: 13
+          startDate: "2026-03-10T10:00-05:00"
+          endDate: "2026-03-10T11:30-05:00"
+          item:
+            "@type": "VideoObject"
+            uploadDate: "2026-03-10T11:30-05:00"
+            thumbnailUrl:
+              - "https://img.youtube.com/vi/S7bZ5_HCdNY/0.jpg"
+              - "https://img.youtube.com/vi/S7bZ5_HCdNY/1.jpg"
+            name: "Hidden Gems of Angular"
+            description: "NG Asia session highlighting lesser-known Angular performance features and optimization techniques."
+            url: "https://www.youtube.com/watch?v=S7bZ5_HCdNY"
+            publisher: { "@type": "Organization", name: "NG Asia" }
+            potentialAction: { "@type": "WatchAction", target: "https://www.youtube.com/watch?v=S7bZ5_HCdNY" }
+            about: { "@id": "https://sonukapoor.com/#person" }
 ---
 
 <p class="muted">
@@ -177,6 +228,18 @@ schema:
 </p>
 
 <div class="cards">
+
+  <div class="card">
+    <h3>Signal Forms in Angular: Escaping Event-Driven Forms and Returning to State | NG Asia 2026</h3>
+    <div class="card-meta">Event: NG Asia</div>
+    <p class="card-desc">
+      In this talk, I discussed how Signals are changing the way we think about form architecture — moving from event-heavy patterns to a cleaner, state-driven approach that improves predictability and maintainability in modern Angular applications.
+    </p>
+    <div class="card-actions">
+      <a href="https://www.youtube.com/watch?v=ay3rwZPYkf4" target="_blank" rel="noopener">Watch →</a>
+    </div>
+  </div>
+
 
   <div class="card">
     <h3>Beyond Fast: The Trade-offs That Shape Web Performance | Web Unleashed - FITC Toronto 2025</h3>
