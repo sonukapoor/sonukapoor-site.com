@@ -332,6 +332,14 @@ schema:
             author: { "@id": "https://sonukapoor.com/#person" }
             publisher: { "@type": "Organization", name: "CODE Magazine" }
             url: "https://www.codemag.com/Article/264041/From-Template-Driven-to-Signal-Driven-The-Complete-Evolution-of-Angular-Forms"
+        - "@type": "ListItem"
+          position: 30
+          item:
+            "@type": "Article"
+            headline: "We mistook event handling for architecture"
+            author: { "@id": "https://sonukapoor.com/#person" }
+            publisher: { "@type": "Organization", name: "InfoWorld" }
+            url: "https://www.infoworld.com/article/4145032/we-mistook-event-handling-for-architecture.html"
 ---
 
 <p class="muted">
@@ -339,6 +347,23 @@ schema:
 </p>
 
 <div class="cards">
+
+<div class="card">
+    <h3>We mistook event handling for architecture</h3>
+    <img src="/images/media/infoworld-white.svg" class="publisher-logo" alt="Publisher: InfoWorld">
+    <p class="card-desc">
+      This article covers how modern frontend development often mistakes event handling for true architecture, leading to unnecessary complexity. It highlights the benefits of a state-first approach, where state—not events—drives application design, resulting in more predictable and maintainable systems.
+    </p>
+    <div class="card-actions">
+      <a
+        href="https://www.infoworld.com/article/4145032/we-mistook-event-handling-for-architecture.html"
+        target="_blank"
+        rel="noopener"
+      >
+        Read →
+      </a>
+    </div>
+  </div>
 
   <div class="card">
     <h3>From Template-Driven to Signal-Driven: The Complete Evolution of Angular Forms</h3>
