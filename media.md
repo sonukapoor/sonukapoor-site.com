@@ -224,6 +224,13 @@ schema:
             name: "AI skepticism is a quiet career killer"
             url: "https://leaddev.com/career-development/ai-skepticism-is-a-quiet-career-killer"
             about: { "@id": "https://sonukapoor.com/#person" }
+        - "@type": "ListItem"
+          position: 22
+          item:
+            "@type": "NewsArticle"
+            name: "How to land a software development job in an AI-focused world"
+            url: "https://www.infoworld.com/article/4147116/how-to-land-a-software-development-job-in-an-ai-focused-world.html"
+            about: { "@id": "https://sonukapoor.com/#person" }
 ---
 
 I’ve been featured, quoted, and publicly recognized across leading publications, interviews, and high-visibility showcases that highlight my work in Angular, AI, and enterprise technology.
@@ -270,6 +277,19 @@ I’ve been featured, quoted, and publicly recognized across leading publication
 <h2 class="media-section-title">Media Coverage & Interviews</h2>
 
 <div class="cards">
+
+  <div class="card">
+    <h2>How to land a software development job in an AI-focused world</h2>
+    <div class="card-meta">Publisher: InfoWorld</div>
+    <p class="card-desc">
+      Mentioned and quoted by InfoWorld for expert insights on how to land a job in an AI-focused world.
+    </p>
+    <div class="card-actions">
+      <a href="https://www.infoworld.com/article/4147116/how-to-land-a-software-development-job-in-an-ai-focused-world.html" target="_blank" rel="noopener">
+        Read →
+      </a>
+    </div>
+  </div>
 
 <div class="card">
     <h2>AI skepticism is a quiet career killer</h2>
