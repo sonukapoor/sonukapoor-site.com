@@ -231,6 +231,13 @@ schema:
             name: "How to land a software development job in an AI-focused world"
             url: "https://www.infoworld.com/article/4147116/how-to-land-a-software-development-job-in-an-ai-focused-world.html"
             about: { "@id": "https://sonukapoor.com/#person" }
+        - "@type": "ListItem"
+          position: 23
+          item:
+            "@type": "NewsArticle"
+            name: "Open source AI: What it means for enterprise innovation"
+            url: "https://www.techtarget.com/searchenterpriseai/feature/Open-source-AI-What-it-means-for-enterprise-innovation"
+            about: { "@id": "https://sonukapoor.com/#person" }
 ---
 
 I’ve been featured, quoted, and publicly recognized across leading publications, interviews, and high-visibility showcases that highlight my work in Angular, AI, and enterprise technology.
@@ -277,6 +284,19 @@ I’ve been featured, quoted, and publicly recognized across leading publication
 <h2 class="media-section-title">Media Coverage & Interviews</h2>
 
 <div class="cards">
+
+  <div class="card">
+    <h2>https://www.techtarget.com/searchenterpriseai/feature/Open-source-AI-What-it-means-for-enterprise-innovation</h2>
+    <div class="card-meta">Publisher: TechTarget</div>
+    <p class="card-desc">
+      Quoted by TechTarget for expert insights on Open Source AI.
+    </p>
+    <div class="card-actions">
+      <a href="https://www.techtarget.com/searchenterpriseai/feature/Open-source-AI-What-it-means-for-enterprise-innovation" target="_blank" rel="noopener">
+        Read →
+      </a>
+    </div>
+  </div>
 
   <div class="card">
     <h2>How to land a software development job in an AI-focused world</h2>
