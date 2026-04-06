@@ -286,7 +286,7 @@ I’ve been featured, quoted, and publicly recognized across leading publication
 <div class="cards">
 
   <div class="card">
-    <h2>https://www.techtarget.com/searchenterpriseai/feature/Open-source-AI-What-it-means-for-enterprise-innovation</h2>
+    <h2>Open source AI: What it means for enterprise innovation</h2>
     <div class="card-meta">Publisher: TechTarget</div>
     <p class="card-desc">
       Quoted by TechTarget for expert insights on Open Source AI.
