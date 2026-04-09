@@ -32,6 +32,18 @@ schema:
           position: 1
           item:
             "@type": "SoftwareSourceCode"
+            name: "CVE Lite CLI"
+            codeRepository: "https://github.com/sonukapoor/cve-lite-cli"
+            programmingLanguage: "TypeScript"
+            contributor: { "@id": "https://sonukapoor.com/#person" }
+            url: "https://github.com/sonukapoor/cve-lite-cli"
+            about: { "@id": "https://sonukapoor.com/#person" }
+            potentialAction: { "@type": "ViewAction", target: "https://github.com/sonukapoor/cve-lite-cli" }
+
+        - "@type": "ListItem"
+          position: 2
+          item:
+            "@type": "SoftwareSourceCode"
             name: "Angular Framework (google/angular)"
             codeRepository: "https://github.com/angular/angular"
             programmingLanguage: "TypeScript"
@@ -41,7 +53,7 @@ schema:
             potentialAction: { "@type": "ViewAction", target: "https://github.com/angular/angular/commits?author=sonukapoor" }
 
         - "@type": "ListItem"
-          position: 2
+          position: 3
           item:
             "@type": "CreativeWork"
             name: "Angular Typed Forms (RFC & Adoption)"
@@ -53,7 +65,7 @@ schema:
             potentialAction: { "@type": "ReadAction", target: "https://github.com/angular/angular/discussions/44513" }
 
         - "@type": "ListItem"
-          position: 3
+          position: 4
           item:
             "@type": "SoftwareSourceCode"
             name: "NGX-Layout"
@@ -65,7 +77,7 @@ schema:
             potentialAction: { "@type": "ViewAction", target: "https://github.com/ngbracket/ngx-layout" }
 
         - "@type": "ListItem"
-          position: 4
+          position: 5
           item:
             "@type": "Organization"
             name: "Angular Toronto Meetup"
@@ -76,6 +88,35 @@ schema:
 ---
 
 <div class="grid grid-2">
+  <!-- CVE Lite CLI -->
+  <section class="card">
+    <h2>CVE Lite CLI</h2>
+    <p class="muted">
+      Creator and maintainer of <strong>CVE Lite CLI</strong>, a developer-first command-line tool for vulnerability discovery and remediation workflows.
+    </p>
+
+    <div class="kickers" style="margin-top:.5rem">
+      <span class="badge">Security Tooling</span>
+      <span class="badge">CLI DX</span>
+      <span class="badge">TypeScript</span>
+      <span class="badge">Case Study</span>
+      <a class="badge" href="https://github.com/sonukapoor/cve-lite-cli/blob/main/docs/case-studies/nestjs.md" target="_blank" rel="noopener">NestJS</a>
+      <a class="badge" href="https://github.com/sonukapoor/cve-lite-cli/blob/main/docs/case-studies/owasp-juice-shop.md" target="_blank" rel="noopener">OWASP Juice Shop</a>
+    </div>
+
+    <h3>Highlights</h3>
+    <ul>
+      <li>Streamlined scanning and remediation guidance for dependency vulnerabilities.</li>
+      <li>Designed for practical local and CI usage with clear developer feedback.</li>
+      <li>Open-source, actively maintained, and built for modern JavaScript ecosystems.</li>
+    </ul>
+
+    <p>
+      <a class="btn" href="https://github.com/sonukapoor/cve-lite-cli" target="_blank" rel="noopener">Visit Repository</a>
+      <a class="btn secondary" href="/articles/">Related Articles</a>
+    </p>
+  </section>
+
   <!-- Angular Framework -->
   <section class="card">
     <h2>Angular Framework (google/angular)</h2>

@@ -30,7 +30,7 @@ schema:
       about: { "@id": "https://sonukapoor.com/#person" }
     - "@type": "ItemList"
       "@id": "https://sonukapoor.com/articles/#itemlist"
-      numberOfItems: 29
+      numberOfItems: 32
       itemListElement:
         - "@type": "ListItem"
           position: 1
@@ -340,6 +340,14 @@ schema:
             author: { "@id": "https://sonukapoor.com/#person" }
             publisher: { "@type": "Organization", name: "InfoWorld" }
             url: "https://www.infoworld.com/article/4145032/we-mistook-event-handling-for-architecture.html"
+        - "@type": "ListItem"
+          position: 31
+          item:
+            "@type": "Article"
+            headline: "Signal Forms: The Missing Link in Angular's New Reactive Architecture"
+            author: { "@id": "https://sonukapoor.com/#person" }
+            publisher: { "@type": "Organization", name: "App Signal" }
+            url: "https://blog.appsignal.com/2026/04/09/signal-forms-the-missing-link-in-angulars-new-reactive-architecture.html"
 ---
 
 <p class="muted">
@@ -347,6 +355,23 @@ schema:
 </p>
 
 <div class="cards">
+
+<div class="card">
+    <h3>Signal Forms: The Missing Link in Angular's New Reactive Architecture</h3>
+    <img src="/images/publisher/app-signal.png" class="publisher-logo" alt="Publisher: App Signal">
+    <p class="card-desc">
+      This article explores Signal Forms as the missing link in Angular’s reactive evolution, showing how they bring a cleaner, more predictable model to form state, validation, and UI updates without RxJS-heavy patterns.
+    </p>
+    <div class="card-actions">
+      <a
+        href="https://blog.appsignal.com/2026/04/09/signal-forms-the-missing-link-in-angulars-new-reactive-architecture.html"
+        target="_blank"
+        rel="noopener"
+      >
+        Read →
+      </a>
+    </div>
+  </div>
 
 <div class="card">
     <h3>We mistook event handling for architecture</h3>
