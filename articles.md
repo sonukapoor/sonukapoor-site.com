@@ -30,7 +30,7 @@ schema:
       about: { "@id": "https://sonukapoor.com/#person" }
     - "@type": "ItemList"
       "@id": "https://sonukapoor.com/articles/#itemlist"
-      numberOfItems: 32
+      numberOfItems: 33
       itemListElement:
         - "@type": "ListItem"
           position: 1
@@ -348,6 +348,14 @@ schema:
             author: { "@id": "https://sonukapoor.com/#person" }
             publisher: { "@type": "Organization", name: "App Signal" }
             url: "https://blog.appsignal.com/2026/04/09/signal-forms-the-missing-link-in-angulars-new-reactive-architecture.html"
+        - "@type": "ListItem"
+          position: 32
+          item:
+            "@type": "Article"
+            headline: "Rethinking Angular forms: A state-first perspective"
+            author: { "@id": "https://sonukapoor.com/#person" }
+            publisher: { "@type": "Organization", name: "InfoWorld" }
+            url: "https://www.infoworld.com/article/4154060/rethinking-angular-forms-a-state-first-perspective.html"
 ---
 
 <p class="muted">
@@ -355,6 +363,23 @@ schema:
 </p>
 
 <div class="cards">
+
+<div class="card">
+    <h3>Rethinking Angular forms: A state-first perspective</h3>
+    <img src="/images/media/infoworld-white.svg" class="publisher-logo" alt="Publisher: InfoWorld">
+    <p class="card-desc">
+      This article explores a state-first model for Angular forms, showing how explicit state modeling improves clarity, reduces incidental complexity, and leads to more predictable form behavior in modern Angular applications.
+    </p>
+    <div class="card-actions">
+      <a
+        href="https://www.infoworld.com/article/4154060/rethinking-angular-forms-a-state-first-perspective.html"
+        target="_blank"
+        rel="noopener"
+      >
+        Read →
+      </a>
+    </div>
+  </div>
 
 <div class="card">
     <h3>Signal Forms: The Missing Link in Angular's New Reactive Architecture</h3>
