@@ -30,7 +30,7 @@ schema:
       about: { "@id": "https://sonukapoor.com/#person" }
     - "@type": "ItemList"
       "@id": "https://sonukapoor.com/articles/#itemlist"
-      numberOfItems: 33
+      numberOfItems: 34
       itemListElement:
         - "@type": "ListItem"
           position: 1
@@ -356,6 +356,14 @@ schema:
             author: { "@id": "https://sonukapoor.com/#person" }
             publisher: { "@type": "Organization", name: "InfoWorld" }
             url: "https://www.infoworld.com/article/4154060/rethinking-angular-forms-a-state-first-perspective.html"
+        - "@type": "ListItem"
+          position: 33
+          item:
+            "@type": "Article"
+            headline: "Is your Node.js project really secure?"
+            author: { "@id": "https://sonukapoor.com/#person" }
+            publisher: { "@type": "Organization", name: "InfoWorld" }
+            url: "https://www.infoworld.com/article/4158762/is-your-node-js-project-really-secure.html"
 ---
 
 <p class="muted">
@@ -363,6 +371,23 @@ schema:
 </p>
 
 <div class="cards">
+
+<div class="card">
+    <h3>Is your Node.js project really secure?</h3>
+    <img src="/images/media/infoworld-white.svg" class="publisher-logo" alt="Publisher: InfoWorld">
+    <p class="card-desc">
+      This article examines practical Node.js security posture, from dependency and supply-chain risk to secure defaults, so teams can move from assumptions to a verifiable, repeatable security baseline.
+    </p>
+    <div class="card-actions">
+      <a
+        href="https://www.infoworld.com/article/4158762/is-your-node-js-project-really-secure.html"
+        target="_blank"
+        rel="noopener"
+      >
+        Read →
+      </a>
+    </div>
+  </div>
 
 <div class="card">
     <h3>Rethinking Angular forms: A state-first perspective</h3>
