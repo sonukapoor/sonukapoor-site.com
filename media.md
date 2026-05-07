@@ -26,7 +26,7 @@ schema:
       about: { "@id": "https://sonukapoor.com/#person" }
     - "@type": "ItemList"
       "@id": "https://sonukapoor.com/media/#itemlist"
-      numberOfItems: 23
+      numberOfItems: 24
       itemListElement:
         - "@type": "ListItem"
           position: 1
@@ -238,6 +238,14 @@ schema:
             name: "Open source AI: What it means for enterprise innovation"
             url: "https://www.techtarget.com/searchenterpriseai/feature/Open-source-AI-What-it-means-for-enterprise-innovation"
             about: { "@id": "https://sonukapoor.com/#person" }
+        - "@type": "ListItem"
+          position: 24
+          item:
+            "@type": "NewsArticle"
+            headline: "Citizen developers are redefining enterprise AI development"
+            publisher: { "@type": "Organization", name: "TechTarget" }
+            url: "https://www.techtarget.com/searchenterpriseai/tip/Citizen-developers-are-redefining-enterprise-AI-development"
+            about: { "@id": "https://sonukapoor.com/#person" }
 ---
 
 I’ve been featured, quoted, and publicly recognized across leading publications, interviews, and high-visibility showcases that highlight my work in Angular, AI, and enterprise technology.
@@ -284,6 +292,19 @@ I’ve been featured, quoted, and publicly recognized across leading publication
 <h2 class="media-section-title">Media Coverage & Interviews</h2>
 
 <div class="cards">
+
+  <div class="card">
+    <h2>Citizen developers are redefining enterprise AI development</h2>
+    <div class="card-meta">Publisher: TechTarget</div>
+    <p class="card-desc">
+      Quoted by TechTarget for insights on how citizen developers are reshaping enterprise AI delivery, governance, and collaboration between business and engineering teams.
+    </p>
+    <div class="card-actions">
+      <a href="https://www.techtarget.com/searchenterpriseai/tip/Citizen-developers-are-redefining-enterprise-AI-development" target="_blank" rel="noopener">
+        Read →
+      </a>
+    </div>
+  </div>
 
   <div class="card">
     <h2>Open source AI: What it means for enterprise innovation</h2>
