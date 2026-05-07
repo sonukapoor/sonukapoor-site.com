@@ -30,7 +30,7 @@ schema:
       about: { "@id": "https://sonukapoor.com/#person" }
     - "@type": "ItemList"
       "@id": "https://sonukapoor.com/articles/#itemlist"
-      numberOfItems: 34
+      numberOfItems: 35
       itemListElement:
         - "@type": "ListItem"
           position: 1
@@ -364,6 +364,14 @@ schema:
             author: { "@id": "https://sonukapoor.com/#person" }
             publisher: { "@type": "Organization", name: "InfoWorld" }
             url: "https://www.infoworld.com/article/4158762/is-your-node-js-project-really-secure.html"
+        - "@type": "ListItem"
+          position: 34
+          item:
+            "@type": "Article"
+            headline: "Designing Signal-First Form State Without Recreating Reactive Forms"
+            author: { "@id": "https://sonukapoor.com/#person" }
+            publisher: { "@type": "Organization", name: "CODE Magazine" }
+            url: "https://www.codemag.com/Article/266041/Designing-Signal-First-Form-State-Without-Recreating-Reactive-Forms"
 ---
 
 <p class="muted">
@@ -371,6 +379,23 @@ schema:
 </p>
 
 <div class="cards">
+
+<div class="card">
+    <h3>Designing Signal-First Form State Without Recreating Reactive Forms</h3>
+    <img src="/images/publisher/code.png" class="publisher-logo" alt="Publisher: CODE Magazine">
+    <p class="card-desc">
+      This article explores how to design signal-first form state in Angular with clear modeling patterns that preserve predictability and ergonomics, without reintroducing the complexity of legacy reactive form abstractions.
+    </p>
+    <div class="card-actions">
+      <a
+        href="https://www.codemag.com/Article/266041/Designing-Signal-First-Form-State-Without-Recreating-Reactive-Forms"
+        target="_blank"
+        rel="noopener"
+      >
+        Read →
+      </a>
+    </div>
+  </div>
 
 <div class="card">
     <h3>Is your Node.js project really secure?</h3>
