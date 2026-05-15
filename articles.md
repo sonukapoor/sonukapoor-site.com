@@ -30,7 +30,7 @@ schema:
       about: { "@id": "https://sonukapoor.com/#person" }
     - "@type": "ItemList"
       "@id": "https://sonukapoor.com/articles/#itemlist"
-      numberOfItems: 35
+      numberOfItems: 36
       itemListElement:
         - "@type": "ListItem"
           position: 1
@@ -372,6 +372,14 @@ schema:
             author: { "@id": "https://sonukapoor.com/#person" }
             publisher: { "@type": "Organization", name: "CODE Magazine" }
             url: "https://www.codemag.com/Article/266041/Designing-Signal-First-Form-State-Without-Recreating-Reactive-Forms"
+        - "@type": "ListItem"
+          position: 35
+          item:
+            "@type": "Article"
+            headline: "The hidden cost of front-end complexity"
+            author: { "@id": "https://sonukapoor.com/#person" }
+            publisher: { "@type": "Organization", name: "InfoWorld" }
+            url: "https://www.infoworld.com/article/4164653/the-hidden-cost-of-front-end-complexity.html"
 ---
 
 <p class="muted">
@@ -379,6 +387,23 @@ schema:
 </p>
 
 <div class="cards">
+
+<div class="card">
+    <h3>The hidden cost of front-end complexity</h3>
+    <img src="/images/media/infoworld-white.svg" class="publisher-logo" alt="Publisher: InfoWorld">
+    <p class="card-desc">
+      This article explores the compounding technical and organizational costs of front-end complexity, and outlines practical ways to simplify architecture, improve maintainability, and protect long-term delivery speed.
+    </p>
+    <div class="card-actions">
+      <a
+        href="https://www.infoworld.com/article/4164653/the-hidden-cost-of-front-end-complexity.html"
+        target="_blank"
+        rel="noopener"
+      >
+        Read →
+      </a>
+    </div>
+  </div>
 
 <div class="card">
     <h3>Designing Signal-First Form State Without Recreating Reactive Forms</h3>
