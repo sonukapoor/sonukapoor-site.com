@@ -105,6 +105,7 @@ schema:
       <div class="hero-cta">
         <a class="btn" href="/books">📖 My Books</a>
         <a class="btn secondary" href="#enterprise">👨‍💻 My Work</a>
+        <a class="btn secondary" href="https://github.com/sonukapoor/cve-lite-cli" target="_blank" rel="noopener">🛡️ CVE Lite CLI</a>
         <a class="btn secondary" href="/media">📰 Media</a>
         <a class="btn secondary" href="/articles">📰 Articles</a>
       </div>
@@ -229,6 +230,13 @@ schema:
 <section id="opensource" class="section">
     <h2>Open Source & Angular Contributions</h2>
     <div class="grid grid-3">
+      <article class="card">
+        <h3>CVE Lite CLI</h3>
+        <p class="muted">
+          Creator of a practical security CLI for dependency vulnerability discovery and remediation, designed for local dev workflows and CI pipelines.
+        </p>
+        <p><a href="https://github.com/sonukapoor/cve-lite-cli" target="_blank" rel="noopener">View Repository →</a></p>
+      </article>
       <article class="card">
         <h3>Angular Collaborators Program</h3>
         <p class="muted">
