@@ -124,51 +124,104 @@ schema:
   </div>
 </section>
 
+<section class="cve-lite-feature" aria-labelledby="cve-lite-feature-title">
+  <div class="cve-lite-feature-copy">
+    <p class="eyebrow">Open source security</p>
+    <h2 id="cve-lite-feature-title">Creator of CVE Lite CLI, an OWASP Foundation Project</h2>
+    <p class="muted">
+      CVE Lite CLI brings local-first JavaScript and TypeScript dependency vulnerability scanning into
+      developer workflows, with copy-and-run remediation guidance and coverage from CSO Online,
+      Help Net Security, DevOps.com, and other security publications.
+    </p>
+    <div class="hero-cta">
+      <a class="btn" href="https://owasp.org/cve-lite-cli/" target="_blank" rel="noopener">View OWASP Project</a>
+      <a class="btn secondary" href="https://github.com/OWASP/cve-lite-cli" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn secondary" href="/media/#cve-lite-press">CVE Lite Press</a>
+    </div>
+  </div>
+  <div class="cve-lite-feature-aside">
+    <img class="cve-lite-logo" src="/images/cve-lite-logo.png" alt="CVE Lite CLI" />
+    <div class="cve-lite-feature-proof" aria-label="CVE Lite CLI press highlights">
+      <span>OWASP Foundation Project</span>
+      <span>Featured by CSO Online</span>
+      <span>Reviewed by security practitioners</span>
+    </div>
+  </div>
+</section>
+
 <section class="featured-on">
     <h2>Featured On</h2>
     <div class="logo-grid">
-      <a href="https://leaddev.com" target="_blank" rel="noopener" title="LeadDev">
-        <img src="/images/media/leaddev.svg" alt="LeadDev" />
-      </a>
-      <a href="https://thenewstack.io/" target="_blank" rel="noopener" title="The New Stack">
-        <img src="/images/media/newstack.svg" alt="The New Stack" />
-      </a>
-      <a href="https://forbes.com" target="_blank" rel="noopener" title="Forbes">
-        <img src="/images/media/forbes.svg" alt="Forbes" />
-      </a>
-      <a href="https://techtarget.com" target="_blank" rel="noopener" title="TechTarget">
-        <img src="/images/media/techtarget-logo.svg" alt="TechTarget" />
-      </a>
-      <a href="https://infoworld.com" target="_blank" rel="noopener" title="InfoWorld">
-        <img src="/images/media/infoworld-white.svg" alt="InfoWorld" />
-      </a>
-      <a href="https://cmswire.com" target="_blank" rel="noopener" title="CMS Wire">
-        <img src="/images/media/cmswire.svg" alt="CMS Wire" />
-      </a>
-      <a href="https://vktr.com" target="_blank" rel="noopener" title="VKTR">
-        <img src="/images/media/vktr.svg" alt="VKTR" />
-      </a>
-      <a href="https://blog.angular.dev" target="_blank" rel="noopener" title="Angular">
-        <img src="/images/media/angular.svg" alt="Angular Blog" />
-      </a>
-      <a href="https://www.bbntimes.com" target="_blank" rel="noopener" title="BBN Times">
-        <img src="/images/media/bbn.png" alt="BBN Times" />
-      </a>
-      <a href="https://aijourn.com" target="_blank" rel="noopener" title="AI Journal">
-        <img src="/images/media/ai-journal.png" alt="AI Journal" />
-      </a>
-      <a href="https://medium.com/authority-magazine" target="_blank" rel="noopener" title="Authority Magazine">
-        <img src="/images/media/authority-magazine.png" alt="Authority Magazine" />
-      </a>
-      <a href="https://www.sitepronews.com" target="_blank" rel="noopener" title="Site Pro News">
-        <img src="/images/media/sitepronews.png" alt="SiteProNews" />
-      </a>
-      <a href="https://techronicler.com" target="_blank" rel="noopener" title="Techronicler">
-        <img src="/images/media/Techronicler.png.webp" alt="Techronicler" />
-      </a>
-      <a href="https://www.digitaljournal.com" target="_blank" rel="noopener" title="Digital Journal">
-        <img src="/images/media/Digital-Journal.webp" alt="Digital Journal" />
-      </a>
+      <div class="logo-group logo-group-dark" aria-label="Featured logos on dark background">
+        <a class="logo-wide logo-dark" href="https://leaddev.com" target="_blank" rel="noopener" title="LeadDev">
+          <img src="/images/media/leaddev.svg" alt="LeadDev" />
+        </a>
+        <a class="logo-wide logo-dark" href="https://forbes.com" target="_blank" rel="noopener" title="Forbes">
+          <img src="/images/media/forbes.svg" alt="Forbes" />
+        </a>
+        <a class="logo-wide logo-dark" href="https://techtarget.com" target="_blank" rel="noopener" title="TechTarget">
+          <img src="/images/media/techtarget-logo.svg" alt="TechTarget" />
+        </a>
+        <a class="logo-wide logo-dark" href="https://www.digitaljournal.com" target="_blank" rel="noopener" title="Digital Journal">
+          <img src="/images/media/Digital-Journal.webp" alt="Digital Journal" />
+        </a>
+        <a class="logo-wide logo-dark" href="https://www.helpnetsecurity.com" target="_blank" rel="noopener" title="Help Net Security">
+          <img src="/images/media/helpnetsecurity.svg" alt="Help Net Security" />
+        </a>
+        <a class="logo-wide logo-dark" href="https://devops.com" target="_blank" rel="noopener" title="DevOps.com">
+          <img src="/images/media/devops.webp" alt="DevOps.com" />
+        </a>
+        <a class="logo-wide logo-dark" href="https://labs.hexaxia.tech" target="_blank" rel="noopener" title="Hexaxia Labs">
+          <img src="/images/media/hexaxia-labs.svg" alt="Hexaxia Labs" />
+        </a>
+      </div>
+      <div class="logo-group logo-group-light" aria-label="Featured logos on light background">
+        <a class="logo-wide logo-light" href="https://thenewstack.io/" target="_blank" rel="noopener" title="The New Stack">
+          <img src="/images/media/newstack.svg" alt="The New Stack" />
+        </a>
+        <a class="logo-wide logo-light" href="https://infoworld.com" target="_blank" rel="noopener" title="InfoWorld">
+          <img src="/images/media/infoworld.svg" alt="InfoWorld" />
+        </a>
+        <a class="logo-wide logo-light" href="https://cmswire.com" target="_blank" rel="noopener" title="CMS Wire">
+          <img src="/images/media/cmswire.svg" alt="CMS Wire" />
+        </a>
+        <a class="logo-light" href="https://vktr.com" target="_blank" rel="noopener" title="VKTR">
+          <img src="/images/media/vktr.svg" alt="VKTR" />
+        </a>
+        <a class="logo-square logo-light" href="https://blog.angular.dev" target="_blank" rel="noopener" title="Angular">
+          <img src="/images/media/angular.svg" alt="Angular Blog" />
+        </a>
+        <a class="logo-light" href="https://www.bbntimes.com" target="_blank" rel="noopener" title="BBN Times">
+          <img src="/images/media/bbn.png" alt="BBN Times" />
+        </a>
+        <a class="logo-light" href="https://aijourn.com" target="_blank" rel="noopener" title="AI Journal">
+          <img src="/images/media/ai-journal.png" alt="AI Journal" />
+        </a>
+        <a class="logo-square logo-light" href="https://medium.com/authority-magazine" target="_blank" rel="noopener" title="Authority Magazine">
+          <img src="/images/media/authority-magazine.png" alt="Authority Magazine" />
+        </a>
+        <a class="logo-wide logo-light" href="https://www.sitepronews.com" target="_blank" rel="noopener" title="Site Pro News">
+          <img src="/images/media/sitepronews.png" alt="SiteProNews" />
+        </a>
+        <a class="logo-wide logo-light" href="https://techronicler.com" target="_blank" rel="noopener" title="Techronicler">
+          <img src="/images/media/Techronicler.png.webp" alt="Techronicler" />
+        </a>
+        <a class="logo-square logo-light" href="https://www.csoonline.com" target="_blank" rel="noopener" title="CSO Online">
+          <img src="/images/media/cso-online.png" alt="CSO Online" />
+        </a>
+        <a class="logo-square logo-light" href="https://www.lemondeinformatique.fr" target="_blank" rel="noopener" title="Le Monde Informatique">
+          <img src="/images/media/le-monde-informatique.png" alt="Le Monde Informatique" />
+        </a>
+        <a class="logo-wide logo-light" href="https://developmentcurated.com" target="_blank" rel="noopener" title="Development Curated">
+          <img src="/images/media/development-curated.svg" alt="Development Curated" />
+        </a>
+        <a class="logo-wide logo-light" href="https://blackhatnews.tokyo" target="_blank" rel="noopener" title="TokyoBlackHatNews">
+          <img src="/images/media/tokyo-blackhat-news.svg" alt="TokyoBlackHatNews" />
+        </a>
+        <a class="logo-wide logo-light" href="https://www.ad-hoc-news.de" target="_blank" rel="noopener" title="ad-hoc-news">
+          <img src="/images/media/ad-hoc-news.svg" alt="ad-hoc-news" />
+        </a>
+      </div>
     </div>
 </section>
 

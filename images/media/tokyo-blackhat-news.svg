@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+  <rect x="1.5" y="1.5" width="29" height="29" rx="6" fill="#0d1117" stroke="#39d353" stroke-width="1.5"/>
+  <text x="16" y="21" text-anchor="middle" font-family="'SF Mono','Fira Code',Menlo,monospace" font-size="12" font-weight="800" fill="#39d353" letter-spacing="-0.5">BHN</text>
+  <rect x="23" y="19" width="3" height="7" fill="#39d353">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>
