@@ -30,7 +30,7 @@ schema:
       about: { "@id": "https://sonukapoor.com/#person" }
     - "@type": "ItemList"
       "@id": "https://sonukapoor.com/articles/#itemlist"
-      numberOfItems: 37
+      numberOfItems: 38
       itemListElement:
         - "@type": "ListItem"
           position: 1
@@ -388,6 +388,14 @@ schema:
             author: { "@id": "https://sonukapoor.com/#person" }
             publisher: { "@type": "Organization", name: "InfoWorld" }
             url: "https://www.infoworld.com/article/4171858/angular-signal-forms-from-event-pipelines-to-signal-driven-state.html"
+        - "@type": "ListItem"
+          position: 37
+          item:
+            "@type": "Article"
+            headline: "Angular Signals explained: How pull-based reactivity changes how we model state"
+            author: { "@id": "https://sonukapoor.com/#person" }
+            publisher: { "@type": "Organization", name: "InfoWorld" }
+            url: "https://www.infoworld.com/article/4180890/angular-signals-explained-how-pull-based-reactivity-changes-how-we-model-state.html"
 ---
 
 <p class="muted">
@@ -395,6 +403,23 @@ schema:
 </p>
 
 <div class="cards">
+
+<div class="card">
+    <h3>Angular Signals explained: How pull-based reactivity changes how we model state</h3>
+    <img src="/images/media/infoworld-white.svg" class="publisher-logo" alt="Publisher: InfoWorld">
+    <p class="card-desc">
+      This article explains how Angular Signals introduce a pull-based reactivity model that changes how we think about state, helping teams build systems that are more explicit, predictable, and easier to reason about.
+    </p>
+    <div class="card-actions">
+      <a
+        href="https://www.infoworld.com/article/4180890/angular-signals-explained-how-pull-based-reactivity-changes-how-we-model-state.html"
+        target="_blank"
+        rel="noopener"
+      >
+        Read →
+      </a>
+    </div>
+  </div>
 
 <div class="card">
     <h3>Angular Signal Forms: From event pipelines to signal-driven state</h3>
