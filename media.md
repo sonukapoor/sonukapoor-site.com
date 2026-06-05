@@ -26,7 +26,7 @@ schema:
       about: { "@id": "https://sonukapoor.com/#person" }
     - "@type": "ItemList"
       "@id": "https://sonukapoor.com/media/#itemlist"
-      numberOfItems: 39
+      numberOfItems: 40
       itemListElement:
         - "@type": "ListItem"
           position: 1
@@ -342,6 +342,14 @@ schema:
             publisher: { "@type": "Organization", name: "TechTarget" }
             url: "https://www.techtarget.com/searchenterpriseai/tip/Citizen-developers-are-redefining-enterprise-AI-development"
             about: { "@id": "https://sonukapoor.com/#person" }
+        - "@type": "ListItem"
+          position: 40
+          item:
+            "@type": "NewsArticle"
+            headline: "CVE Lite CLI closes dependency gap — but won't stop modern threats"
+            publisher: { "@type": "Organization", name: "ReversingLabs" }
+            url: "https://www.reversinglabs.com/blog/cve-lite-cli"
+            about: { "@id": "https://sonukapoor.com/#person" }
 ---
 
 I’ve been featured, quoted, and publicly recognized across leading publications, interviews, and high-visibility showcases that highlight my work in Angular, AI, and enterprise technology.
@@ -388,6 +396,17 @@ I’ve been featured, quoted, and publicly recognized across leading publication
 <h2 class="media-section-title" id="cve-lite-press">CVE Lite CLI Press</h2>
 
 <div class="cards">
+
+  <div class="card">
+    <h2>CVE Lite CLI closes dependency gap — but won't stop modern threats</h2>
+    <div class="card-meta">Publisher: ReversingLabs</div>
+    <p class="card-desc">
+      Featured by ReversingLabs for CVE Lite CLI's local-first dependency scanning, actionable remediation guidance, and role in helping developers close the gap between finding vulnerable packages and knowing how to fix them.
+    </p>
+    <div class="card-actions">
+      <a href="https://www.reversinglabs.com/blog/cve-lite-cli" target="_blank" rel="noopener">Read →</a>
+    </div>
+  </div>
 
   <div class="card">
     <h2>As AI speeds coding, CVE Lite CLI keeps security deliberately AI-free</h2>

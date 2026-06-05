@@ -185,6 +185,9 @@ schema:
         <a class="logo-wide logo-light" href="https://cmswire.com" target="_blank" rel="noopener" title="CMS Wire">
           <img src="/images/media/cmswire.svg" alt="CMS Wire" />
         </a>
+        <a class="logo-wide logo-light" href="https://www.reversinglabs.com/blog/cve-lite-cli" target="_blank" rel="noopener" title="ReversingLabs">
+          <img src="/images/media/reversinglabs.svg" alt="ReversingLabs" />
+        </a>
         <a class="logo-light" href="https://vktr.com" target="_blank" rel="noopener" title="VKTR">
           <img src="/images/media/vktr.svg" alt="VKTR" />
         </a>
