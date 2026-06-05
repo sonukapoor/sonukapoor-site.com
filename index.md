@@ -212,10 +212,10 @@ schema:
         <a class="logo-square logo-light" href="https://www.csoonline.com/article/4176701/as-ai-speeds-coding-cve-lite-cli-keeps-security-deliberately-ai-free.html" target="_blank" rel="noopener" title="CSO Online">
           <img src="/images/media/cso-online.png" alt="CSO Online" />
         </a>
-        <a class="logo-square logo-light" href="/media/" title="Le Monde Informatique">
+        <a class="logo-square logo-light" href="https://www.lemondeinformatique.fr/actualites/lire-cve-lite-cli-repere-les-dependances-a-risque-100270.html" target="_blank" rel="noopener" title="Le Monde Informatique">
           <img src="/images/media/le-monde-informatique.png" alt="Le Monde Informatique" />
         </a>
-        <a class="logo-wide logo-light" href="/media/" title="Development Curated">
+        <a class="logo-wide logo-light" href="https://developmentcurated.com/testing-and-security/review-of-cve-lite-cli/" target="_blank" rel="noopener" title="Development Curated">
           <img src="/images/media/development-curated.svg" alt="Development Curated" />
         </a>
         <a class="logo-wide logo-light" href="https://blackhatnews.tokyo/archives/104903" target="_blank" rel="noopener" title="TokyoBlackHatNews">
