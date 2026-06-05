@@ -153,75 +153,75 @@ schema:
     <h2>Featured On</h2>
     <div class="logo-grid">
       <div class="logo-group logo-group-dark" aria-label="Featured logos on dark background">
-        <a class="logo-wide logo-dark" href="https://leaddev.com" target="_blank" rel="noopener" title="LeadDev">
+        <a class="logo-wide logo-dark" href="https://leaddev.com/ai/does-ai-spell-death-front-end-engineering" target="_blank" rel="noopener" title="LeadDev">
           <img src="/images/media/leaddev.svg" alt="LeadDev" />
         </a>
-        <a class="logo-wide logo-dark" href="https://forbes.com" target="_blank" rel="noopener" title="Forbes">
+        <a class="logo-wide logo-dark" href="https://www.forbes.com/advisor/business/best-cpanel-hosting/" target="_blank" rel="noopener" title="Forbes">
           <img src="/images/media/forbes.svg" alt="Forbes" />
         </a>
-        <a class="logo-wide logo-dark" href="https://techtarget.com" target="_blank" rel="noopener" title="TechTarget">
+        <a class="logo-wide logo-dark" href="https://www.techtarget.com/searchenterpriseai/tip/Citizen-developers-are-redefining-enterprise-AI-development" target="_blank" rel="noopener" title="TechTarget">
           <img src="/images/media/techtarget-logo.svg" alt="TechTarget" />
         </a>
-        <a class="logo-wide logo-dark" href="https://www.digitaljournal.com" target="_blank" rel="noopener" title="Digital Journal">
+        <a class="logo-wide logo-dark" href="https://www.digitaljournal.com/tech-science/sonu-kapoor-advancing-retail-with-rfid-and-intranets/article" target="_blank" rel="noopener" title="Digital Journal">
           <img src="/images/media/Digital-Journal.webp" alt="Digital Journal" />
         </a>
-        <a class="logo-wide logo-dark" href="https://www.helpnetsecurity.com" target="_blank" rel="noopener" title="Help Net Security">
+        <a class="logo-wide logo-dark" href="https://www.helpnetsecurity.com/2026/05/28/hottest-cybersecurity-open-source-tools-of-the-month-may-2026/" target="_blank" rel="noopener" title="Help Net Security">
           <img src="/images/media/helpnetsecurity.svg" alt="Help Net Security" />
         </a>
-        <a class="logo-wide logo-dark" href="https://devops.com" target="_blank" rel="noopener" title="DevOps.com">
+        <a class="logo-wide logo-dark" href="https://devops.com/owasp-adopts-cve-lite-cli-to-boost-dependency-scanning/" target="_blank" rel="noopener" title="DevOps.com">
           <img src="/images/media/devops.webp" alt="DevOps.com" />
         </a>
-        <a class="logo-wide logo-dark" href="https://labs.hexaxia.tech" target="_blank" rel="noopener" title="Hexaxia Labs">
+        <a class="logo-wide logo-dark" href="https://labs.hexaxia.tech/blog/hexops-cve-lite-integration/" target="_blank" rel="noopener" title="Hexaxia Labs">
           <img src="/images/media/hexaxia-labs.svg" alt="Hexaxia Labs" />
         </a>
       </div>
       <div class="logo-group logo-group-light" aria-label="Featured logos on light background">
-        <a class="logo-wide logo-light" href="https://thenewstack.io/" target="_blank" rel="noopener" title="The New Stack">
+        <a class="logo-wide logo-light" href="https://thenewstack.io/why-the-frontend-should-run-ai-models-locally-with-onnx/" target="_blank" rel="noopener" title="The New Stack">
           <img src="/images/media/newstack.svg" alt="The New Stack" />
         </a>
-        <a class="logo-wide logo-light" href="https://infoworld.com" target="_blank" rel="noopener" title="InfoWorld">
+        <a class="logo-wide logo-light" href="https://www.infoworld.com/article/4180890/angular-signals-explained-how-pull-based-reactivity-changes-how-we-model-state.html" target="_blank" rel="noopener" title="InfoWorld">
           <img src="/images/media/infoworld.svg" alt="InfoWorld" />
         </a>
-        <a class="logo-wide logo-light" href="https://cmswire.com" target="_blank" rel="noopener" title="CMS Wire">
+        <a class="logo-wide logo-light" href="https://www.cmswire.com/customer-experience/brevos-583-million-funding-round-signals-a-crm-market-reset/" target="_blank" rel="noopener" title="CMS Wire">
           <img src="/images/media/cmswire.svg" alt="CMS Wire" />
         </a>
         <a class="logo-wide logo-light" href="https://www.reversinglabs.com/blog/cve-lite-cli" target="_blank" rel="noopener" title="ReversingLabs">
           <img src="/images/media/reversinglabs.svg" alt="ReversingLabs" />
         </a>
-        <a class="logo-light" href="https://vktr.com" target="_blank" rel="noopener" title="VKTR">
+        <a class="logo-light" href="https://www.vktr.com/ai-technology/a-single-outage-exposed-how-fragile-ai-infrastructure-really-is/" target="_blank" rel="noopener" title="VKTR">
           <img src="/images/media/vktr.svg" alt="VKTR" />
         </a>
-        <a class="logo-square logo-light" href="https://blog.angular.dev" target="_blank" rel="noopener" title="Angular">
+        <a class="logo-square logo-light" href="https://blog.angular.dev/angular-v14-is-now-available-391a6db736af" target="_blank" rel="noopener" title="Angular">
           <img src="/images/media/angular.svg" alt="Angular Blog" />
         </a>
-        <a class="logo-light" href="https://www.bbntimes.com" target="_blank" rel="noopener" title="BBN Times">
+        <a class="logo-light" href="https://www.bbntimes.com/technology/building-frameworks-that-shape-millions-of-applications-sonu-kapoor-s-path-from-enterprise-architect-to-angular-collaborator" target="_blank" rel="noopener" title="BBN Times">
           <img src="/images/media/bbn.png" alt="BBN Times" />
         </a>
-        <a class="logo-light" href="https://aijourn.com" target="_blank" rel="noopener" title="AI Journal">
+        <a class="logo-light" href="https://aijourn.com/from-angular-to-ai-with-sonu-kapoor-building-tomorrows-development-workflows/" target="_blank" rel="noopener" title="AI Journal">
           <img src="/images/media/ai-journal.png" alt="AI Journal" />
         </a>
-        <a class="logo-square logo-light" href="https://medium.com/authority-magazine" target="_blank" rel="noopener" title="Authority Magazine">
+        <a class="logo-square logo-light" href="https://medium.com/authority-magazine/sonu-kapoor-of-solid-software-solutions-ltd-on-the-5-things-you-need-to-know-to-create-a-successful-144ba5680972" target="_blank" rel="noopener" title="Authority Magazine">
           <img src="/images/media/authority-magazine.png" alt="Authority Magazine" />
         </a>
-        <a class="logo-wide logo-light" href="https://www.sitepronews.com" target="_blank" rel="noopener" title="Site Pro News">
+        <a class="logo-wide logo-light" href="https://www.sitepronews.com/2025/08/18/angular-innovator-sonu-kapoor-on-the-future-of-frontend-architecture-and-developer-impact/" target="_blank" rel="noopener" title="Site Pro News">
           <img src="/images/media/sitepronews.png" alt="SiteProNews" />
         </a>
-        <a class="logo-wide logo-light" href="https://techronicler.com" target="_blank" rel="noopener" title="Techronicler">
+        <a class="logo-wide logo-light" href="https://techronicler.com/proving-green-in-ux-tech-pros-on-real-time-sustainability-solutions/" target="_blank" rel="noopener" title="Techronicler">
           <img src="/images/media/Techronicler.png.webp" alt="Techronicler" />
         </a>
-        <a class="logo-square logo-light" href="https://www.csoonline.com" target="_blank" rel="noopener" title="CSO Online">
+        <a class="logo-square logo-light" href="https://www.csoonline.com/article/4176701/as-ai-speeds-coding-cve-lite-cli-keeps-security-deliberately-ai-free.html" target="_blank" rel="noopener" title="CSO Online">
           <img src="/images/media/cso-online.png" alt="CSO Online" />
         </a>
-        <a class="logo-square logo-light" href="https://www.lemondeinformatique.fr" target="_blank" rel="noopener" title="Le Monde Informatique">
+        <a class="logo-square logo-light" href="/media/" title="Le Monde Informatique">
           <img src="/images/media/le-monde-informatique.png" alt="Le Monde Informatique" />
         </a>
-        <a class="logo-wide logo-light" href="https://developmentcurated.com" target="_blank" rel="noopener" title="Development Curated">
+        <a class="logo-wide logo-light" href="/media/" title="Development Curated">
           <img src="/images/media/development-curated.svg" alt="Development Curated" />
         </a>
-        <a class="logo-wide logo-light" href="https://blackhatnews.tokyo" target="_blank" rel="noopener" title="TokyoBlackHatNews">
+        <a class="logo-wide logo-light" href="https://blackhatnews.tokyo/archives/104903" target="_blank" rel="noopener" title="TokyoBlackHatNews">
           <img src="/images/media/tokyo-blackhat-news.svg" alt="TokyoBlackHatNews" />
         </a>
-        <a class="logo-wide logo-light" href="https://www.ad-hoc-news.de" target="_blank" rel="noopener" title="ad-hoc-news">
+        <a class="logo-wide logo-light" href="https://www.ad-hoc-news.de/wissenschaft/lieferketten-angriff-5-500-github-repos-in-6-stunden-kompromittiert/69418833" target="_blank" rel="noopener" title="ad-hoc-news">
           <img src="/images/media/ad-hoc-news.svg" alt="ad-hoc-news" />
         </a>
       </div>
