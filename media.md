@@ -26,7 +26,7 @@ schema:
       about: { "@id": "https://sonukapoor.com/#person" }
     - "@type": "ItemList"
       "@id": "https://sonukapoor.com/media/#itemlist"
-      numberOfItems: 40
+      numberOfItems: 41
       itemListElement:
         - "@type": "ListItem"
           position: 1
@@ -350,6 +350,14 @@ schema:
             publisher: { "@type": "Organization", name: "ReversingLabs" }
             url: "https://www.reversinglabs.com/blog/cve-lite-cli"
             about: { "@id": "https://sonukapoor.com/#person" }
+        - "@type": "ListItem"
+          position: 41
+          item:
+            "@type": "NewsArticle"
+            headline: "GitHub finally pulls the plug on automatic install script execution for npm"
+            publisher: { "@type": "Organization", name: "CSO Online" }
+            url: "https://www.csoonline.com/article/4183859/github-finally-pulls-the-plug-on-automatic-install-script-execution-for-npm-2.html"
+            about: { "@id": "https://sonukapoor.com/#person" }
 ---
 
 I’ve been featured, quoted, and publicly recognized across leading publications, interviews, and high-visibility showcases that highlight my work in Angular, AI, and enterprise technology.
@@ -396,6 +404,17 @@ I’ve been featured, quoted, and publicly recognized across leading publication
 <h2 class="media-section-title" id="cve-lite-press">CVE Lite CLI Press</h2>
 
 <div class="cards">
+
+  <div class="card">
+    <h2>GitHub finally pulls the plug on automatic install script execution for npm</h2>
+    <div class="card-meta">Publisher: CSO Online</div>
+    <p class="card-desc">
+      Quoted by CSO Online on npm's move to disable automatic install script execution by default, with commentary on how this reduces one major supply-chain attack path while leaving broader dependency risk and trust decisions in focus.
+    </p>
+    <div class="card-actions">
+      <a href="https://www.csoonline.com/article/4183859/github-finally-pulls-the-plug-on-automatic-install-script-execution-for-npm-2.html" target="_blank" rel="noopener">Read →</a>
+    </div>
+  </div>
 
   <div class="card">
     <h2>CVE Lite CLI closes dependency gap — but won't stop modern threats</h2>
