@@ -26,7 +26,7 @@ schema:
       about: { "@id": "https://sonukapoor.com/#person" }
     - "@type": "ItemList"
       "@id": "https://sonukapoor.com/media/#itemlist"
-      numberOfItems: 41
+      numberOfItems: 42
       itemListElement:
         - "@type": "ListItem"
           position: 1
@@ -358,6 +358,14 @@ schema:
             publisher: { "@type": "Organization", name: "CSO Online" }
             url: "https://www.csoonline.com/article/4183859/github-finally-pulls-the-plug-on-automatic-install-script-execution-for-npm-2.html"
             about: { "@id": "https://sonukapoor.com/#person" }
+        - "@type": "ListItem"
+          position: 42
+          item:
+            "@type": "NewsArticle"
+            headline: "Shift Left: How CVE-LITE CLI is Transforming Developer Security"
+            publisher: { "@type": "Organization", name: "SD Times" }
+            url: "https://sdtimes.com/security/shift-left-how-cve-lite-cli-is-transforming-developer-security/"
+            about: { "@id": "https://sonukapoor.com/#person" }
 ---
 
 I’ve been featured, quoted, and publicly recognized across leading publications, interviews, and high-visibility showcases that highlight my work in Angular, AI, and enterprise technology.
@@ -404,6 +412,17 @@ I’ve been featured, quoted, and publicly recognized across leading publication
 <h2 class="media-section-title" id="cve-lite-press">CVE Lite CLI Press</h2>
 
 <div class="cards">
+
+  <div class="card">
+    <h2>Shift Left: How CVE-LITE CLI is Transforming Developer Security</h2>
+    <div class="card-meta">Publisher: SD Times</div>
+    <p class="card-desc">
+      Featured by SD Times for CVE Lite CLI's shift-left approach to dependency security, highlighting how local-first scanning and actionable remediation guidance help developers address risk earlier in the workflow.
+    </p>
+    <div class="card-actions">
+      <a href="https://sdtimes.com/security/shift-left-how-cve-lite-cli-is-transforming-developer-security/" target="_blank" rel="noopener">Read →</a>
+    </div>
+  </div>
 
   <div class="card">
     <h2>GitHub finally pulls the plug on automatic install script execution for npm</h2>
