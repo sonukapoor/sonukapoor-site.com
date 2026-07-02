@@ -171,6 +171,9 @@ schema:
         <a class="logo-wide logo-dark" href="https://devops.com/owasp-adopts-cve-lite-cli-to-boost-dependency-scanning/" target="_blank" rel="noopener" title="DevOps.com">
           <img src="/images/media/devops.webp" alt="DevOps.com" />
         </a>
+        <a class="logo-wide logo-dark" href="https://www.theregister.com/security/2026/06/23/sniff-out-stale-ai-override-advice-with-this-open-source-cli/5259853" target="_blank" rel="noopener" title="The Register">
+          <img src="/images/media/the-register.svg" alt="The Register" />
+        </a>
         <a class="logo-wide logo-dark" href="https://labs.hexaxia.tech/blog/hexops-cve-lite-integration/" target="_blank" rel="noopener" title="Hexaxia Labs">
           <img src="/images/media/hexaxia-labs.svg" alt="Hexaxia Labs" />
         </a>
