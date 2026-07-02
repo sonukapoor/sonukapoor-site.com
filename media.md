@@ -26,7 +26,7 @@ schema:
       about: { "@id": "https://sonukapoor.com/#person" }
     - "@type": "ItemList"
       "@id": "https://sonukapoor.com/media/#itemlist"
-      numberOfItems: 42
+      numberOfItems: 44
       itemListElement:
         - "@type": "ListItem"
           position: 1
@@ -366,6 +366,22 @@ schema:
             publisher: { "@type": "Organization", name: "SD Times" }
             url: "https://sdtimes.com/security/shift-left-how-cve-lite-cli-is-transforming-developer-security/"
             about: { "@id": "https://sonukapoor.com/#person" }
+        - "@type": "ListItem"
+          position: 43
+          item:
+            "@type": "NewsArticle"
+            headline: "Cordyceps CI/CD"
+            publisher: { "@type": "Organization", name: "The New Stack" }
+            url: "https://thenewstack.io/cordyceps-cicd/"
+            about: { "@id": "https://sonukapoor.com/#person" }
+        - "@type": "ListItem"
+          position: 44
+          item:
+            "@type": "NewsArticle"
+            headline: "Sniff out stale AI override advice with this open source CLI"
+            publisher: { "@type": "Organization", name: "The Register" }
+            url: "https://www.theregister.com/security/2026/06/23/sniff-out-stale-ai-override-advice-with-this-open-source-cli/5259853"
+            about: { "@id": "https://sonukapoor.com/#person" }
 ---
 
 I’ve been featured, quoted, and publicly recognized across leading publications, interviews, and high-visibility showcases that highlight my work in Angular, AI, and enterprise technology.
@@ -412,6 +428,17 @@ I’ve been featured, quoted, and publicly recognized across leading publication
 <h2 class="media-section-title" id="cve-lite-press">CVE Lite CLI Press</h2>
 
 <div class="cards">
+
+  <div class="card">
+    <h2>Sniff out stale AI override advice with this open source CLI</h2>
+    <div class="card-meta">Publisher: The Register</div>
+    <p class="card-desc">
+      Featured by The Register for CVE Lite CLI's override auditing work, with discussion of how stale or silently ignored package manager overrides can create a false sense of security in JavaScript dependency management.
+    </p>
+    <div class="card-actions">
+      <a href="https://www.theregister.com/security/2026/06/23/sniff-out-stale-ai-override-advice-with-this-open-source-cli/5259853" target="_blank" rel="noopener">Read →</a>
+    </div>
+  </div>
 
   <div class="card">
     <h2>Shift Left: How CVE-LITE CLI is Transforming Developer Security</h2>
@@ -568,6 +595,17 @@ I’ve been featured, quoted, and publicly recognized across leading publication
   </div>
 
   <h2 class="media-section-title">Media Coverage & Interviews</h2>
+
+  <div class="card">
+    <h2>Cordyceps CI/CD</h2>
+    <div class="card-meta">Publisher: The New Stack</div>
+    <p class="card-desc">
+      Mentioned by The New Stack in coverage of Cordyceps CI/CD, contributing perspective on modern CI/CD workflows and the changing shape of developer tooling.
+    </p>
+    <div class="card-actions">
+      <a href="https://thenewstack.io/cordyceps-cicd/" target="_blank" rel="noopener">Read →</a>
+    </div>
+  </div>
 
   <div class="card">
     <h2>How to succeed with AI-powered devops tools</h2>
