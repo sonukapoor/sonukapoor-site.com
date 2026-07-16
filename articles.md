@@ -30,7 +30,7 @@ schema:
       about: { "@id": "https://sonukapoor.com/#person" }
     - "@type": "ItemList"
       "@id": "https://sonukapoor.com/articles/#itemlist"
-      numberOfItems: 39
+      numberOfItems: 40
       itemListElement:
         - "@type": "ListItem"
           position: 1
@@ -404,6 +404,14 @@ schema:
             author: { "@id": "https://sonukapoor.com/#person" }
             publisher: { "@type": "Organization", name: "InfoWorld" }
             url: "https://www.infoworld.com/article/4185924/angular-signals-in-practice-building-a-signal-first-form-in-angular.html"
+        - "@type": "ListItem"
+          position: 39
+          item:
+            "@type": "Article"
+            headline: "Node.js security starts before CI"
+            author: { "@id": "https://sonukapoor.com/#person" }
+            publisher: { "@type": "Organization", name: "InfoWorld" }
+            url: "https://www.infoworld.com/article/4194530/node-js-security-starts-before-ci.html"
 ---
 
 <p class="muted">
@@ -411,6 +419,23 @@ schema:
 </p>
 
 <div class="cards">
+
+<div class="card">
+    <h3>Node.js security starts before CI</h3>
+    <img src="/images/media/infoworld-white.svg" class="publisher-logo" alt="Publisher: InfoWorld">
+    <p class="card-desc">
+      This article explores why effective Node.js security begins before CI ever runs, focusing on local developer workflows, dependency hygiene, and earlier feedback loops that prevent risky code and packages from moving downstream.
+    </p>
+    <div class="card-actions">
+      <a
+        href="https://www.infoworld.com/article/4194530/node-js-security-starts-before-ci.html"
+        target="_blank"
+        rel="noopener"
+      >
+        Read →
+      </a>
+    </div>
+  </div>
 
 <div class="card">
     <h3>Angular Signals in practice: Building a signal-first form in Angular</h3>
