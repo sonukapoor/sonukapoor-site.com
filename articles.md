@@ -30,7 +30,7 @@ schema:
       about: { "@id": "https://sonukapoor.com/#person" }
     - "@type": "ItemList"
       "@id": "https://sonukapoor.com/articles/#itemlist"
-      numberOfItems: 41
+      numberOfItems: 42
       itemListElement:
         - "@type": "ListItem"
           position: 1
@@ -420,6 +420,14 @@ schema:
             author: { "@id": "https://sonukapoor.com/#person" }
             publisher: { "@type": "Organization", name: "InfoWorld" }
             url: "https://www.infoworld.com/article/4203038/ai-agents-need-security-regression-testing-not-another-checklist.html"
+        - "@type": "ListItem"
+          position: 41
+          item:
+            "@type": "Article"
+            headline: "A better approach to generative UI"
+            author: { "@id": "https://sonukapoor.com/#person" }
+            publisher: { "@type": "Organization", name: "InfoWorld" }
+            url: "https://www.infoworld.com/article/4210616/a-better-approach-to-generative-ui.html"
 ---
 
 <p class="muted">
@@ -427,6 +435,23 @@ schema:
 </p>
 
 <div class="cards">
+
+<div class="card">
+    <h3>A better approach to generative UI</h3>
+    <img src="/images/media/infoworld-white.svg" class="publisher-logo" alt="Publisher: InfoWorld">
+    <p class="card-desc">
+      This article explores a more robust way to think about generative UI, focusing on structured state, predictable behavior, and architectural discipline instead of treating interface generation as a loose prompt-to-screen exercise.
+    </p>
+    <div class="card-actions">
+      <a
+        href="https://www.infoworld.com/article/4210616/a-better-approach-to-generative-ui.html"
+        target="_blank"
+        rel="noopener"
+      >
+        Read →
+      </a>
+    </div>
+  </div>
 
 <div class="card">
     <h3>AI agents need security regression testing, not another checklist</h3>
