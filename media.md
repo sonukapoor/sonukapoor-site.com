@@ -26,10 +26,26 @@ schema:
       about: { "@id": "https://sonukapoor.com/#person" }
     - "@type": "ItemList"
       "@id": "https://sonukapoor.com/media/#itemlist"
-      numberOfItems: 44
+      numberOfItems: 46
       itemListElement:
         - "@type": "ListItem"
           position: 1
+          item:
+            "@type": "NewsArticle"
+            headline: "CVE Lite CLI Review 2026: Free OWASP JS/TS Scanner"
+            publisher: { "@type": "Organization", name: "AppSec Santa" }
+            url: "https://appsecsanta.com/cve-lite-cli"
+            about: { "@id": "https://sonukapoor.com/#person" }
+        - "@type": "ListItem"
+          position: 2
+          item:
+            "@type": "NewsArticle"
+            headline: "EU Cyber Resilience Act: What to Know"
+            publisher: { "@type": "Organization", name: "ITOps Times" }
+            url: "https://itopstimes.com/cybersecurity/eu-cyber-resilience-act-what-to-know/"
+            about: { "@id": "https://sonukapoor.com/#person" }
+        - "@type": "ListItem"
+          position: 3
           item:
             "@type": "NewsArticle"
             headline: "As AI speeds coding, CVE Lite CLI keeps security deliberately AI-free"
@@ -37,7 +53,7 @@ schema:
             url: "https://www.csoonline.com/article/4176701/as-ai-speeds-coding-cve-lite-cli-keeps-security-deliberately-ai-free.html"
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
-          position: 2
+          position: 4
           item:
             "@type": "NewsArticle"
             headline: "Hottest cybersecurity open-source tools of the month: May 2026"
@@ -45,7 +61,7 @@ schema:
             url: "https://www.helpnetsecurity.com/2026/05/28/hottest-cybersecurity-open-source-tools-of-the-month-may-2026/"
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
-          position: 3
+          position: 5
           item:
             "@type": "NewsArticle"
             headline: "CVE Lite CLI: Open-source dependency vulnerability scanner"
@@ -53,7 +69,7 @@ schema:
             url: "https://www.helpnetsecurity.com/2026/05/20/cve-lite-cli-open-source-dependency-vulnerability-scanner/"
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
-          position: 4
+          position: 6
           item:
             "@type": "NewsArticle"
             headline: "The postcss That Would Not Die, and How CVE Lite Ended My Override Grind"
@@ -61,7 +77,7 @@ schema:
             url: "https://labs.hexaxia.tech/blog/hexops-cve-lite-integration/"
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
-          position: 5
+          position: 7
           item:
             "@type": "NewsArticle"
             headline: "CVE Lite CLI: The Dependency Scanner That Actually Tells You What to Run"
@@ -69,7 +85,7 @@ schema:
             url: "https://medium.com/@techlatest.net/cve-lite-cli-the-dependency-scanner-that-actually-tells-you-what-to-run-not-just-whats-broken-f6b518199981"
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
-          position: 6
+          position: 8
           item:
             "@type": "NewsArticle"
             headline: "AI Security Is Changing Fast — These 6 Open-Source Tools Prove It"
@@ -77,7 +93,7 @@ schema:
             url: "https://medium.com/@techlatest.net/ai-security-is-changing-fast-these-6-open-source-tools-prove-it-5c5c9081cff7"
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
-          position: 7
+          position: 9
           item:
             "@type": "NewsArticle"
             headline: "OWASP Adopts CVE Lite CLI to Boost Dependency Scanning"
@@ -85,7 +101,7 @@ schema:
             url: "https://devops.com/owasp-adopts-cve-lite-cli-to-boost-dependency-scanning/"
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
-          position: 8
+          position: 10
           item:
             "@type": "NewsArticle"
             headline: "CVE Lite CLI repère les dépendances à risque"
@@ -93,7 +109,7 @@ schema:
             url: "https://www.lemondeinformatique.fr/actualites/lire-cve-lite-cli-repere-les-dependances-a-risque-100270.html"
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
-          position: 9
+          position: 11
           item:
             "@type": "NewsArticle"
             headline: "Lieferketten-Angriff: 5.500 GitHub-Repos in 6 Stunden kompromittiert"
@@ -101,7 +117,7 @@ schema:
             url: "https://www.ad-hoc-news.de/wissenschaft/lieferketten-angriff-5-500-github-repos-in-6-stunden-kompromittiert/69418833"
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
-          position: 10
+          position: 12
           item:
             "@type": "NewsArticle"
             headline: "AIがコーディングを加速する中、CVE Lite CLIはセキュリティを意図的にAI無しに保つ"
@@ -109,7 +125,7 @@ schema:
             url: "https://blackhatnews.tokyo/archives/104903"
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
-          position: 11
+          position: 13
           item:
             "@type": "NewsArticle"
             headline: "Review of CVE Lite CLI"
@@ -117,7 +133,7 @@ schema:
             url: "https://developmentcurated.com/testing-and-security/review-of-cve-lite-cli/"
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
-          position: 12
+          position: 14
           item:
             "@type": "NewsArticle"
             headline: "How to succeed with AI-powered devops tools"
@@ -125,7 +141,7 @@ schema:
             url: "https://www.infoworld.com/article/4177207/how-to-succeed-with-ai-powered-devops-tools.html"
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
-          position: 13
+          position: 15
           item:
             "@type": "NewsArticle"
             headline: "From Angular to AI with Sonu Kapoor: Building Tomorrow’s Development Workflows"
@@ -133,7 +149,7 @@ schema:
             url: "https://aijourn.com/from-angular-to-ai-with-sonu-kapoor-building-tomorrows-development-workflows/"
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
-          position: 14
+          position: 16
           item:
             "@type": "NewsArticle"
             headline: "Sonu Kapoor Of SOLID Software Solutions LTD On The 5 Things You Need To Know To Create a Successful App, SaaS or Software Business"
@@ -141,7 +157,7 @@ schema:
             url: "https://medium.com/authority-magazine/sonu-kapoor-of-solid-software-solutions-ltd-on-the-5-things-you-need-to-know-to-create-a-successful-144ba5680972"
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
-          position: 15
+          position: 17
           item:
             "@type": "WebPage"
             name: "Angular Twitter Spotlight on Angular Signals"
@@ -149,7 +165,7 @@ schema:
             url: "https://x.com/SonuKapoor1978/status/1961409123917975801"
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
-          position: 16
+          position: 18
           item:
             "@type": "NewsArticle"
             headline: "Angular Innovator Sonu Kapoor on the Future of Frontend Architecture and Developer Impact"
@@ -157,7 +173,7 @@ schema:
             url: "https://www.sitepronews.com/2025/08/18/angular-innovator-sonu-kapoor-on-the-future-of-frontend-architecture-and-developer-impact/"
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
-          position: 17
+          position: 19
           item:
             "@type": "NewsArticle"
             headline: "Does AI spell death for front-end engineering?"
@@ -165,7 +181,7 @@ schema:
             url: "https://leaddev.com/ai/does-ai-spell-death-front-end-engineering"
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
-          position: 18
+          position: 20
           item:
             "@type": "WebPage"
             name: "Angular Twitter Spotlight on Angular Performance"
@@ -173,7 +189,7 @@ schema:
             url: "https://x.com/angular/status/1946238538296520809"
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
-          position: 19
+          position: 21
           item:
             "@type": "NewsArticle"
             headline: "Sonu Kapoor advancing retail with RFID and intranets"
@@ -181,7 +197,7 @@ schema:
             url: "https://www.digitaljournal.com/tech-science/sonu-kapoor-advancing-retail-with-rfid-and-intranets/article"
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
-          position: 20
+          position: 22
           item:
             "@type": "VideoObject"
             uploadDate: "2025-04-07T10:00-05:00"
@@ -199,7 +215,7 @@ schema:
             url: "https://www.youtube.com/watch?v=Vcuaxg1A_7M"
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
-          position: 21
+          position: 23
           item:
             "@type": "NewsArticle"
             headline: "Angular v14 is now available"
@@ -207,7 +223,7 @@ schema:
             url: "https://blog.angular.dev/angular-v14-is-now-available-391a6db736af"
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
-          position: 22
+          position: 24
           item:
             "@type": "NewsArticle"
             headline: "BBN Times Interview"
@@ -215,7 +231,7 @@ schema:
             url: "https://www.bbntimes.com/technology/building-frameworks-that-shape-millions-of-applications-sonu-kapoor-s-path-from-enterprise-architect-to-angular-collaborator"
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
-          position: 23
+          position: 25
           item:
             "@type": "NewsArticle"
             headline: "Techronicler Expert Opinion"
@@ -223,7 +239,7 @@ schema:
             url: "https://techronicler.com/proving-green-in-ux-tech-pros-on-real-time-sustainability-solutions/"
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
-          position: 24
+          position: 26
           item:
             "@type": "NewsArticle"
             headline: "Forbes Quote"
@@ -231,7 +247,7 @@ schema:
             url: "https://www.forbes.com/advisor/business/best-cpanel-hosting/"
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
-          position: 25
+          position: 27
           item:
             "@type": "NewsArticle"
             headline: "Techronicler Expert Opinion"
@@ -239,7 +255,7 @@ schema:
             url: "https://techronicler.com/from-headlines-to-impact-exciting-ai-innovations-in-action/"
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
-          position: 26
+          position: 28
           item:
             "@type": "NewsArticle"
             headline: "CTO’s Guide to Strategic AI Prompting: 20+ Prompts to Master Today"
@@ -247,7 +263,7 @@ schema:
             url: "https://www.vktr.com/ai-upskilling/ctos-guide-to-strategic-ai-prompting-20-prompts-to-master-today/"
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
-          position: 27
+          position: 29
           item:
             "@type": "NewsArticle"
             headline: "The rise of coding with parallel agents"
@@ -255,7 +271,7 @@ schema:
             url: "https://leaddev.com/technical-direction/the-rise-of-coding-with-parallel-agents"
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
-          position: 28
+          position: 30
           item:
             "@type": "NewsArticle"
             headline: "Why the Frontend Should Run AI Models Locally With ONNX"
@@ -263,28 +279,28 @@ schema:
             url: "https://thenewstack.io/why-the-frontend-should-run-ai-models-locally-with-onnx/"
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
-          position: 29
+          position: 31
           item:
             "@type": "VisualArtwork"
             name: "Times Square Billboard Spotlight – New York City"
             url: "https://sonukapoor.com/media/#times-square-billboard"
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
-          position: 30
+          position: 32
           item:
             "@type": "NewsArticle"
             name: "From Data Accuracy To Cognitive Clarity In Compliance"
             url: "https://www.forbes.com/councils/forbestechcouncil/2025/11/17/from-data-accuracy-to-cognitive-clarity-in-compliance/"
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
-          position: 31
+          position: 33
           item:
             "@type": "NewsArticle"
             name: "How to succeed as an independent software developer"
             url: "https://www.infoworld.com/article/4091404/how-to-succeed-as-an-independent-software-developer-2.html"
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
-          position: 32
+          position: 34
           item:
             "@type": "NewsArticle"
             headline: "A Single Outage Exposed How Fragile AI Infrastructure Really Is"
@@ -292,7 +308,7 @@ schema:
             url: "https://www.vktr.com/ai-technology/a-single-outage-exposed-how-fragile-ai-infrastructure-really-is/"
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
-          position: 33
+          position: 35
           item:
             "@type": "NewsArticle"
             headline: "Brevo’s $583 Million Funding Round Signals a CRM Market Reset"
@@ -300,42 +316,42 @@ schema:
             url: "https://www.cmswire.com/customer-experience/brevos-583-million-funding-round-signals-a-crm-market-reset/"
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
-          position: 34
+          position: 36
           item:
             "@type": "NewsArticle"
             name: "How to succeed as an independent software developer"
             url: "https://www.infoworld.com/article/4105927/how-to-succeed-with-ai-powered-low-code-and-no-code-development-tools.html"
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
-          position: 35
+          position: 37
           item:
             "@type": "NewsArticle"
             name: "Safe by design: AI personalization in fintech"
             url: "https://www.techtarget.com/searchcio/feature/Safe-by-design-AI-personalization-in-fintech"
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
-          position: 36
+          position: 38
           item:
             "@type": "NewsArticle"
             name: "AI skepticism is a quiet career killer"
             url: "https://leaddev.com/career-development/ai-skepticism-is-a-quiet-career-killer"
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
-          position: 37
+          position: 39
           item:
             "@type": "NewsArticle"
             name: "How to land a software development job in an AI-focused world"
             url: "https://www.infoworld.com/article/4147116/how-to-land-a-software-development-job-in-an-ai-focused-world.html"
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
-          position: 38
+          position: 40
           item:
             "@type": "NewsArticle"
             name: "Open source AI: What it means for enterprise innovation"
             url: "https://www.techtarget.com/searchenterpriseai/feature/Open-source-AI-What-it-means-for-enterprise-innovation"
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
-          position: 39
+          position: 41
           item:
             "@type": "NewsArticle"
             headline: "Citizen developers are redefining enterprise AI development"
@@ -343,7 +359,7 @@ schema:
             url: "https://www.techtarget.com/searchenterpriseai/tip/Citizen-developers-are-redefining-enterprise-AI-development"
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
-          position: 40
+          position: 42
           item:
             "@type": "NewsArticle"
             headline: "CVE Lite CLI closes dependency gap — but won't stop modern threats"
@@ -351,7 +367,7 @@ schema:
             url: "https://www.reversinglabs.com/blog/cve-lite-cli"
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
-          position: 41
+          position: 43
           item:
             "@type": "NewsArticle"
             headline: "GitHub finally pulls the plug on automatic install script execution for npm"
@@ -359,7 +375,7 @@ schema:
             url: "https://www.csoonline.com/article/4183859/github-finally-pulls-the-plug-on-automatic-install-script-execution-for-npm-2.html"
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
-          position: 42
+          position: 44
           item:
             "@type": "NewsArticle"
             headline: "Shift Left: How CVE-LITE CLI is Transforming Developer Security"
@@ -367,7 +383,7 @@ schema:
             url: "https://sdtimes.com/security/shift-left-how-cve-lite-cli-is-transforming-developer-security/"
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
-          position: 43
+          position: 45
           item:
             "@type": "NewsArticle"
             headline: "Cordyceps CI/CD"
@@ -375,7 +391,7 @@ schema:
             url: "https://thenewstack.io/cordyceps-cicd/"
             about: { "@id": "https://sonukapoor.com/#person" }
         - "@type": "ListItem"
-          position: 44
+          position: 46
           item:
             "@type": "NewsArticle"
             headline: "Sniff out stale AI override advice with this open source CLI"
@@ -428,6 +444,28 @@ I’ve been featured, quoted, and publicly recognized across leading publication
 <h2 class="media-section-title" id="cve-lite-press">CVE Lite CLI Press</h2>
 
 <div class="cards">
+
+  <div class="card">
+    <h2>CVE Lite CLI Review 2026: Free OWASP JS/TS Scanner</h2>
+    <div class="card-meta">Publisher: AppSec Santa</div>
+    <p class="card-desc">
+      Reviewed by AppSec Santa as a free OWASP JavaScript and TypeScript scanner, highlighting CVE Lite CLI's lockfile-first scanning, offline advisory workflow, override hygiene checks, and practical remediation output.
+    </p>
+    <div class="card-actions">
+      <a href="https://appsecsanta.com/cve-lite-cli" target="_blank" rel="noopener">Read →</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>EU Cyber Resilience Act: What to Know</h2>
+    <div class="card-meta">Publisher: ITOps Times</div>
+    <p class="card-desc">
+      Quoted by ITOps Times on the EU Cyber Resilience Act, the difference between vulnerable and actively exploited software, SBOM readiness, and the inventory challenges created by transitive dependencies.
+    </p>
+    <div class="card-actions">
+      <a href="https://itopstimes.com/cybersecurity/eu-cyber-resilience-act-what-to-know/" target="_blank" rel="noopener">Read →</a>
+    </div>
+  </div>
 
   <div class="card">
     <h2>Sniff out stale AI override advice with this open source CLI</h2>
