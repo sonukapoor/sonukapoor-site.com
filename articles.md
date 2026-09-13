@@ -30,7 +30,7 @@ schema:
       about: { "@id": "https://sonukapoor.com/#person" }
     - "@type": "ItemList"
       "@id": "https://sonukapoor.com/articles/#itemlist"
-      numberOfItems: 43
+      numberOfItems: 44
       itemListElement:
         - "@type": "ListItem"
           position: 1
@@ -245,7 +245,7 @@ schema:
             publisher: { "@type": "Organization", name: "App Signal" }
             url: "https://blog.appsignal.com/2025/09/17/the-angular-signals-revolution-rethinking-reactivity.html"
         - "@type": "ListItem"
-          position: 19
+          position: 20
           item:
             "@type": "Article"
             headline: "Beyond console.log: Smarter Debugging with Modern JavaScript Tooling"
@@ -253,15 +253,15 @@ schema:
             publisher: { "@type": "Organization", name: "App Signal" }
             url: "https://blog.appsignal.com/2025/07/09/beyond-console-log-smarter-debugging%20with-modern-javascript-tooling.html"
         - "@type": "ListItem"
-          position: 20
+          position: 21
           item:
             "@type": "Article"
-            headline: "Angular Signals: The End of RxJS Boilerplate"
+            headline: "Angular Signals: The End of RxJS Boilerplate?"
             author: { "@id": "https://sonukapoor.com/#person" }
             publisher: { "@type": "Organization", name: "CODE Magazine" }
             url: "https://www.codemag.com/Article/2509051/Angular-Signals-The-End-of-RxJS-Boilerplate"
         - "@type": "ListItem"
-          position: 21
+          position: 22
           item:
             "@type": "Article"
             headline: "Angular Signal-Based Architecture: Building a Smarter Shopping Cart"
@@ -269,7 +269,7 @@ schema:
             publisher: { "@type": "Organization", name: "App Signal" }
             url: "https://blog.appsignal.com/2025/10/01/angular-signal-based-architecture-building-a-smarter-shopping-cart.html"
         - "@type": "ListItem"
-          position: 22
+          position: 23
           item:
             "@type": "Article"
             headline: "From ASP.NET to Angular: My MVP Story - Sonu Kapoor"
@@ -277,7 +277,7 @@ schema:
             publisher: { "@type": "Organization", name: "Microsoft" }
             url: "https://techcommunity.microsoft.com/blog/mvp-blog/from-asp-net-to-angular-my-mvp-story---sonu-kapoor/4458699"
         - "@type": "ListItem"
-          position: 23
+          position: 24
           item:
             "@type": "Article"
             headline: "Here's What the Pros Don't Tell You About Angular Unit Testing"
@@ -285,7 +285,7 @@ schema:
             publisher: { "@type": "Organization", name: "Hackernoon" }
             url: "https://hackernoon.com/heres-what-the-pros-dont-tell-you-about-angular-unit-testing"
         - "@type": "ListItem"
-          position: 24
+          position: 25
           item:
             "@type": "Article"
             headline: "Angular Signals in the Real World: Smarter Inputs and Reactive Routing"
@@ -293,7 +293,7 @@ schema:
             publisher: { "@type": "Organization", name: "CODE Magazine" }
             url: "https://www.codemag.com/Article/2511041/Angular-Signals-in-the-Real-World-Smarter-Inputs-and-Reactive-Routing"
         - "@type": "ListItem"
-          position: 25
+          position: 26
           item:
             "@type": "Article"
             headline: "From Commands to Conversations: How AI-Assisted Tooling Is Transforming Angular Development"
@@ -301,7 +301,7 @@ schema:
             publisher: { "@type": "Organization", name: "CODE Magazine" }
             url: "https://www.codemag.com/Article/2601071/From-Commands-to-Conversations-How-AI-Assisted-Tooling-Is-Transforming-Angular-Development"
         - "@type": "ListItem"
-          position: 26
+          position: 27
           item:
             "@type": "Article"
             headline: "Signal-Driven Error Monitoring: Detecting and Debugging Reactive Failures in Angular"
@@ -309,7 +309,7 @@ schema:
             publisher: { "@type": "Organization", name: "App Signal" }
             url: "https://blog.appsignal.com/2026/02/19/signal-driven-error-monitoring-detecting-and-debugging-reactive-failures-in-angular.html"
         - "@type": "ListItem"
-          position: 27
+          position: 28
           item:
             "@type": "Article"
             headline: "How AI redefines software engineering expertise"
@@ -317,7 +317,7 @@ schema:
             publisher: { "@type": "Organization", name: "InfoWorld" }
             url: "https://www.infoworld.com/article/4135467/how-ai-redefines-software-engineering-expertise.html"
         - "@type": "ListItem"
-          position: 28
+          position: 29
           item:
             "@type": "Article"
             headline: "The right way to architect modern web applications"
@@ -325,7 +325,7 @@ schema:
             publisher: { "@type": "Organization", name: "InfoWorld" }
             url: "https://www.infoworld.com/article/4138765/the-right-way-to-architect-modern-web-applications.html"
         - "@type": "ListItem"
-          position: 29
+          position: 30
           item:
             "@type": "Article"
             headline: "From Template-Driven to Signal-Driven: The Complete Evolution of Angular Forms"
@@ -333,7 +333,7 @@ schema:
             publisher: { "@type": "Organization", name: "CODE Magazine" }
             url: "https://www.codemag.com/Article/264041/From-Template-Driven-to-Signal-Driven-The-Complete-Evolution-of-Angular-Forms"
         - "@type": "ListItem"
-          position: 30
+          position: 31
           item:
             "@type": "Article"
             headline: "We mistook event handling for architecture"
@@ -341,7 +341,7 @@ schema:
             publisher: { "@type": "Organization", name: "InfoWorld" }
             url: "https://www.infoworld.com/article/4145032/we-mistook-event-handling-for-architecture.html"
         - "@type": "ListItem"
-          position: 31
+          position: 32
           item:
             "@type": "Article"
             headline: "Signal Forms: The Missing Link in Angular's New Reactive Architecture"
@@ -349,7 +349,7 @@ schema:
             publisher: { "@type": "Organization", name: "App Signal" }
             url: "https://blog.appsignal.com/2026/04/09/signal-forms-the-missing-link-in-angulars-new-reactive-architecture.html"
         - "@type": "ListItem"
-          position: 32
+          position: 33
           item:
             "@type": "Article"
             headline: "Rethinking Angular forms: A state-first perspective"
@@ -357,7 +357,7 @@ schema:
             publisher: { "@type": "Organization", name: "InfoWorld" }
             url: "https://www.infoworld.com/article/4154060/rethinking-angular-forms-a-state-first-perspective.html"
         - "@type": "ListItem"
-          position: 33
+          position: 34
           item:
             "@type": "Article"
             headline: "Is your Node.js project really secure?"
@@ -365,7 +365,7 @@ schema:
             publisher: { "@type": "Organization", name: "InfoWorld" }
             url: "https://www.infoworld.com/article/4158762/is-your-node-js-project-really-secure.html"
         - "@type": "ListItem"
-          position: 34
+          position: 35
           item:
             "@type": "Article"
             headline: "Designing Signal-First Form State Without Recreating Reactive Forms"
@@ -373,7 +373,7 @@ schema:
             publisher: { "@type": "Organization", name: "CODE Magazine" }
             url: "https://www.codemag.com/Article/266041/Designing-Signal-First-Form-State-Without-Recreating-Reactive-Forms"
         - "@type": "ListItem"
-          position: 35
+          position: 36
           item:
             "@type": "Article"
             headline: "The hidden cost of front-end complexity"
@@ -381,7 +381,7 @@ schema:
             publisher: { "@type": "Organization", name: "InfoWorld" }
             url: "https://www.infoworld.com/article/4164653/the-hidden-cost-of-front-end-complexity.html"
         - "@type": "ListItem"
-          position: 36
+          position: 37
           item:
             "@type": "Article"
             headline: "Angular Signal Forms: From event pipelines to signal-driven state"
@@ -389,7 +389,7 @@ schema:
             publisher: { "@type": "Organization", name: "InfoWorld" }
             url: "https://www.infoworld.com/article/4171858/angular-signal-forms-from-event-pipelines-to-signal-driven-state.html"
         - "@type": "ListItem"
-          position: 37
+          position: 38
           item:
             "@type": "Article"
             headline: "Angular Signals explained: How pull-based reactivity changes how we model state"
@@ -397,7 +397,7 @@ schema:
             publisher: { "@type": "Organization", name: "InfoWorld" }
             url: "https://www.infoworld.com/article/4180890/angular-signals-explained-how-pull-based-reactivity-changes-how-we-model-state.html"
         - "@type": "ListItem"
-          position: 38
+          position: 39
           item:
             "@type": "Article"
             headline: "Angular Signals in practice: Building a signal-first form in Angular"
@@ -405,7 +405,7 @@ schema:
             publisher: { "@type": "Organization", name: "InfoWorld" }
             url: "https://www.infoworld.com/article/4185924/angular-signals-in-practice-building-a-signal-first-form-in-angular.html"
         - "@type": "ListItem"
-          position: 39
+          position: 40
           item:
             "@type": "Article"
             headline: "Node.js security starts before CI"
@@ -413,7 +413,7 @@ schema:
             publisher: { "@type": "Organization", name: "InfoWorld" }
             url: "https://www.infoworld.com/article/4194530/node-js-security-starts-before-ci.html"
         - "@type": "ListItem"
-          position: 40
+          position: 41
           item:
             "@type": "Article"
             headline: "AI agents need security regression testing, not another checklist"
@@ -421,7 +421,7 @@ schema:
             publisher: { "@type": "Organization", name: "InfoWorld" }
             url: "https://www.infoworld.com/article/4203038/ai-agents-need-security-regression-testing-not-another-checklist.html"
         - "@type": "ListItem"
-          position: 41
+          position: 42
           item:
             "@type": "Article"
             headline: "A better approach to generative UI"
@@ -429,7 +429,15 @@ schema:
             publisher: { "@type": "Organization", name: "InfoWorld" }
             url: "https://www.infoworld.com/article/4210616/a-better-approach-to-generative-ui.html"
         - "@type": "ListItem"
-          position: 42
+          position: 43
+          item:
+            "@type": "Article"
+            headline: "Optimizing Your Cart with Signals: Smarter State, Better Debugging"
+            author: { "@id": "https://sonukapoor.com/#person" }
+            publisher: { "@type": "Organization", name: "App Signal" }
+            url: "https://blog.appsignal.com/2025/10/08/optimizing-your-cart-with-signals-smarter-state-better-debugging.html"
+        - "@type": "ListItem"
+          position: 44
           item:
             "@type": "ScholarlyArticle"
             headline: "The reachability ceiling"
@@ -976,9 +984,9 @@ schema:
   </div>
 
   <div class="card">
-    <h3>Mastering Angular Unit Testing: Best Practices and Tools</h3>
+    <h3>Here's What the Pros Don't Tell You About Angular Unit Testing</h3>
     <img src="/images/publisher/hackernoon.png" class="publisher-logo" alt="Publisher: Hackernoon">
-    <p class="card-desc">Here's What the Pros Don't Tell You About Angular Unit Testing</p>
+    <p class="card-desc">What experienced Angular developers know about unit testing that the introductory guides leave out.</p>
     <div class="card-actions">
       <a href="https://hackernoon.com/heres-what-the-pros-dont-tell-you-about-angular-unit-testing" target="_blank" rel="noopener">Read →</a>
     </div>
