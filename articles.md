@@ -30,7 +30,7 @@ schema:
       about: { "@id": "https://sonukapoor.com/#person" }
     - "@type": "ItemList"
       "@id": "https://sonukapoor.com/articles/#itemlist"
-      numberOfItems: 42
+      numberOfItems: 43
       itemListElement:
         - "@type": "ListItem"
           position: 1
@@ -428,6 +428,14 @@ schema:
             author: { "@id": "https://sonukapoor.com/#person" }
             publisher: { "@type": "Organization", name: "InfoWorld" }
             url: "https://www.infoworld.com/article/4210616/a-better-approach-to-generative-ui.html"
+        - "@type": "ListItem"
+          position: 42
+          item:
+            "@type": "ScholarlyArticle"
+            headline: "The reachability ceiling"
+            author: { "@id": "https://sonukapoor.com/#person" }
+            publisher: { "@id": "https://sonukapoor.com/#person" }
+            url: "https://sonukapoor.com/articles/reachability-ceiling/"
 ---
 
 <p class="muted">
@@ -435,6 +443,18 @@ schema:
 </p>
 
 <div class="cards">
+
+<div class="card">
+    <h3>The reachability ceiling</h3>
+    <p class="card-desc">
+      Reachability analysis promises to cut vulnerability noise by telling you whether your code calls the broken function. Measured against a random sample of 150 npm advisories, only about one in six names a function at all, and when none is named the tooling reports not affected rather than cannot determine.
+    </p>
+    <div class="card-actions">
+      <a href="/articles/reachability-ceiling/">
+        Read &rarr;
+      </a>
+    </div>
+  </div>
 
 <div class="card">
     <h3>A better approach to generative UI</h3>
