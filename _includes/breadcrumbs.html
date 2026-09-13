@@ -6,7 +6,8 @@
     {% for seg in segments %}
       {% unless seg == "" %}
         {% assign path = path | append: '/' | append: seg %}
-        {% if path | append: '/' == page.url %}
+        {% assign path_url = path | append: '/' %}
+        {% if path_url == page.url %}
           <li aria-current="page">{{ seg | replace: '-', ' ' | capitalize }}</li>
         {% else %}
           <li><a href="{{ path | relative_url }}">{{ seg | replace: '-', ' ' | capitalize }}</a></li>

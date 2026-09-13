@@ -12,6 +12,11 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
 
+collections:
+  articles:
+    output: true
+    permalink: /:collection/:name/
+
 defaults:
   - scope: { path: "", type: "awards" }
     values: { layout: detail }
