@@ -18,6 +18,9 @@ keywords:
   - Speaker
   - Author
   - Open Source
+  - OWASP
+  - CVE Lite CLI
+  - Software Supply Chain Security
 schema:
   "@context": "https://schema.org"
   "@graph":
@@ -56,7 +59,7 @@ schema:
       url: "https://sonukapoor.com/"
       image: "https://sonukapoor.com/images/og/home.jpg"
       jobTitle: "Senior Software Engineer; Angular Consultant; Author"
-      description: "Google Developer Expert (Angular), 7× Microsoft MVP, author, and enterprise modernization leader; invited Angular Collaborator and co-author of Angular Typed Forms."
+      description: "Google Developer Expert (Angular), 7× Microsoft MVP, author, and enterprise modernization leader; invited Angular Collaborator and co-author of Angular Typed Forms; creator of the OWASP CVE Lite CLI project."
       sameAs:
         - "https://www.linkedin.com/in/sonu-kapoor/"
         - "https://x.com/SonuKapoor1978"
@@ -79,6 +82,8 @@ schema:
         - "Typed Forms"
         - "Performance optimization"
         - "AI-augmented frontend workflows"
+        - "Software supply chain security"
+        - "Dependency vulnerability scanning"
       mainEntityOfPage:
         "@type": "WebPage"
         "@id": "https://sonukapoor.com/about/"
@@ -117,6 +122,16 @@ Today, I split my time between **consulting with enterprises**, **writing books 
 
 ---
 
+## From Building Applications to Securing Them
+
+After two decades building frontends for Citigroup, Sony Music Publishing, and Cisco, I found myself drawn to the layer underneath all of them: the dependencies that every modern application is assembled from. Most teams ship code they did not write and cannot easily audit, and the tools meant to help tend to hand you a list of problems rather than a way out of them.
+
+So I built one that does the opposite. **CVE Lite CLI** scans a project's lockfile, separates the issues you can fix yourself from the ones buried deep in the dependency tree, and gives you the exact command to run. It is now an **OWASP Lab Project**, has passed **80,000 downloads**, and has drawn contributions from **66 developers** around the world.
+
+It runs in production at the French government's interministerial digital service and at the Government of British Columbia, and in the CI pipelines of open source projects including SolidJS, whose creator added the integration to the framework himself. In September 2026, GitHub invited me onto **Open Source Friday** to demo it live.
+
+---
+
 ## Timeline
 
 <ul class="timeline">
@@ -151,6 +166,14 @@ Today, I split my time between **consulting with enterprises**, **writing books 
   <li class="timeline-item right">
     <h3>2024–2026 — Dual Recognition</h3>
     <p>Re-awarded Microsoft MVP and named Google Developer Expert in Angular.</p>
+  </li>
+  <li class="timeline-item left">
+    <h3>2026 - OWASP Lab Project</h3>
+    <p>CVE Lite CLI, the dependency scanner I created, graduated to OWASP Lab Project status and was adopted in production by the French government's digital service and the Government of British Columbia.</p>
+  </li>
+  <li class="timeline-item right">
+    <h3>2026 - GitHub Open Source Friday</h3>
+    <p>Invited by GitHub to present CVE Lite CLI live on their Open Source Friday program.</p>
   </li>
 </ul>
 
