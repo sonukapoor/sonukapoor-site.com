@@ -145,7 +145,7 @@ schema:
       <span>OWASP Foundation Project</span>
       <span>Featured by GitHub Open Source Friday</span>
       <span>Featured by CSO Online</span>
-      <span>Reviewed by security practitioners</span>
+      <span>Used in production by the French and BC governments</span>
     </div>
   </div>
 </section>
