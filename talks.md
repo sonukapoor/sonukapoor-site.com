@@ -18,7 +18,7 @@ schema:
       about: { "@id": "https://sonukapoor.com/#person" }
     - "@type": "ItemList"
       "@id": "https://sonukapoor.com/talks/#itemlist"
-      numberOfItems: 13
+      numberOfItems: 14
       itemListElement:
         - "@type": "ListItem"
           position: 1
@@ -221,6 +221,23 @@ schema:
             publisher: { "@type": "Organization", name: "NG Asia" }
             potentialAction: { "@type": "WatchAction", target: "https://www.youtube.com/watch?v=S7bZ5_HCdNY" }
             about: { "@id": "https://sonukapoor.com/#person" }
+        - "@type": "ListItem"
+          position: 14
+          startDate: "2026-09-18T13:00-04:00"
+          endDate: "2026-09-18T14:00-04:00"
+          item:
+            "@type": "VideoObject"
+            uploadDate: "2026-09-18T14:00-04:00"
+            thumbnailUrl:
+              - "https://img.youtube.com/vi/_Mmf3DLVuOQ/default.jpg"
+              - "https://img.youtube.com/vi/_Mmf3DLVuOQ/0.jpg"
+              - "https://img.youtube.com/vi/_Mmf3DLVuOQ/1.jpg"
+            name: "Open Source Friday: Securing JavaScript Projects with CVE Lite CLI"
+            description: "GitHub Open Source Friday live stream demonstrating CVE Lite CLI, the OWASP dependency scanner, on a real project."
+            url: "https://www.youtube.com/watch?v=_Mmf3DLVuOQ"
+            publisher: { "@type": "Organization", name: "GitHub" }
+            potentialAction: { "@type": "WatchAction", target: "https://www.youtube.com/watch?v=_Mmf3DLVuOQ" }
+            about: { "@id": "https://sonukapoor.com/#person" }
 ---
 
 <p class="muted">
@@ -228,6 +245,17 @@ schema:
 </p>
 
 <div class="cards">
+
+  <div class="card">
+    <h3>Securing JavaScript Projects with CVE Lite CLI | GitHub Open Source Friday 2026</h3>
+    <div class="card-meta">Event: GitHub Open Source Friday • Format: Live Stream</div>
+    <p class="card-desc">
+      GitHub invited me onto Open Source Friday to demo CVE Lite CLI live: scanning a real project, reading the difference between the issues you can fix directly and the ones buried in the dependency tree, and running a validated fix command. We also talked about why dependency security belongs at developer time rather than waiting for CI to complain.
+    </p>
+    <div class="card-actions">
+      <a href="https://www.youtube.com/watch?v=_Mmf3DLVuOQ" target="_blank" rel="noopener">Watch →</a>
+    </div>
+  </div>
 
   <div class="card">
     <h3>Signal Forms in Angular: Escaping Event-Driven Forms and Returning to State | NG Asia 2026</h3>
