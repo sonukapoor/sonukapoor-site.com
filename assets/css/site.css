@@ -987,7 +987,9 @@ img.book-cover {
 }
 
 .cve-lite-feature-proof span {
-  display: block;
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
   padding: 0.75rem 0.85rem;
   background: color-mix(in srgb, var(--bg) 86%, var(--card));
   border: 1px solid var(--border);
