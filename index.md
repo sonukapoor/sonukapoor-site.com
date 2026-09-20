@@ -143,6 +143,7 @@ schema:
     <img class="cve-lite-logo" src="/images/cve-lite-logo.png" alt="CVE Lite CLI" />
     <div class="cve-lite-feature-proof" aria-label="CVE Lite CLI press highlights">
       <span>OWASP Foundation Project</span>
+      <span>Featured by GitHub Open Source Friday</span>
       <span>Featured by CSO Online</span>
       <span>Reviewed by security practitioners</span>
     </div>
