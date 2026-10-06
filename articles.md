@@ -30,7 +30,7 @@ schema:
       about: { "@id": "https://sonukapoor.com/#person" }
     - "@type": "ItemList"
       "@id": "https://sonukapoor.com/articles/#itemlist"
-      numberOfItems: 44
+      numberOfItems: 45
       itemListElement:
         - "@type": "ListItem"
           position: 1
@@ -444,6 +444,14 @@ schema:
             author: { "@id": "https://sonukapoor.com/#person" }
             publisher: { "@id": "https://sonukapoor.com/#person" }
             url: "https://sonukapoor.com/articles/reachability-ceiling/"
+        - "@type": "ListItem"
+          position: 45
+          item:
+            "@type": "Article"
+            headline: "Knowing which vulnerability to fix first"
+            author: { "@id": "https://sonukapoor.com/#person" }
+            publisher: { "@type": "Organization", name: "InfoWorld" }
+            url: "https://www.infoworld.com/article/4229731/knowing-which-vulnerability-to-fix-first.html"
 ---
 
 <p class="muted">
@@ -451,6 +459,23 @@ schema:
 </p>
 
 <div class="cards">
+
+<div class="card">
+    <h3>Knowing which vulnerability to fix first</h3>
+    <img src="/images/media/infoworld-white.svg" class="publisher-logo" alt="Publisher: InfoWorld">
+    <p class="card-desc">
+      This article explains how teams can prioritize vulnerability remediation by combining CVSS severity, EPSS exploitation forecasts, and local application context instead of treating scanner severity as a one-dimensional fix queue.
+    </p>
+    <div class="card-actions">
+      <a
+        href="https://www.infoworld.com/article/4229731/knowing-which-vulnerability-to-fix-first.html"
+        target="_blank"
+        rel="noopener"
+      >
+        Read →
+      </a>
+    </div>
+  </div>
 
 <div class="card">
     <h3>The reachability ceiling</h3>
