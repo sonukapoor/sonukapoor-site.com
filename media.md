@@ -26,7 +26,7 @@ schema:
       about: { "@id": "https://sonukapoor.com/#person" }
     - "@type": "ItemList"
       "@id": "https://sonukapoor.com/media/#itemlist"
-      numberOfItems: 46
+      numberOfItems: 47
       itemListElement:
         - "@type": "ListItem"
           position: 1
@@ -398,6 +398,14 @@ schema:
             publisher: { "@type": "Organization", name: "The Register" }
             url: "https://www.theregister.com/security/2026/06/23/sniff-out-stale-ai-override-advice-with-this-open-source-cli/5259853"
             about: { "@id": "https://sonukapoor.com/#person" }
+        - "@type": "ListItem"
+          position: 47
+          item:
+            "@type": "NewsArticle"
+            headline: "Dependency installation security measure already defeated on npm"
+            publisher: { "@type": "Organization", name: "ReversingLabs" }
+            url: "https://www.reversinglabs.com/blog/npm-dependency-installation-security-measure-defeated"
+            about: { "@id": "https://sonukapoor.com/#person" }
 ---
 
 I’ve been featured, quoted, and publicly recognized across leading publications, interviews, and high-visibility showcases that highlight my work in Angular, AI, and enterprise technology.
@@ -444,6 +452,17 @@ I’ve been featured, quoted, and publicly recognized across leading publication
 <h2 class="media-section-title" id="cve-lite-press">CVE Lite CLI Press</h2>
 
 <div class="cards">
+
+  <div class="card">
+    <h2>Dependency installation security measure already defeated on npm</h2>
+    <div class="card-meta">Publisher: ReversingLabs</div>
+    <p class="card-desc">
+      Quoted by ReversingLabs on how npm malware can evade install-time security checks by waiting until application runtime, where malicious dependency behavior can blend into normal execution and access production credentials, internal systems, and customer data.
+    </p>
+    <div class="card-actions">
+      <a href="https://www.reversinglabs.com/blog/npm-dependency-installation-security-measure-defeated" target="_blank" rel="noopener">Read →</a>
+    </div>
+  </div>
 
   <div class="card">
     <h2>CVE Lite CLI Review 2026: Free OWASP JS/TS Scanner</h2>
