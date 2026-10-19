@@ -126,7 +126,7 @@ Today, I split my time between **consulting with enterprises**, **writing books 
 
 After two decades building frontends for Citigroup, Sony Music Publishing, and Cisco, I found myself drawn to the layer underneath all of them: the dependencies that every modern application is assembled from. Most teams ship code they did not write and cannot easily audit, and the tools meant to help tend to hand you a list of problems rather than a way out of them.
 
-So I built one that does the opposite. **CVE Lite CLI** scans a project's lockfile, separates the issues you can fix yourself from the ones buried deep in the dependency tree, and gives you the exact command to run. It is now an **OWASP Lab Project**, has passed **80,000 downloads**, and has drawn contributions from **66 developers** around the world.
+So I built one that does the opposite. **CVE Lite CLI** scans a project's lockfile, separates the issues you can fix yourself from the ones buried deep in the dependency tree, and gives you the exact command to run. It is now an **OWASP Lab Project**, has reached **100,000+ downloads**, and has drawn contributions from **66 developers** around the world.
 
 It runs in production at the French government's interministerial digital service and at the Government of British Columbia, and in the CI pipelines of open source projects including SolidJS, whose creator added the integration to the framework himself. In September 2026, GitHub invited me onto **Open Source Friday** to demo it live.
 

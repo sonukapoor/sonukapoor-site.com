@@ -4,7 +4,7 @@ title: "Open Source Contributions – Sonu Kapoor"
 page_title: "Open Source Contributions by Sonu Kapoor"
 permalink: /contributions/
 image: /images/og/contributions-og.png
-description: "Open source contributions by Sonu Kapoor — Angular framework (Typed Forms), NGX-Layout, and community leadership with Angular Toronto."
+description: "Open source projects and contributions by Sonu Kapoor — CVE Lite CLI, warpdom, dom-api-tracer, DOMParity, Angular, NGX-Layout, and Angular Toronto."
 keywords:
   - Sonu Kapoor
   - Open Source
@@ -13,6 +13,9 @@ keywords:
   - NGX-Layout
   - Angular Toronto Meetup
   - GitHub PRs
+  - warpdom
+  - dom-api-tracer
+  - DOMParity
 schema:
   "@context": "https://schema.org"
   "@graph":
@@ -20,7 +23,7 @@ schema:
       "@id": "https://sonukapoor.com/contributions/#collectionpage"
       url: "https://sonukapoor.com/contributions/"
       name: "Open Source Contributions – Sonu Kapoor"
-      description: "Selected contributions across Angular core, Typed Forms, NGX-Layout, and community leadership."
+      description: "Selected projects and contributions across security tooling, DOM testing and compatibility, Angular core, NGX-Layout, and community leadership."
       isPartOf: { "@id": "https://sonukapoor.com/#website" }
       mainEntity: { "@id": "https://sonukapoor.com/contributions/#itemlist" }
       about: { "@id": "https://sonukapoor.com/#person" }
@@ -44,6 +47,41 @@ schema:
           position: 2
           item:
             "@type": "SoftwareSourceCode"
+            name: "warpdom"
+            description: "A fast DOM implementation for unit and component tests, designed for jsdom-compatible behavior with Vitest and Jest."
+            codeRepository: "https://github.com/sonukapoor/warpdom"
+            creator: { "@id": "https://sonukapoor.com/#person" }
+            url: "https://github.com/sonukapoor/warpdom"
+            about: { "@id": "https://sonukapoor.com/#person" }
+            potentialAction: { "@type": "ViewAction", target: "https://github.com/sonukapoor/warpdom" }
+
+        - "@type": "ListItem"
+          position: 3
+          item:
+            "@type": "SoftwareSourceCode"
+            name: "dom-api-tracer"
+            description: "A tool that measures which DOM APIs real test suites use under jsdom and happy-dom, helping guide compatibility and performance work."
+            codeRepository: "https://github.com/sonukapoor/dom-api-tracer"
+            creator: { "@id": "https://sonukapoor.com/#person" }
+            url: "https://github.com/sonukapoor/dom-api-tracer"
+            about: { "@id": "https://sonukapoor.com/#person" }
+            potentialAction: { "@type": "ViewAction", target: "https://github.com/sonukapoor/dom-api-tracer" }
+
+        - "@type": "ListItem"
+          position: 4
+          item:
+            "@type": "WebSite"
+            name: "DOMParity"
+            description: "A compatibility reference comparing web API support and behavior across warpdom, happy-dom, jsdom, and linkedom."
+            creator: { "@id": "https://sonukapoor.com/#person" }
+            url: "https://domparity.github.io/"
+            about: { "@id": "https://sonukapoor.com/#person" }
+            potentialAction: { "@type": "ViewAction", target: "https://domparity.github.io/" }
+
+        - "@type": "ListItem"
+          position: 5
+          item:
+            "@type": "SoftwareSourceCode"
             name: "Angular Framework (google/angular)"
             codeRepository: "https://github.com/angular/angular"
             programmingLanguage: "TypeScript"
@@ -53,7 +91,7 @@ schema:
             potentialAction: { "@type": "ViewAction", target: "https://github.com/angular/angular/commits?author=sonukapoor" }
 
         - "@type": "ListItem"
-          position: 3
+          position: 6
           item:
             "@type": "CreativeWork"
             name: "Angular Typed Forms (RFC & Adoption)"
@@ -65,7 +103,7 @@ schema:
             potentialAction: { "@type": "ReadAction", target: "https://github.com/angular/angular/discussions/44513" }
 
         - "@type": "ListItem"
-          position: 4
+          position: 7
           item:
             "@type": "SoftwareSourceCode"
             name: "NGX-Layout"
@@ -77,7 +115,7 @@ schema:
             potentialAction: { "@type": "ViewAction", target: "https://github.com/ngbracket/ngx-layout" }
 
         - "@type": "ListItem"
-          position: 5
+          position: 8
           item:
             "@type": "Organization"
             name: "Angular Toronto Meetup"
@@ -114,6 +152,78 @@ schema:
     <p>
       <a class="btn" href="https://github.com/sonukapoor/cve-lite-cli" target="_blank" rel="noopener">Visit Repository</a>
       <a class="btn secondary" href="/articles/">Related Articles</a>
+    </p>
+  </section>
+
+  <!-- warpdom -->
+  <section class="card">
+    <h2>warpdom</h2>
+    <p class="muted">
+      A fast DOM implementation for unit and component tests, designed for jsdom-compatible behavior with Vitest and Jest.
+    </p>
+
+    <div class="kickers" style="margin-top:.5rem">
+      <span class="badge">DOM Testing</span>
+      <span class="badge">Vitest</span>
+      <span class="badge">Jest</span>
+    </div>
+
+    <h3>Highlights</h3>
+    <ul>
+      <li>Provides test environments for Vitest and Jest.</li>
+      <li>Includes a comparison command to check test results and performance against your existing DOM environment.</li>
+    </ul>
+
+    <p>
+      <a class="btn" href="https://github.com/sonukapoor/warpdom" target="_blank" rel="noopener">Visit Repository</a>
+    </p>
+  </section>
+
+  <!-- dom-api-tracer -->
+  <section class="card">
+    <h2>dom-api-tracer</h2>
+    <p class="muted">
+      A tool that measures which DOM APIs real test suites use under jsdom and happy-dom, helping guide compatibility and performance work.
+    </p>
+
+    <div class="kickers" style="margin-top:.5rem">
+      <span class="badge">DOM Instrumentation</span>
+      <span class="badge">Test Analysis</span>
+      <span class="badge">Developer Tooling</span>
+    </div>
+
+    <h3>Highlights</h3>
+    <ul>
+      <li>Records DOM method calls, property reads, and property writes per test file.</li>
+      <li>Aggregates usage across files and projects into Markdown, JSON, and CSV reports.</li>
+    </ul>
+
+    <p>
+      <a class="btn" href="https://github.com/sonukapoor/dom-api-tracer" target="_blank" rel="noopener">Visit Repository</a>
+    </p>
+  </section>
+
+  <!-- DOMParity -->
+  <section class="card">
+    <h2>DOMParity</h2>
+    <p class="muted">
+      A compatibility reference comparing web API support and behavior across warpdom, happy-dom, jsdom, and linkedom.
+    </p>
+
+    <div class="kickers" style="margin-top:.5rem">
+      <span class="badge">Web Standards</span>
+      <span class="badge">DOM Compatibility</span>
+      <span class="badge">API Coverage</span>
+    </div>
+
+    <h3>Highlights</h3>
+    <ul>
+      <li>Runs the same behavior checks across four JavaScript DOM implementations.</li>
+      <li>Distinguishes API presence from working behavior with coverage data and documented checks.</li>
+    </ul>
+
+    <p>
+      <a class="btn" href="https://domparity.github.io/" target="_blank" rel="noopener">Explore DOMParity</a>
     </p>
   </section>
 
