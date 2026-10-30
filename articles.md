@@ -30,7 +30,7 @@ schema:
       about: { "@id": "https://sonukapoor.com/#person" }
     - "@type": "ItemList"
       "@id": "https://sonukapoor.com/articles/#itemlist"
-      numberOfItems: 45
+      numberOfItems: 46
       itemListElement:
         - "@type": "ListItem"
           position: 1
@@ -452,6 +452,14 @@ schema:
             author: { "@id": "https://sonukapoor.com/#person" }
             publisher: { "@type": "Organization", name: "InfoWorld" }
             url: "https://www.infoworld.com/article/4229731/knowing-which-vulnerability-to-fix-first.html"
+        - "@type": "ListItem"
+          position: 46
+          item:
+            "@type": "Article"
+            headline: "Building Team-Level AI Coding Guidelines"
+            author: { "@id": "https://sonukapoor.com/#person" }
+            publisher: { "@type": "Organization", name: "CODE Magazine" }
+            url: "https://www.codemag.com/Article/2612031/Building-Team-Level-AI-Coding-Guidelines"
 ---
 
 <p class="muted">
@@ -459,6 +467,15 @@ schema:
 </p>
 
 <div class="cards">
+
+<div class="card">
+    <h3>Building Team-Level AI Coding Guidelines</h3>
+    <img src="/images/publisher/code.png" class="publisher-logo" alt="Publisher: CODE Magazine">
+    <p class="card-desc">Practical guidance for creating shared AI coding standards that cover architecture, testing, security, dependencies, and code review while keeping developers responsible for the work they submit.</p>
+    <div class="card-actions">
+      <a href="https://www.codemag.com/Article/2612031/Building-Team-Level-AI-Coding-Guidelines" target="_blank" rel="noopener">Read →</a>
+    </div>
+  </div>
 
 <div class="card">
     <h3>Knowing which vulnerability to fix first</h3>
