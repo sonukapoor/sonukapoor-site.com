@@ -153,6 +153,10 @@ schema:
       <span>Used in production by the French and BC governments</span>
     </div>
   </div>
+  <p class="muted cve-lite-classroom-note">
+    Also explore <a href="https://sonukapoor.github.io/cve-lite-classroom/" target="_blank" rel="noopener">CVE Lite Classroom</a>:
+    free, hands-on security lessons with working applications and teaching materials for instructors and students.
+  </p>
 </section>
 
 <section class="featured-on">

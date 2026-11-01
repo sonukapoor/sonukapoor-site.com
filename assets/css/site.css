@@ -967,6 +967,13 @@ img.book-cover {
   max-width: 860px;
 }
 
+.cve-lite-classroom-note {
+  grid-column: 1 / -1;
+  align-self: end;
+  margin: 0;
+  font-style: italic;
+}
+
 .cve-lite-feature-aside {
   display: grid;
   gap: 14px;
