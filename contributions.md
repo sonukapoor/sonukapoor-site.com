@@ -4,7 +4,7 @@ title: "Open Source Contributions – Sonu Kapoor"
 page_title: "Open Source Contributions by Sonu Kapoor"
 permalink: /contributions/
 image: /images/og/contributions-og.png
-description: "Open source projects and contributions by Sonu Kapoor — CVE Lite CLI, warpdom, dom-api-tracer, DOMParity, Angular, NGX-Layout, and Angular Toronto."
+description: "Open source projects and contributions by Sonu Kapoor — CVE Lite CLI, CVE Lite Classroom, warpdom, dom-api-tracer, DOMParity, Angular, NGX-Layout, and Angular Toronto."
 keywords:
   - Sonu Kapoor
   - Open Source
@@ -16,6 +16,8 @@ keywords:
   - warpdom
   - dom-api-tracer
   - DOMParity
+  - CVE Lite Classroom
+  - Security Education
 schema:
   "@context": "https://schema.org"
   "@graph":
@@ -23,7 +25,7 @@ schema:
       "@id": "https://sonukapoor.com/contributions/#collectionpage"
       url: "https://sonukapoor.com/contributions/"
       name: "Open Source Contributions – Sonu Kapoor"
-      description: "Selected projects and contributions across security tooling, DOM testing and compatibility, Angular core, NGX-Layout, and community leadership."
+      description: "Selected projects and contributions across security tooling and education, DOM testing and compatibility, Angular core, NGX-Layout, and community leadership."
       isPartOf: { "@id": "https://sonukapoor.com/#website" }
       mainEntity: { "@id": "https://sonukapoor.com/contributions/#itemlist" }
       about: { "@id": "https://sonukapoor.com/#person" }
@@ -123,6 +125,22 @@ schema:
             member: { "@id": "https://sonukapoor.com/#person" }
             about: { "@id": "https://sonukapoor.com/#person" }
             sameAs: ["https://www.meetup.com/angular-toronto/"]
+
+        - "@type": "ListItem"
+          position: 9
+          item:
+            "@type": "LearningResource"
+            name: "CVE Lite Classroom"
+            description: "Free, open-source security lessons with runnable applications, guided repairs, worksheets, instructor guides, worked solutions, and grading rubrics."
+            learningResourceType: "Hands-on security exercises"
+            creator: { "@id": "https://sonukapoor.com/#person" }
+            url: "https://sonukapoor.github.io/cve-lite-classroom/"
+            license: "https://github.com/sonukapoor/cve-lite-classroom/blob/main/LICENSE"
+            subjectOf:
+              "@type": "SoftwareSourceCode"
+              codeRepository: "https://github.com/sonukapoor/cve-lite-classroom"
+              url: "https://github.com/sonukapoor/cve-lite-classroom"
+            potentialAction: { "@type": "ViewAction", target: "https://sonukapoor.github.io/cve-lite-classroom/" }
 ---
 
 <div class="grid grid-2">
@@ -152,6 +170,32 @@ schema:
     <p>
       <a class="btn" href="https://github.com/sonukapoor/cve-lite-cli" target="_blank" rel="noopener">Visit Repository</a>
       <a class="btn secondary" href="/articles/">Related Articles</a>
+    </p>
+  </section>
+
+  <!-- CVE Lite Classroom -->
+  <section class="card">
+    <h2>CVE Lite Classroom</h2>
+    <p class="muted">
+      Creator of <strong>CVE Lite Classroom</strong>, a free, open-source teaching collection that helps students investigate security weaknesses in working applications, make justified repairs, and verify the results.
+    </p>
+
+    <div class="kickers" style="margin-top:.5rem">
+      <span class="badge">Security Education</span>
+      <span class="badge">Hands-on Labs</span>
+      <span class="badge">MIT Licensed</span>
+    </div>
+
+    <h3>Highlights</h3>
+    <ul>
+      <li>Lessons cover dependency vulnerabilities, AI-assisted remediation, CI security gates, browser security, access control, safe configuration, and password storage.</li>
+      <li>Includes runnable applications, worksheets, instructor guides, worked solutions, and grading rubrics.</li>
+      <li>Student-only kits support course distribution, with five package-manager tracks for the dependency-security labs.</li>
+    </ul>
+
+    <p>
+      <a class="btn" href="https://sonukapoor.github.io/cve-lite-classroom/" target="_blank" rel="noopener">Explore the Classroom</a>
+      <a class="btn secondary" href="https://github.com/sonukapoor/cve-lite-classroom" target="_blank" rel="noopener">Visit Repository</a>
     </p>
   </section>
 

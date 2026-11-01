@@ -303,6 +303,16 @@ schema:
         <p><a href="https://github.com/sonukapoor/cve-lite-cli" target="_blank" rel="noopener">View Repository →</a></p>
       </article>
       <article class="card">
+        <h3>CVE Lite Classroom</h3>
+        <p class="muted">
+          Free, open-source security lessons with working applications, guided repairs, and complete teaching materials for instructors and students.
+        </p>
+        <p>
+          <a href="https://sonukapoor.github.io/cve-lite-classroom/" target="_blank" rel="noopener">Explore the Classroom →</a>
+          · <a href="https://github.com/sonukapoor/cve-lite-classroom" target="_blank" rel="noopener">View Repository →</a>
+        </p>
+      </article>
+      <article class="card">
         <h3>warpdom</h3>
         <p class="muted">
           A fast DOM implementation for unit and component tests, designed for jsdom-compatible behavior with Vitest and Jest.

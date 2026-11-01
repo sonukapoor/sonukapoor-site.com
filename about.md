@@ -20,6 +20,8 @@ keywords:
   - Open Source
   - OWASP
   - CVE Lite CLI
+  - CVE Lite Classroom
+  - Security Education
   - Software Supply Chain Security
 schema:
   "@context": "https://schema.org"
@@ -129,6 +131,8 @@ After two decades building frontends for Citigroup, Sony Music Publishing, and C
 So I built one that does the opposite. **CVE Lite CLI** scans a project's lockfile, separates the issues you can fix yourself from the ones buried deep in the dependency tree, and gives you the exact command to run. It is now an **OWASP Lab Project**, has reached **100,000+ downloads**, and has drawn contributions from **66 developers** around the world.
 
 It runs in production at the French government's interministerial digital service and at the Government of British Columbia, and in the CI pipelines of open source projects including SolidJS, whose creator added the integration to the framework himself. In September 2026, GitHub invited me onto **Open Source Friday** to demo it live.
+
+I’m also building [**CVE Lite Classroom**](https://sonukapoor.github.io/cve-lite-classroom/), a free, open-source teaching collection that connects security tooling with developer education. It gives instructors and students working applications, guided security repairs, worksheets, and worked solutions, covering dependency security as well as browser security, access control, safe configuration, and password storage. The [source and teaching materials](https://github.com/sonukapoor/cve-lite-classroom) are MIT licensed so educators can adapt them for their courses.
 
 ---
 
